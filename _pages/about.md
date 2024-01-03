@@ -26,7 +26,7 @@ I am Rikiya Takehi, a 3rd-year undergraduate student in [Sakai Lab.](http://saka
 
 
 # Publication
-1. **Rikiya Takehi**, Akihisa Watanabe, and Tetsuya Sakai. 2023. [Open-Domain Dialogue Quality Evaluation: Deriving Nugget-level Scores from Turn-level Scores](https://doi.org/10.48550/arXiv.2310.00410) In Proceedings of the Annual International ACM SIGIR Conference on Research and Development in Information Retrieval in the Asia Pacific Region (SIGIR-AP '23). (acceptance rate = 36%) [code](https://github.com/RikiyaT/Nugget-Level-Evaluation) [poster](https://drive.google.com/file/d/1M194h7nCFwUBVA3eqzapTNneDPFH4zUs/view?usp=sharing)
+1. **Rikiya Takehi**, Akihisa Watanabe, and Tetsuya Sakai. 2023. [Open-Domain Dialogue Quality Evaluation: Deriving Nugget-level Scores from Turn-level Scores](https://doi.org/10.48550/arXiv.2310.00410) In Proceedings of the Annual International ACM SIGIR Conference on Research and Development in Information Retrieval in the Asia Pacific Region (SIGIR-AP '23). (acceptance rate = 36%) [code](https://github.com/RikiyaT/Nugget-Level-Evaluation) [poster](https://drive.google.com/file/d/1M194h7nCFwUBVA3eqzapTNneDPFH4zUs/view?usp=sharing) [proceedings](https://dl.acm.org/doi/abs/10.1145/3624918.3625338)
 
 # Experimence
 - _Guest Researcher_ at [National Institute of Standards and Technology (NIST)](https://www.nist.gov/), Maryland, US. 10/1/2023 - Present

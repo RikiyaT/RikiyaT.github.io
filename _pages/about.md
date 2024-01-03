@@ -18,11 +18,9 @@ I am Rikiya Takehi, a 3rd-year undergraduate student in [Sakai Lab.](http://saka
 
 
 
-<!-- # Education
+# Education
 - **Waseda University** (2021-)
   - 3rd-year B.A student at Computer Science and Communications Engineering (English-based major)
-
-- **Waseda University Honjo Senior High School** (2019-2021)
 
 
 # Publication

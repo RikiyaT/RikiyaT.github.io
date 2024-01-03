@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Rikiya Takehi"
+title                    : "Akihisa Watanabe"
 title_separator          : "-"
-name                     : &name "Rikiya Takehi"
-description              : &description "3rd year B.A. student at Waseda University"
-url                      : https://rikiya-takehi.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Akihisa Watanabe"
+description              : &description "3rd year B.A student at Waseda University"
+url                      : https://akihisa-watanabe.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "rikiya-takehi.github.io"
+repository               : "Akihisa-Watanabe.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -80,15 +80,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "Rikiya Takehi"
-  avatar           : "profile.jpeg"
+  name             : "Akihisa Watanabe"
+  avatar           : "profile.png"
   bio              : "3rd year B.A. student at Waseda University"
   location         : "Shinjuku, Tokyo, Japan"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "https://scholar.google.com/citations?user=9rS9VIYAAAAJ&hl=en"
-  email            : "rikiya.takehi at fuji.waseda.jp"
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  googlescholar    : 
+  email            : "akihisa@ruri.waseda.jp"
+  researchgate     : 
   uri              :
   bitbucket        :
   codepen          :
@@ -96,20 +96,20 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "RikiyaT"
+  github           : "Akihisa-Watanabe"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
-  orcid            : "http://orcid.org/0009-0003-6336-8064"
+  linkedin         : "akihisa-watanabe"
+  orcid            : # "http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "rikiyatakehi"
+  twitter          : "Akihisa_Wat"
   vine             :
   weibo            :
   xing             :

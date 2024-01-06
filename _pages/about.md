@@ -13,7 +13,7 @@ I am Rikiya Takehi, a 3rd-year undergraduate student in [Sakai Lab.](http://saka
 
 # News
  
-- **Oct.2023**: First authored paper [Open-Domain Dialogue Quality Evaluation: Deriving Nugget-level Scores from Turn-level Scores](https://doi.org/10.48550/arXiv.2310.00410) accepted to [SIGIR Asia 2023](http://www.sigir-ap.org/sigir-ap-2023/).
+- **Oct.2023**: First authored paper [Open-Domain Dialogue Quality Evaluation: Deriving Nugget-level Scores from Turn-level Scores](https://doi.org/10.48550/arXiv.2310.00410) accepted to [SIGIR AP 2023](http://www.sigir-ap.org/sigir-ap-2023/).
 
 
 <!--

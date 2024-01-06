@@ -11,6 +11,11 @@ redirect_from:
 # About Me
 I am Rikiya Takehi, a 3rd-year undergraduate student in [Sakai Lab.](http://sakailab.com/english/) of Waseda University, supervised by [Prof. Tetsuya Sakai](http://sakailab.com/tetsuya/). <br> Currently, I am taking a year off from my university and research at [NIST](nist.gov) in the US as a guest researcher, working with [Prof. Ian Soboroff](https://www.nist.gov/people/ian-soboroff), conducting research mainly on IR.<br> I am also supervised by [Yuta Saito](https://usait0.com/en/) of Cornell Univ., working on counterfactual learning and fairness in rankings. My research widely orbits around information retrieval and machine learning, particularly evaluation, fairness, search, recommendation and rankings.
 
+# News
+ 
+- **Oct.2023**: First authored paper [Open-Domain Dialogue Quality Evaluation: Deriving Nugget-level Scores from Turn-level Scores](https://doi.org/10.48550/arXiv.2310.00410) accepted to [SIGIR Asia 2023](http://www.sigir-ap.org/sigir-ap-2023/).
+
+
 <!--
 # Education
 - **Waseda University** (2021-)

@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Rikiya Takehi"
 title_separator          : "-"
 name                     : &name "Rikiya Takehi"
-description              : &description "3rd year B.A student at Waseda University"
+description              : &description "third-year B.A student at Waseda University"
 url                      : https://rikiyat.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "rikiya-takehi.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Rikiya Takehi"
   avatar           : "profile.jpeg"
-  bio              : "3rd year B.A. student at Waseda University"
+  bio              : "third-year B.A. student at Waseda University"
   location         : "Shinjuku, Tokyo, Japan"
   employer         :
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"

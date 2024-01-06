@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 # About Me
-I am Rikiya Takehi, a 3rd-year undergraduate student in [Sakai Lab.](http://sakailab.com/english/) of Waseda University, supervised by [Prof. Tetsuya Sakai](http://sakailab.com/tetsuya/).<br>　Currently, I am also a guest researcher at [NIST](nist.gov), supervised by [Prof. Ian Soboroff](https://www.nist.gov/people/ian-soboroff), conducting research broadly on IR.<br> I am also supervised by [Yuta Saito](https://usait0.com/en/) of Cornell Univ., working on counterfactual learning and fairness in rankings. My research interest widely orbits around information retrieval and machine learning, particularly evaluation, fairness, search, recommendation and rankings.
+I am Rikiya Takehi, a 3rd-year undergraduate student in [Sakai Lab.](http://sakailab.com/english/) of Waseda University, supervised by [Prof. Tetsuya Sakai](http://sakailab.com/tetsuya/).<br> Currently, I am also a guest researcher at [NIST](nist.gov), supervised by [Prof. Ian Soboroff](https://www.nist.gov/people/ian-soboroff), conducting research broadly on IR.<br> I am also supervised by [Yuta Saito](https://usait0.com/en/) of Cornell Univ., working on counterfactual learning and fairness in rankings. My research interest widely orbits around information retrieval and machine learning, particularly evaluation, fairness, search, recommendation and rankings.
 
 # Education
 - **Waseda University** (2021-)

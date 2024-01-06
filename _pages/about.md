@@ -23,3 +23,4 @@ I am Rikiya Takehi, a 3rd-year undergraduate student in [Sakai Lab.](http://saka
 
 # Languages
 Japanese (native), English (fluent: TOEFL 110), French (fluent: CEFR/DELF B2)
+-->

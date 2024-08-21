@@ -15,7 +15,7 @@ My research widely orbits around **information retrieval** and **machine learnin
 
 # News
 
- - **Aug.2024**: Gave an invited talk at UMD College Park about ``Nugget-Based Evaluation and the Use of LLMs'' invited by Prof. Douglas Oard. (slide & video out soon)
+ - **Aug.2024**: Gave an invited talk at UMD College Park about** Nugget-Based Evaluation and the Use of LLMs** invited by Prof. Douglas Oard. (slide & video out soon)
 - **Oct.2023**: First authored paper [Open-Domain Dialogue Quality Evaluation: Deriving Nugget-level Scores from Turn-level Scores](https://doi.org/10.48550/arXiv.2310.00410) accepted to [SIGIR AP 2023](http://www.sigir-ap.org/sigir-ap-2023/).
 
 

@@ -15,6 +15,7 @@ My research widely orbits around **information retrieval** and **machine learnin
 
 # News
 - **Nov.2024**: Gave an invited talk at NII about **Using LLMs as Assistants for Building Test Collections** invited by Prof. Noriko Kando.
+- **Nov.2024**: First authored paper [LLM-Assisted Relevance Assessments: When Should We Ask LLMs for Help?](https://arxiv.org/abs/2411.06877v1) preprint available on arXiv!!
 - **Oct.2024**: Started research internship at [CyberAgent AI Lab.](https://www.cyberagent.co.jp/en/service/ai/) Algorithm Team.
 - **Aug.2024**: Gave an invited talk at UMD College Park about **Nugget-Based Evaluation and the Use of LLMs** invited by Prof. Douglas Oard.
 - **Oct.2023**: First authored paper [Open-Domain Dialogue Quality Evaluation: Deriving Nugget-level Scores from Turn-level Scores](https://doi.org/10.48550/arXiv.2310.00410) accepted to [SIGIR AP 2023](http://www.sigir-ap.org/sigir-ap-2023/).

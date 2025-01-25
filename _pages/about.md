@@ -14,6 +14,7 @@ I am Rikiya Takehi, a third-year undergraduate student in [Sakai Lab.](http://sa
 My research widely orbits around **information retrieval** and **machine learning**, particularly evaluation, fairness and recommendation.
 
 # News
+- **Jan.2025**: First authored paper **General Framework for Off-Policy Learning with Partially-Observed Reward** got accepted to **ICLR 2025**!
 - **Nov.2024**: Gave an invited talk at NII about **Using LLMs as Assistants for Building Test Collections** invited by Prof. Noriko Kando.
 - **Nov.2024**: First authored paper [LLM-Assisted Relevance Assessments: When Should We Ask LLMs for Help?](https://arxiv.org/abs/2411.06877v1) preprint available on arXiv!!
 - **Oct.2024**: Started research internship at [CyberAgent AI Lab.](https://www.cyberagent.co.jp/en/service/ai/) Algorithm Team.

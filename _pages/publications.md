@@ -7,7 +7,7 @@ author_profile: true
 
 You can also find my articles on my [Google Scholar profile](https://scholar.google.com/citations?user=9rS9VIYAAAAJ&hl=en)
 
-1. **Rikiya Takehi**, Yuta Saito, MAsahiro Asami, Kosuke Kawakami. 2025 [General Framework for Off-Policy Learning with Partially-Observed Reward](https://openreview.net/forum?id=mUbYof5MKp) _In Proceedings of the International Conference on Learning Representations (**ICLR '25**)_. (acceptance rate = 32%)
+1. **Rikiya Takehi**, Masahiro Asami, Kosuke Kawakami, Yuta Saito. 2025 [General Framework for Off-Policy Learning with Partially-Observed Reward](https://openreview.net/forum?id=mUbYof5MKp) _In Proceedings of the International Conference on Learning Representations (**ICLR '25**)_. (acceptance rate = 32%)
 
 2. **Rikiya Takehi**, Ellen M. Voorhees, Tetsuya Sakai, and Ian Soboroff. 2024. [LLM-Assisted Relevance Assessments: When Should We Ask LLMs for Help?](https://arxiv.org/abs/2411.06877) _preprint_.
 

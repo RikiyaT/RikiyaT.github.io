@@ -16,7 +16,8 @@ I am one of the organizers of the upcoming Product Search and Recommendations Tr
 My research widely orbits around **information retrieval** and **machine learning**, particularly evaluation, counterfactual learning, and recommendation.
 
 # News
-- **Jan.2025**: First authored paper **General Framework for Off-Policy Learning with Partially-Observed Reward** got accepted to **ICLR 2025**!
+- **Apr.2025**: First authored paper **LLM-Assisted Relevance Assessments: When Should We Ask LLMs for Help?** got accepted to **SIGIR 2025**!!
+- **Jan.2025**: First authored paper **General Framework for Off-Policy Learning with Partially-Observed Reward** got accepted to **ICLR 2025**!!
 - **Nov.2024**: Gave an invited talk at NII about **Using LLMs as Assistants for Building Test Collections** invited by Prof. Noriko Kando.
 - **Nov.2024**: First authored paper [LLM-Assisted Relevance Assessments: When Should We Ask LLMs for Help?](https://arxiv.org/abs/2411.06877) preprint available on arXiv!!
 - **Oct.2024**: Started research internship at [CyberAgent AI Lab.](https://www.cyberagent.co.jp/en/service/ai/) Algorithm Team.

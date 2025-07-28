@@ -28,6 +28,7 @@ My research widely orbits around **information retrieval** and **machine learnin
 - **Oct.2023**: First authored paper [Open-Domain Dialogue Quality Evaluation: Deriving Nugget-level Scores from Turn-level Scores](https://doi.org/10.48550/arXiv.2310.00410) accepted to [SIGIR AP 2023](http://www.sigir-ap.org/sigir-ap-2023/).
 
 # Experience
+- Close Collaboration at CMU LTI with Dr. Fernando Diaz, Pittsburgh, USA. **Feb 2025 - Present**
 - _Research Intern_ at [CyberAgent AI Lab.](https://www.cyberagent.co.jp/en/service/ai/) Algorithm Team, Tokyo, Japan. **Oct 2024 - Present**
 - _Guest Researcher_ at [National Institute of Standards and Technology (NIST)](https://www.nist.gov/) Retrieval Group, Maryland, US. **Oct 2023 - Sep 2024**
 - _Research Intern_ at [Hakuhodo Tech Inc.](https://www.hakuhodo-technologies.co.jp/) / [Negocia Inc.](https://negocia.jp/), Tokyo, Japan. **Sept 2023 - Oct 2024**

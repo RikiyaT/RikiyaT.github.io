@@ -16,6 +16,7 @@ I am co-organizing [Product Search and Recommendations Track](https://trec-produ
 My research widely orbits around **information retrieval** and **machine learning**, particularly evaluation, counterfactual learning, and recommendation.
 
 # News
+- **Jul.2025**: Gave an invited talk at SIGIR 2025 eCOM Workshop invited by Dr. Tracy Holloway King.
 - **Jun.2025**: Invited as a panelist at NTCIR 2025 with Prof. Maarten De Rijke, Prof. Mark Sanderson, Prof. Charles Clarke, & Prof. Ian Soboroff.
 - **Jun.2025**: Gave an invited talk at EVIA 2025 about **Using LLMs as Assistants for Building Test Collections** invited by Prof. Charles Clarke, Prof. Noriko Kando, & Prof. Makoto Kato. Slides can be found [here](https://drive.google.com/file/d/1aoF8ZOxFj3EcjXyw07yiDztj5HP_xbYf/view?usp=sharing).
 - **Apr.2025**: First authored paper **LLM-Assisted Relevance Assessments: When Should We Ask LLMs for Help?** got accepted to **SIGIR 2025**!!

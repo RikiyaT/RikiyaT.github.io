@@ -17,6 +17,10 @@ You can also find my articles on my [Google Scholar profile](https://scholar.goo
 *In Proceedings of the 43rd International ACM SIGIR Conference on Research and Development in Information Retrieval (**SIGIR '25**)* (Acceptance rate = 21%).<br>
    [arXiv](https://arxiv.org/abs/2411.06877) | [slides](https://drive.google.com/file/d/1aoF8ZOxFj3EcjXyw07yiDztj5HP_xbYf/view) | [code](https://github.com/RikiyaT/LARA)
 
+3. Tetsuya Sakai, Khant Myoe Rain, **Rikiya Takehi**, Sijie Tao, Youngin Song. 2025. <br>
+Open-Source LLM-based Relevance Assessment vs. Highly Reliable Manual Relevance Assessment: A Case Study. <br>
+In Proceedings of the ACM International Conference on Information and Knowledge Management (CIKM 2025) (Acceptance rate = 30%).
+
 4. **Rikiya Takehi**, Akihisa Watanabe, and Tetsuya Sakai. 2023. <br>
 [Open-Domain Dialogue Quality Evaluation: Deriving Nugget-level Scores from Turn-level Scores](https://doi.org/10.48550/arXiv.2310.00410) <br>
 _In Proceedings of the Annual International ACM SIGIR Conference on Research and Development in Information Retrieval in the Asia Pacific Region (**SIGIR-AP '23**)_. (acceptance rate = 36%)<br>

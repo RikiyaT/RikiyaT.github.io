@@ -13,7 +13,7 @@ I am Rikiya Takehi (武樋力哉), a fourth-year undergraduate student at Waseda
 
 I am co-organizing [Product Search and Recommendations Track](https://trec-product-search.github.io/index.html) at TREC (previously Product Search Track).
 
-My research widely orbits around **information retrieval** and **machine learning**, particularly evaluation, counterfactual learning, and recommendation.
+My research widely orbits around **IR**, **NLP** and **ML**, including evaluation, counterfactual learning, and recommendation.
 
 # News
 - **Jul.2025**: Gave an invited talk (w/ Prof. ChengXiang Zhai) at SIGIR 2025 eCOM Workshop invited by Dr. Tracy Holloway King.

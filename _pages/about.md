@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 # About Me
-I am Rikiya Takehi (武樋力哉), a fourth-year undergraduate student at Waseda University, where I am honored to be supervised by [Prof. Tetsuya Sakai](http://sakailab.com/tetsuya/). <br> Previously, I was a guest researcher at [NIST](nist.gov) in the US for one year, working with [Dr. Ian Soboroff](https://www.nist.gov/people/ian-soboroff) and [Dr. Ellen Voorhees](https://www.nist.gov/people/ellen-m-voorhees), conducting research mainly on evaluation.<br> I also collaborate closely with [Yuta Saito](https://usait0.com/en/) of Cornell Univ., working on counterfactual learning and fairness in rankings. 
+I am Rikiya Takehi (武樋力哉), a fourth-year undergraduate student at Waseda University, where I am honored to be supervised by [Prof. Tetsuya Sakai](http://sakailab.com/tetsuya/). <br> Previously, I was a guest researcher at [NIST](nist.gov) in the US for one year, working with [Dr. Ian Soboroff](https://www.nist.gov/people/ian-soboroff) and [Dr. Ellen Voorhees](https://www.nist.gov/people/ellen-m-voorhees), conducting research mainly on evaluation.<br> I also collaborate closely with [Fernando Diaz](https://841.io/) of CMU, working on rankings. 
 
 I am co-organizing [Product Search and Recommendations Track](https://trec-product-search.github.io/index.html) at TREC (previously Product Search Track).
 

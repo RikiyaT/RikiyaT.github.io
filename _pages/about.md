@@ -16,8 +16,8 @@ I am co-organizing [Product Search and Recommendations Track](https://trec-produ
 My research widely orbits around **IR**, **NLP** and **ML**, including evaluation, counterfactual learning, and recommendation.
 
 # News
-- **Aug.2025**: My co-authored paper got accepted to CIKM 2025 :) - See you in Seoul (maybe)
-- **Aug.2025**: Started research internship at [MixedBread AI](https://www.mixedbread.com/)! 🍞
+- **Aug.2025**: My co-authored paper got accepted to CIKM 2025 :)
+- **Aug.2025**: Started research internship at [Mixedbread](https://www.mixedbread.com/)! 🍞
 - **Jul.2025**: Selected as a **Toyota Riken Fellow: 2 yrs of full funding**.
 - **Jul.2025**: Gave an invited talk (w/ Prof. ChengXiang Zhai) at SIGIR 2025 eCOM Workshop invited by Dr. Tracy Holloway King.
 - **Jun.2025**: Invited as a panelist at NTCIR 2025 with Prof. Maarten De Rijke, Prof. Mark Sanderson, Prof. Charles Clarke, & Prof. Ian Soboroff.

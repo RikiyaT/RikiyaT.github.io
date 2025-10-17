@@ -9,13 +9,14 @@ redirect_from:
 ---
 
 # About Me
-I am Rikiya Takehi (武樋力哉), a fourth-year undergraduate student at Waseda University, where I am honored to be supervised by [Prof. Tetsuya Sakai](http://sakailab.com/tetsuya/). <br> Previously, I was a guest researcher at [NIST](nist.gov) in the US for one year, working with [Dr. Ian Soboroff](https://www.nist.gov/people/ian-soboroff) and [Dr. Ellen Voorhees](https://www.nist.gov/people/ellen-m-voorhees), conducting research mainly on evaluation.<br> I also collaborate closely with [Prof. Fernando Diaz](https://841.io/) of CMU, working on rankings. 
+I am Rikiya Takehi (武樋力哉), a fourth-year undergraduate student at Waseda University, where I am honored to be supervised by [Prof. Tetsuya Sakai](http://sakailab.com/tetsuya/). I am now also at [Mixedbread](https://www.mixedbread.com/). <br> Previously, I was a guest researcher at [NIST](nist.gov) in the US for one year, working with [Dr. Ian Soboroff](https://www.nist.gov/people/ian-soboroff) and [Dr. Ellen Voorhees](https://www.nist.gov/people/ellen-m-voorhees), conducting research mainly on evaluation.<br> I also collaborate closely with [Prof. Fernando Diaz](https://841.io/) of CMU, working on rankings. 
 
 I am co-organizing [Product Search and Recommendations Track](https://trec-product-search.github.io/index.html) at TREC (previously Product Search Track).
 
 My research widely orbits around **IR**, **NLP** and **ML**, including evaluation, counterfactual learning, and recommendation.
 
 # News
+- **Oct.2025**: Released two open-source ColBERT models [mxbai-edge-colbert-v0-17m](https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-17m) and [mxbai-edge-colbert-v0-32m](https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-32m). Tech report [here](https://arxiv.org/abs/2510.14880).
 - **Aug.2025**: My co-authored paper got accepted to CIKM 2025 :)
 - **Aug.2025**: Started research internship at [Mixedbread](https://www.mixedbread.com/)! 🍞
 - **Jul.2025**: Selected as a **Toyota Riken Fellow: 2 yrs of full funding**.

@@ -13,7 +13,7 @@ I am Rikiya Takehi (武樋力哉), a fourth-year undergraduate student at Waseda
 
 I am co-organizing [Product Search and Recommendations Track](https://trec-product-search.github.io/index.html) at TREC (previously Product Search Track).
 
-My research widely orbits around **IR**, **NLP**, and **ML**, including evaluation, counterfactual learning, and recommendation. **My doctoral studies will be funded by the Toyota Fellowship.**
+My research widely orbits around **IR**, **NLP**, and **ML**, including evaluation, counterfactual learning, and recommendation. **My graduate studies will be fully funded by the Toyota Fellowship.**
 
 # News
 - **Oct.2025**: Released two open-source ColBERT models [mxbai-edge-colbert-v0-17m](https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-17m) and [mxbai-edge-colbert-v0-32m](https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-32m). Tech report [here](https://arxiv.org/abs/2510.14880).

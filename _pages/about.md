@@ -15,9 +15,7 @@ I am co-organizing [Product Search and Recommendations Track](https://trec-produ
 
 My research widely orbits around **IR**, **NLP**, and **ML**, including evaluation, counterfactual learning, and recommendation. 
 
-**My graduate studies will be fully funded by the Toyota Fellowship.**
-
-I love tennis 🎾 and music 🎵.
+**🎉My graduate studies will be fully funded by the Toyota Fellowship🎉**
 
 # News
 - **Oct.2025**: Released two open-source ColBERT models [mxbai-edge-colbert-v0-17m](https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-17m) and [mxbai-edge-colbert-v0-32m](https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-32m). Tech report [here](https://arxiv.org/abs/2510.14880).

@@ -17,6 +17,8 @@ My research widely orbits around **IR**, **NLP**, and **ML**, including evaluati
 
 **🎉My first two years of graduate studies will be fully funded by the Toyota Fellowship🎉**
 
+I am also a tennis player🎾.
+
 # News
 - **Oct.2025**: Released two open-source ColBERT models [mxbai-edge-colbert-v0-17m](https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-17m) and [mxbai-edge-colbert-v0-32m](https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-32m). Tech report [here](https://arxiv.org/abs/2510.14880).
 - **Aug.2025**: My co-authored paper got accepted to CIKM 2025 :)

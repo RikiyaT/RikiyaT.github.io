@@ -8,7 +8,7 @@ author_profile: true
 You can also find my articles on my [Google Scholar profile](https://scholar.google.com/citations?user=9rS9VIYAAAAJ&hl=en)
 
 1. **Rikiya Takehi**, Fernando Diaz, Tetsuya Sakai. 2025. <br>
-[General Framework for Off-Policy Learning with Partially-Observed Reward](https://arxiv.org/abs/2510.22681). <br>
+[Diversification as Risk Minimization](https://arxiv.org/abs/2510.22681). <br>
 *International Conference on Web Search and Data Mining (**WSDM '26**)* (Acceptance rate = 16%).<br>
    [arXiv](https://arxiv.org/abs/2510.22681) |
 

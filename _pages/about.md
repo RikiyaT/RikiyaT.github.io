@@ -20,6 +20,7 @@ My research widely orbits around **IR**, **NLP**, and **ML**, including evaluati
 I am also a tennis player🎾. I love listening to music🎵.
 
 # News
+- **Oct.2025**: First authored full paper [**Diversity as Risk Minimization**](https://arxiv.org/abs/2510.22681) got accepted to **WSDM 2026**!!🥳
 - **Oct.2025**: Released two open-source ColBERT models [mxbai-edge-colbert-v0-17m](https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-17m) and [mxbai-edge-colbert-v0-32m](https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-32m). Tech report [here](https://arxiv.org/abs/2510.14880).
 - **Aug.2025**: My co-authored paper got accepted to CIKM 2025 :)
 - **Aug.2025**: Started research internship at [Mixedbread](https://www.mixedbread.com/)! 🍞
@@ -27,8 +28,8 @@ I am also a tennis player🎾. I love listening to music🎵.
 - **Jul.2025**: Gave an invited talk (w/ Prof. ChengXiang Zhai) at SIGIR 2025 eCOM Workshop invited by Dr. Tracy Holloway King.
 - **Jun.2025**: Invited as a panelist at NTCIR 2025 with Prof. Maarten De Rijke, Prof. Mark Sanderson, Prof. Charles Clarke, & Prof. Ian Soboroff.
 - **Jun.2025**: Gave an invited talk at EVIA 2025 about **Using LLMs as Assistants for Building Test Collections** invited by Prof. Charles Clarke, Prof. Noriko Kando, & Prof. Makoto Kato. Slides can be found [here](https://drive.google.com/file/d/1aoF8ZOxFj3EcjXyw07yiDztj5HP_xbYf/view?usp=sharing).
-- **Apr.2025**: First authored paper **LLM-Assisted Relevance Assessments: When Should We Ask LLMs for Help?** got accepted to **SIGIR 2025**!!
-- **Jan.2025**: First authored paper **General Framework for Off-Policy Learning with Partially-Observed Reward** got accepted to **ICLR 2025**!!
+- **Apr.2025**: First authored full paper **LLM-Assisted Relevance Assessments: When Should We Ask LLMs for Help?** got accepted to **SIGIR 2025**!!
+- **Jan.2025**: First authored full paper **General Framework for Off-Policy Learning with Partially-Observed Reward** got accepted to **ICLR 2025**!!
 - **Nov.2024**: Gave an invited talk at NII about **Using LLMs as Assistants for Building Test Collections** invited by Prof. Noriko Kando.
 - **Nov.2024**: First authored paper [LLM-Assisted Relevance Assessments: When Should We Ask LLMs for Help?](https://arxiv.org/abs/2411.06877) preprint available on arXiv!!
 - **Oct.2024**: Started research internship at [CyberAgent AI Lab.](https://www.cyberagent.co.jp/en/service/ai/) Algorithm Team.

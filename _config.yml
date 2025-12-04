@@ -81,13 +81,13 @@ analytics:
 # Site Author
 author:
   name             : "Rikiya Takehi"
-  avatar           : "profile.jpeg"
+  avatar           : "iclrphoto.jpg"
   bio              : "fourth-year undergrad student at Waseda University"
   location         : "Tokyo, Japan"
   employer         :
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=9rS9VIYAAAAJ&hl=en"
-  email            : 
+  email            : rikiya.takehi@fuji.waseda.jp
   researchgate     : 
   uri              :
   bitbucket        :
@@ -103,7 +103,8 @@ author:
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         : https://www.linkedin.com/in/rikiya-takehi-76342026b/
-  orcid            : 
+  cv               : https://drive.google.com/file/d/1W0TgFv75leCCIz2nn0Rt30YXzXxE9Dkf/view?usp=sharing
+  orcid            :
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username

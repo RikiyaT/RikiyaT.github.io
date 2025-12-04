@@ -1,7 +1,11 @@
 # main links links
 main:
+  - title: "News"
+    url: /#news
   - title: "Publications"
-    url: /publications/
+    url: /#publications
+  - title: "Experience"
+    url: /#experience
     
   - title: "CV"
     url: https://drive.google.com/file/d/1W0TgFv75leCCIz2nn0Rt30YXzXxE9Dkf/view?usp=sharing

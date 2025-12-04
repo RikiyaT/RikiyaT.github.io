@@ -13,8 +13,23 @@
               {% else %}
               {% assign domain = base_path %}
             {% endif %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+            {% if link.url contains '#' %}
+              {% if page.url contains '/ja' %}
+                {% assign anchor_prefix = base_path | append: '/ja/' %}
+              {% else %}
+                {% assign anchor_prefix = base_path | append: '/' %}
+              {% endif %}
+              {% assign nav_target = anchor_prefix | append: link.url %}
+            {% else %}
+              {% assign nav_target = domain | append: link.url %}
+            {% endif %}
+            <li class="masthead__menu-item"><a href="{{ nav_target }}">{{ link.title }}</a></li>
           {% endfor %}
+          {% if page.url contains '/ja' %}
+            <li class="masthead__menu-item"><a href="{{ base_path }}/">English</a></li>
+          {% else %}
+            <li class="masthead__menu-item"><a href="{{ base_path }}/ja/">日本語</a></li>
+          {% endif %}
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>

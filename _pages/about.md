@@ -162,8 +162,8 @@ redirect_from:
 <h1 class="hero-title">Rikiya Takehi</h1>
 <div class="hero-subtitle">4th year Undergraduate Student at Waseda University</div>
 <img src="{{ '/images/iclrphoto.jpg' | prepend: site.baseurl }}" alt="Rikiya Takehi" class="about-photo">
+<p>My research revolves around <strong>IR</strong>, <strong>NLP</strong>, and <strong>ML</strong>. I am interested in building reliable decision-making systems, including LLMs, RecSys, and retrievers.</p>
 <p>I am a fourth-year undergraduate student at Waseda University, supervised by <a href="http://sakailab.com/tetsuya/">Prof. Tetsuya Sakai</a>. I am now also at <a href="https://www.mixedbread.com/">Mixedbread</a>. Previously, I was a guest researcher at <a href="https://www.nist.gov/">NIST</a> working with <a href="https://www.nist.gov/people/ian-soboroff">Dr. Ian Soboroff</a> and <a href="https://www.nist.gov/people/ellen-m-voorhees">Dr. Ellen Voorhees</a>, and I have collaborated closely with <a href="https://841.io/">Prof. Fernando Diaz</a> of CMU LTI on retrieval rankings. I co-organize the <a href="https://trec-product-search.github.io/index.html">Product Search and Recommendations Track</a> at TREC.</p>
-<p>My research revolves around <strong>IR</strong>, <strong>NLP</strong>, and <strong>ML</strong>, including evaluation, off-policy evaluation/learning, and recommendation. I am interested in building reliable decision-making systems, including LLMs, RecSys, and retrievers.</p>
 
 My first two years of graduate studies will be fully funded by the [Toyota PhD Fellowship](https://www.toyotariken.jp/overseas/).
 
@@ -227,6 +227,22 @@ You can also find my articles on my [Google Scholar profile](https://scholar.goo
     Tetsuya Sakai, Khant Myoe Rain, <strong>Rikiya Takehi</strong>, Sijie Tao, Youngin Song. 2025.<br>
     <em>CIKM 2025</em>.<br>
     <a href="https://dl.acm.org/doi/pdf/10.1145/3746252.3760934">proceedings</a>
+  </li>
+  <li class="pub-item">
+    <span class="pub-title">Fantastic (small) Retrievers and How to Train Them: mxbai-edge-colbert-v0 Tech Report.</span><br>
+    <strong>Rikiya Takehi</strong>, Benjamin Clavié, Sean Lee, Aamir Shakir. 2025.<br>
+    <em>Tech Report</em>.<br>
+    <a href="https://arxiv.org/abs/2510.14880">Tech Report</a> | <a href="https://www.mixedbread.com/blog/edge-v0">Blog</a> | <a href="https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-17m">17M ColBERT model</a> | <a href="https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-32M">32M ColBERT model</a>
+  </li>
+  <li class="pub-item">
+    <span class="pub-title">Beyond Match Maximization and Fairness: Retention-Objectified Two-Sided Matching</span><br>
+    <strong>Rikiya Takehi<sup>*</sup></strong>, Ren Kishimoto<sup>*</sup>, Koichi Tanaka, Masahiro Nomura, Riku Togashi, Yuta Saito. 2025.<br>
+    <a href="https://drive.google.com/file/d/1Mwhyv-396KMUGveR-Wr1BuhzOGeN_fep/view?usp=sharing">preprint</a>
+  </li>
+  <li class="pub-item">
+    <span class="pub-title">Objective-driven Calibrated Recommendations</span><br>
+    <strong>Rikiya Takehi<sup>*</sup></strong>, Koichi Tanaka<sup>*</sup>, Ren Kishimoto, Masahiro Nomura, Riku Togashi, Yuta Saito. 2025.<br>
+    <a href="https://drive.google.com/file/d/1-kSRjOcvsKpC07G3gScR-W36wq9FIuMi/view?usp=sharing">preprint</a>
   </li>
   <li class="pub-item">
     <span class="pub-title">Open-Domain Dialogue Quality Evaluation: Deriving Nugget-level Scores from Turn-level Scores</span><br>

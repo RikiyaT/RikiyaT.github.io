@@ -159,7 +159,7 @@ author_profile: false
 <h1 class="hero-title">武樋力哉 (Rikiya Takehi)</h1>
 <div class="hero-subtitle">早稲田大学 学部4年生</div>
 <img src="{{ '/images/iclrphoto.jpg' | prepend: site.baseurl }}" alt="Rikiya Takehi" class="about-photo">
-<p><a href="http://sakailab.com/tetsuya/">早稲田大学酒井研究室</a> のB4生です。現在は <a href="https://www.mixedbread.com/">Mixedbread</a> にも所属しています。2024年は <a href="https://www.nist.gov/">NIST</a> で客室研究員として <a href="https://www.nist.gov/people/ian-soboroff">Dr. Ian Soboroff</a> と <a href="https://www.nist.gov/people/ellen-m-voorhees">Dr. Ellen Voorhees</a> と共同研究を行っていました。<a href="https://trec-product-search.github.io/index.html">Product Search and Recommendations Track</a> を <a href="https://trec.nist.gov/">TREC</a> で共同オーガナイズしています。</p>
+<p><a href="http://sakailab.com/tetsuya/">早稲田大学酒井研究室</a> のB4生です。現在は <a href="https://www.mixedbread.com/">Mixedbread</a> にも所属しています。2024年は <a href="https://www.nist.gov/">NIST</a> で客員研究員として <a href="https://www.nist.gov/people/ian-soboroff">Dr. Ian Soboroff</a> と <a href="https://www.nist.gov/people/ellen-m-voorhees">Dr. Ellen Voorhees</a> と共同研究を行っていました。<a href="https://trec-product-search.github.io/index.html">Product Search and Recommendations Track</a> を <a href="https://trec.nist.gov/">TREC</a> で共同オーガナイズしています。</p>
 <p>研究テーマは <strong>IR</strong>、<strong>NLP</strong>、<strong>ML</strong>（検索、評価、オフポリシー評価/学習、レコメンデーションを含む）が中心で、LLM・RecSys・retrievers などの信頼できる意思決定システムの構築に関心があります。</p>
 
 <p>大学院では <a href="https://www.toyotariken.jp/overseas/">豊田理研奨学金</a> に支援していただきます。</p>
@@ -262,7 +262,7 @@ author_profile: false
   </li>
   <li class="entry">
     <div class="entry__meta">Oct 2023 – Sep 2024 · Maryland, US</div>
-    <div class="entry__title"><a href="https://www.nist.gov/">NIST Retrieval Group</a> 客室研究員</div>
+    <div class="entry__title"><a href="https://www.nist.gov/">NIST Retrieval Group</a> 客員研究員</div>
   </li>
   <li class="entry">
     <div class="entry__meta">Sept 2023 – Oct 2024 · Tokyo, Japan</div>

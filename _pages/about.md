@@ -229,6 +229,12 @@ You can also find my articles on my [Google Scholar profile](https://scholar.goo
     <a href="https://dl.acm.org/doi/pdf/10.1145/3746252.3760934">proceedings</a>
   </li>
   <li class="pub-item">
+    <span class="pub-title">Open-Domain Dialogue Quality Evaluation: Deriving Nugget-level Scores from Turn-level Scores</span><br>
+    <strong>Rikiya Takehi</strong>, Akihisa Watanabe, and Tetsuya Sakai. 2023.<br>
+    <em>SIGIR-AP 2023</em>.<br>
+    <a href="https://github.com/RikiyaT/Nugget-Level-Evaluation">code</a> | <a href="https://drive.google.com/file/d/1M194h7nCFwUBVA3eqzapTNneDPFH4zUs/view?usp=sharing">poster</a> | <a href="https://RikiyaT.github.io/files/nugeval/slides.pdf">slides</a> | <a href="https://dl.acm.org/doi/abs/10.1145/3624918.3625338">proceedings</a>
+  </li>
+  <li class="pub-item">
     <span class="pub-title">Fantastic (small) Retrievers and How to Train Them: mxbai-edge-colbert-v0 Tech Report.</span><br>
     <strong>Rikiya Takehi</strong>, Benjamin Clavié, Sean Lee, Aamir Shakir. 2025.<br>
     <em>Tech Report</em>.<br>
@@ -243,12 +249,6 @@ You can also find my articles on my [Google Scholar profile](https://scholar.goo
     <span class="pub-title">Objective-driven Calibrated Recommendations</span><br>
     <strong>Rikiya Takehi<sup>*</sup></strong>, Koichi Tanaka<sup>*</sup>, Ren Kishimoto, Masahiro Nomura, Riku Togashi, Yuta Saito. 2025.<br>
     <a href="https://drive.google.com/file/d/1-kSRjOcvsKpC07G3gScR-W36wq9FIuMi/view?usp=sharing">preprint</a>
-  </li>
-  <li class="pub-item">
-    <span class="pub-title">Open-Domain Dialogue Quality Evaluation: Deriving Nugget-level Scores from Turn-level Scores</span><br>
-    <strong>Rikiya Takehi</strong>, Akihisa Watanabe, and Tetsuya Sakai. 2023.<br>
-    <em>SIGIR-AP 2023</em>.<br>
-    <a href="https://github.com/RikiyaT/Nugget-Level-Evaluation">code</a> | <a href="https://drive.google.com/file/d/1M194h7nCFwUBVA3eqzapTNneDPFH4zUs/view?usp=sharing">poster</a> | <a href="https://RikiyaT.github.io/files/nugeval/slides.pdf">slides</a> | <a href="https://dl.acm.org/doi/abs/10.1145/3624918.3625338">proceedings</a>
   </li>
 </ol>
 

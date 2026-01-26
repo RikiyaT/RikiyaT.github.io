@@ -212,6 +212,12 @@ You can also find my articles on my [Google Scholar profile](https://scholar.goo
     <a href="https://arxiv.org/abs/2510.22681">arXiv</a>
   </li>
   <li class="pub-item">
+    <span class="pub-title">Beyond Match Maximization and Fairness: Retention-Objectified Two-Sided Matching</span><br>
+    <strong>Rikiya Takehi<sup>*</sup></strong>, Ren Kishimoto<sup>*</sup>, Koichi Tanaka, Masahiro Nomura, Riku Togashi, Yuta Saito. 2025.<br>
+    <em>ICLR 2026</em>.<br>
+    <a href="https://drive.google.com/file/d/1Mwhyv-396KMUGveR-Wr1BuhzOGeN_fep/view?usp=sharing">preprint</a>
+  </li>
+  <li class="pub-item">
     <span class="pub-title">General Framework for Off-Policy Learning with Partially-Observed Reward</span><br>
     <strong>Rikiya Takehi</strong>, Kosuke Kawakami, Masahiro Asami, Yuta Saito. 2025.<br>
     <em>ICLR 2025</em>.<br>
@@ -240,11 +246,6 @@ You can also find my articles on my [Google Scholar profile](https://scholar.goo
     <strong>Rikiya Takehi</strong>, Benjamin Clavié, Sean Lee, Aamir Shakir. 2025.<br>
     <em>Tech Report</em>.<br>
     <a href="https://arxiv.org/abs/2510.14880">Tech Report</a> | <a href="https://www.mixedbread.com/blog/edge-v0">Blog</a> | <a href="https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-17m">17M ColBERT model</a> | <a href="https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-32M">32M ColBERT model</a>
-  </li>
-  <li class="pub-item">
-    <span class="pub-title">Beyond Match Maximization and Fairness: Retention-Objectified Two-Sided Matching</span><br>
-    <strong>Rikiya Takehi<sup>*</sup></strong>, Ren Kishimoto<sup>*</sup>, Koichi Tanaka, Masahiro Nomura, Riku Togashi, Yuta Saito. 2025.<br>
-    <a href="https://drive.google.com/file/d/1Mwhyv-396KMUGveR-Wr1BuhzOGeN_fep/view?usp=sharing">preprint</a>
   </li>
   <li class="pub-item">
     <span class="pub-title">Objective-driven Calibrated Recommendations</span><br>

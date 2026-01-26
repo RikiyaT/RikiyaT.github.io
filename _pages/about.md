@@ -181,6 +181,7 @@ My first two years of graduate studies will be fully funded by the [Toyota PhD F
 <div class="news-hint">scroll ↓</div>
 <div class="news-box">
   <ul>
+    <li><strong>Jan.2026</strong>: Co-first-authored full paper <a href="[https://arxiv.org/abs/2510.22681](https://openreview.net/forum?id=g2cZaKmRrc&referrer=%5Bthe%20profile%20of%20Rikiya%20Takehi%5D(%2Fprofile%3Fid%3D~Rikiya_Takehi1))">Retention-Driven Two-Sided Matching</a> got accepted to <strong>ICLR 2026</strong>.</li>
     <li><strong>Oct.2025</strong>: First authored full paper <a href="https://arxiv.org/abs/2510.22681">Diversity as Risk Minimization</a> got accepted to <strong>WSDM 2026</strong>.</li>
     <li><strong>Oct.2025</strong>: Released two open-source ColBERT models <a href="https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-17m">mxbai-edge-colbert-v0-17m</a> and <a href="https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-32m">mxbai-edge-colbert-v0-32m</a>. Tech report <a href="https://arxiv.org/abs/2510.14880">here</a>.</li>
     <li><strong>Aug.2025</strong>: My co-authored paper got accepted to CIKM 2025</li>

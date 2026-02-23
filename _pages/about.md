@@ -68,6 +68,18 @@ redirect_from:
   font-size: 1.08rem;
   font-weight: 700;
 }
+.download-highlight {
+  display: inline-block;
+  margin: 0.18rem 0 0.45rem;
+  padding: 0.14rem 0.62rem;
+  border-radius: 999px;
+  font-size: 0.84rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  color: #8a4800;
+  background: #fff2cd;
+  border: 1px solid #ffd487;
+}
 .pub-list {
   list-style: none;
   padding: 0;
@@ -181,6 +193,7 @@ My first two years of graduate studies will be fully funded by the [Toyota PhD F
 <div class="news-hint">scroll ↓</div>
 <div class="news-box">
   <ul>
+    <li><strong>Feb.2026</strong>: Our Hugging Face ColBERT models <a href="https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-17m">mxbai-edge-colbert-v0-17m</a> and <a href="https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-32m">mxbai-edge-colbert-v0-32m</a> surpassed <strong>2M+ downloads</strong> in total.</li>
     <li><strong>Jan.2026</strong>: Co-first-authored full paper <a href="https://openreview.net/forum?id=g2cZaKmRrc&referrer=%5Bthe%20profile%20of%20Rikiya%20Takehi%5D(%2Fprofile%3Fid%3D~Rikiya_Takehi1">Retention-Driven Two-Sided Matching</a> got accepted to <strong>ICLR 2026</strong>.</li>
     <li><strong>Oct.2025</strong>: First authored full paper <a href="https://arxiv.org/abs/2510.22681">Diversity as Risk Minimization</a> got accepted to <strong>WSDM 2026</strong>.</li>
     <li><strong>Oct.2025</strong>: Released two open-source ColBERT models <a href="https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-17m">mxbai-edge-colbert-v0-17m</a> and <a href="https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-32m">mxbai-edge-colbert-v0-32m</a>. Tech report <a href="https://arxiv.org/abs/2510.14880">here</a>.</li>
@@ -245,6 +258,7 @@ You can also find my articles on my [Google Scholar profile](https://scholar.goo
     <span class="pub-title">Fantastic (small) Retrievers and How to Train Them: mxbai-edge-colbert-v0 Tech Report.</span><br>
     <strong>Rikiya Takehi</strong>, Benjamin Clavié, Sean Lee, Aamir Shakir. 2025.<br>
     <em>Tech Report</em>.<br>
+    <span class="download-highlight">2M+ downloads on Hugging Face</span><br>
     <a href="https://arxiv.org/abs/2510.14880">Tech Report</a> | <a href="https://www.mixedbread.com/blog/edge-v0">Blog</a> | <a href="https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-17m">17M ColBERT model</a> | <a href="https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-32M">32M ColBERT model</a>
   </li>
   <li class="pub-item">

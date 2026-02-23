@@ -65,6 +65,18 @@ author_profile: false
   font-size: 1.08rem;
   font-weight: 700;
 }
+.download-highlight {
+  display: inline-block;
+  margin: 0.18rem 0 0.45rem;
+  padding: 0.14rem 0.62rem;
+  border-radius: 999px;
+  font-size: 0.84rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  color: #8a4800;
+  background: #fff2cd;
+  border: 1px solid #ffd487;
+}
 .pub-list {
   list-style: none;
   padding: 0;
@@ -159,7 +171,7 @@ author_profile: false
 <h1 class="hero-title">武樋力哉 (Rikiya Takehi)</h1>
 <div class="hero-subtitle">早稲田大学 学部4年生</div>
 <img src="{{ '/images/iclrphoto.jpg' | prepend: site.baseurl }}" alt="Rikiya Takehi" class="about-photo">
-<p><a href="http://sakailab.com/tetsuya/">早稲田大学酒井研究室</a> のB4生です。現在は <a href="https://www.mixedbread.com/">Mixedbread</a> にも所属しています。2024年は <a href="https://www.nist.gov/">NIST</a> で客員研究員として <a href="https://www.nist.gov/people/ian-soboroff">Dr. Ian Soboroff</a> と <a href="https://www.nist.gov/people/ellen-m-voorhees">Dr. Ellen Voorhees</a> と共同研究を行っていました。<a href="https://trec-product-search.github.io/index.html">Product Search and Recommendations Track</a> を <a href="https://trec.nist.gov/">TREC</a> で共同オーガナイズしています。</p>
+<p><a href="http://sakailab.com/tetsuya/">早稲田大学酒井研究室</a> のB4生です。少し前まで <a href="https://www.mixedbread.com/">Mixedbread</a> でインターンしてました。その前は <a href="https://www.nist.gov/">NIST</a> で客員研究員として <a href="https://www.nist.gov/people/ian-soboroff">Dr. Ian Soboroff</a> と <a href="https://www.nist.gov/people/ellen-m-voorhees">Dr. Ellen Voorhees</a> と共同研究を行っていました。<a href="https://trec-product-search.github.io/index.html">Product Search and Recommendations Track</a> を <a href="https://trec.nist.gov/">TREC</a> で共同オーガナイズしています。</p>
 <p>研究テーマは <strong>IR</strong>、<strong>NLP</strong>、<strong>ML</strong>（検索、評価、オフポリシー評価/学習、レコメンデーションを含む）が中心で、LLM・RecSys・retrievers などの信頼できる意思決定システムの構築に関心があります。</p>
 
 <p>大学院では <a href="https://www.toyotariken.jp/overseas/">豊田理研奨学金</a> に支援していただきます。</p>
@@ -178,6 +190,8 @@ author_profile: false
 <div class="news-hint">↓ scroll</div>
 <div class="news-box">
   <ul>
+    <li><strong>Feb.2026</strong>: Hugging Face の ColBERT モデル <a href="https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-17m">mxbai-edge-colbert-v0-17m</a> と <a href="https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-32m">mxbai-edge-colbert-v0-32m</a> が合計 <strong>200万+ downloads</strong> を突破。</li>
+    <li><strong>Jan.2026</strong>: 共同第一著者フルペーパー <a href="https://openreview.net/forum?id=g2cZaKmRrc&referrer=%5Bthe%20profile%20of%20Rikiya%20Takehi%5D(%2Fprofile%3Fid%3D~Rikiya_Takehi1">Retention-Driven Two-Sided Matching</a> が <strong>ICLR 2026</strong> に採択。</li>
     <li><strong>Oct.2025</strong>: 第一著者フルペーパー <a href="https://arxiv.org/abs/2510.22681">Diversity as Risk Minimization</a> が <strong>WSDM 2026</strong> に採択。</li>
     <li><strong>Oct.2025</strong>: オープンソース ColBERT モデル <a href="https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-17m">mxbai-edge-colbert-v0-17m</a> と <a href="https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-32m">mxbai-edge-colbert-v0-32m</a> を公開。テックレポートは <a href="https://arxiv.org/abs/2510.14880">こちら</a>。</li>
     <li><strong>Aug.2025</strong>: 共著論文が CIKM 2025 に採択。</li>
@@ -229,11 +243,13 @@ author_profile: false
     <span class="pub-title">Fantastic (small) Retrievers and How to Train Them: mxbai-edge-colbert-v0 Tech Report.</span><br>
     <strong>武樋力哉 (Rikiya Takehi)</strong>, Benjamin Clavié, Sean Lee, Aamir Shakir. 2025.<br>
     <em>Tech Report</em>.<br>
+    <span class="download-highlight">Hugging Faceで200万+ downloads</span><br>
     <a href="https://arxiv.org/abs/2510.14880">Tech Report</a> | <a href="https://www.mixedbread.com/blog/edge-v0">Blog</a> | <a href="https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-17m">17M ColBERT model</a> | <a href="https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-32M">32M ColBERT model</a>
   </li>
   <li class="pub-item">
     <span class="pub-title">Beyond Match Maximization and Fairness: Retention-Objectified Two-Sided Matching</span><br>
     <strong>武樋力哉 (Rikiya Takehi)<sup>*</sup></strong>, Ren Kishimoto<sup>*</sup>, Koichi Tanaka, Masahiro Nomura, Riku Togashi, Yuta Saito. 2025.<br>
+    <em>ICLR 2026</em>.<br>
     <a href="https://drive.google.com/file/d/1Mwhyv-396KMUGveR-Wr1BuhzOGeN_fep/view?usp=sharing">preprint</a>
   </li>
   <li class="pub-item">

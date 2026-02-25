@@ -77,6 +77,12 @@ author_profile: false
   background: #fff2cd;
   border: 1px solid #ffd487;
 }
+.award-highlight {
+  font-size: 0.95rem;
+  font-weight: 800;
+  letter-spacing: 0.01em;
+  color: #c54500;
+}
 .pub-list {
   list-style: none;
   padding: 0;
@@ -190,6 +196,7 @@ author_profile: false
 <div class="news-hint">↓ scroll</div>
 <div class="news-box">
   <ul>
+    <li><strong>Feb.2026</strong>: 第一著者フルペーパー <a href="https://arxiv.org/abs/2510.22681">Diversification as Risk Minimization</a> が <strong>WSDM 2026 Best Paper Award</strong> を受賞。</li>
     <li><strong>Feb.2026</strong>: Hugging Face の ColBERT モデル <a href="https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-17m">mxbai-edge-colbert-v0-17m</a> と <a href="https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-32m">mxbai-edge-colbert-v0-32m</a> が合計 <strong>200万+ downloads</strong> を突破。</li>
     <li><strong>Jan.2026</strong>: 共同第一著者フルペーパー <a href="https://openreview.net/forum?id=g2cZaKmRrc&referrer=%5Bthe%20profile%20of%20Rikiya%20Takehi%5D(%2Fprofile%3Fid%3D~Rikiya_Takehi1">Retention-Driven Two-Sided Matching</a> が <strong>ICLR 2026</strong> に採択。</li>
     <li><strong>Oct.2025</strong>: 第一著者フルペーパー <a href="https://arxiv.org/abs/2510.22681">Diversity as Risk Minimization</a> が <strong>WSDM 2026</strong> に採択。</li>
@@ -217,9 +224,23 @@ author_profile: false
 <ol class="pub-list">
   <li class="pub-item">
     <span class="pub-title">Diversification as Risk Minimization</span><br>
-    <strong>武樋力哉 (Rikiya Takehi)</strong>, Fernando Diaz, Tetsuya Sakai. 2025.<br>
-    <em>WSDM 2026</em>.<br>
+    <strong>武樋力哉 (Rikiya Takehi)</strong>, Fernando Diaz, Tetsuya Sakai.<br>
+    <em>WSDM 2026</em>.
+    <span class="award-highlight">Best Paper Award</span><br>
     <a href="https://arxiv.org/abs/2510.22681">arXiv</a>
+  </li>
+  <li class="pub-item">
+    <span class="pub-title">Beyond Match Maximization and Fairness: Retention-Objectified Two-Sided Matching</span><br>
+    <strong>武樋力哉 (Rikiya Takehi)<sup>*</sup></strong>, Ren Kishimoto<sup>*</sup>, Koichi Tanaka, Masahiro Nomura, Riku Togashi, Yuta Saito. 2025.<br>
+    <em>ICLR 2026</em>.<br>
+    <a href="https://drive.google.com/file/d/1Mwhyv-396KMUGveR-Wr1BuhzOGeN_fep/view?usp=sharing">preprint</a>
+  </li>
+    <li class="pub-item">
+    <span class="pub-title">Fantastic (small) Retrievers and How to Train Them: mxbai-edge-colbert-v0 Tech Report.</span><br>
+    <strong>武樋力哉 (Rikiya Takehi)</strong>, Benjamin Clavié, Sean Lee, Aamir Shakir. 2025.<br>
+    <em>Tech Report</em>.<br>
+    <span class="download-highlight">Hugging Faceで200万+ downloads</span><br>
+    <a href="https://arxiv.org/abs/2510.14880">Tech Report</a> | <a href="https://www.mixedbread.com/blog/edge-v0">Blog</a> | <a href="https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-17m">17M ColBERT model</a> | <a href="https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-32M">32M ColBERT model</a>
   </li>
   <li class="pub-item">
     <span class="pub-title">General Framework for Off-Policy Learning with Partially-Observed Reward</span><br>
@@ -238,19 +259,6 @@ author_profile: false
     Tetsuya Sakai, Khant Myoe Rain, <strong>武樋力哉 (Rikiya Takehi)</strong>, Sijie Tao, Youngin Song. 2025.<br>
     <em>CIKM 2025</em>.<br>
     <a href="https://dl.acm.org/doi/pdf/10.1145/3746252.3760934">proceedings</a>
-  </li>
-  <li class="pub-item">
-    <span class="pub-title">Fantastic (small) Retrievers and How to Train Them: mxbai-edge-colbert-v0 Tech Report.</span><br>
-    <strong>武樋力哉 (Rikiya Takehi)</strong>, Benjamin Clavié, Sean Lee, Aamir Shakir. 2025.<br>
-    <em>Tech Report</em>.<br>
-    <span class="download-highlight">Hugging Faceで200万+ downloads</span><br>
-    <a href="https://arxiv.org/abs/2510.14880">Tech Report</a> | <a href="https://www.mixedbread.com/blog/edge-v0">Blog</a> | <a href="https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-17m">17M ColBERT model</a> | <a href="https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-32M">32M ColBERT model</a>
-  </li>
-  <li class="pub-item">
-    <span class="pub-title">Beyond Match Maximization and Fairness: Retention-Objectified Two-Sided Matching</span><br>
-    <strong>武樋力哉 (Rikiya Takehi)<sup>*</sup></strong>, Ren Kishimoto<sup>*</sup>, Koichi Tanaka, Masahiro Nomura, Riku Togashi, Yuta Saito. 2025.<br>
-    <em>ICLR 2026</em>.<br>
-    <a href="https://drive.google.com/file/d/1Mwhyv-396KMUGveR-Wr1BuhzOGeN_fep/view?usp=sharing">preprint</a>
   </li>
   <li class="pub-item">
     <span class="pub-title">Objective-driven Calibrated Recommendations</span><br>

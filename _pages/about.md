@@ -80,6 +80,12 @@ redirect_from:
   background: #fff2cd;
   border: 1px solid #ffd487;
 }
+.award-highlight {
+  font-size: 0.95rem;
+  font-weight: 800;
+  letter-spacing: 0.01em;
+  color: #c54500;
+}
 .pub-list {
   list-style: none;
   padding: 0;
@@ -193,6 +199,7 @@ My first two years of graduate studies will be fully funded by the [Toyota PhD F
 <div class="news-hint">scroll ↓</div>
 <div class="news-box">
   <ul>
+    <li><strong>Feb.2026</strong>: First-authored full paper <a href="https://arxiv.org/abs/2510.22681">Diversification as Risk Minimization</a> received the <strong>WSDM 2026 Best Paper Award</strong>.</li>
     <li><strong>Feb.2026</strong>: Our Hugging Face ColBERT models <a href="https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-17m">mxbai-edge-colbert-v0-17m</a> and <a href="https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-32m">mxbai-edge-colbert-v0-32m</a> surpassed <strong>2M+ downloads</strong> in total.</li>
     <li><strong>Jan.2026</strong>: Co-first-authored full paper <a href="https://openreview.net/forum?id=g2cZaKmRrc&referrer=%5Bthe%20profile%20of%20Rikiya%20Takehi%5D(%2Fprofile%3Fid%3D~Rikiya_Takehi1">Retention-Driven Two-Sided Matching</a> got accepted to <strong>ICLR 2026</strong>.</li>
     <li><strong>Oct.2025</strong>: First authored full paper <a href="https://arxiv.org/abs/2510.22681">Diversity as Risk Minimization</a> got accepted to <strong>WSDM 2026</strong>.</li>
@@ -221,7 +228,8 @@ You can also find my articles on my [Google Scholar profile](https://scholar.goo
   <li class="pub-item">
     <span class="pub-title">Diversification as Risk Minimization</span><br>
     <strong>Rikiya Takehi</strong>, Fernando Diaz, Tetsuya Sakai. 2025.<br>
-    <em>WSDM 2026</em>.<br>
+    <em>WSDM 2026</em>.
+    <span class="award-highlight">Best Paper Award</span><br>
     <a href="https://arxiv.org/abs/2510.22681">arXiv</a>
   </li>
   <li class="pub-item">
@@ -229,6 +237,13 @@ You can also find my articles on my [Google Scholar profile](https://scholar.goo
     <strong>Rikiya Takehi<sup>*</sup></strong>, Ren Kishimoto<sup>*</sup>, Koichi Tanaka, Masahiro Nomura, Riku Togashi, Yuta Saito. 2025.<br>
     <em>ICLR 2026</em>.<br>
     <a href="https://drive.google.com/file/d/1Mwhyv-396KMUGveR-Wr1BuhzOGeN_fep/view?usp=sharing">preprint</a>
+  </li>
+  <li class="pub-item">
+    <span class="pub-title">Fantastic (small) Retrievers and How to Train Them: mxbai-edge-colbert-v0 Tech Report.</span><br>
+    <strong>Rikiya Takehi</strong>, Benjamin Clavié, Sean Lee, Aamir Shakir. 2025.<br>
+    <em>Tech Report</em>.<br>
+    <span class="download-highlight">2M+ downloads on Hugging Face</span><br>
+    <a href="https://arxiv.org/abs/2510.14880">Tech Report</a> | <a href="https://www.mixedbread.com/blog/edge-v0">Blog</a> | <a href="https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-17m">17M ColBERT model</a> | <a href="https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-32M">32M ColBERT model</a>
   </li>
   <li class="pub-item">
     <span class="pub-title">General Framework for Off-Policy Learning with Partially-Observed Reward</span><br>
@@ -249,22 +264,15 @@ You can also find my articles on my [Google Scholar profile](https://scholar.goo
     <a href="https://dl.acm.org/doi/pdf/10.1145/3746252.3760934">proceedings</a>
   </li>
   <li class="pub-item">
+    <span class="pub-title">Objective-driven Calibrated Recommendations</span><br>
+    <strong>Rikiya Takehi<sup>*</sup></strong>, Koichi Tanaka<sup>*</sup>, Ren Kishimoto, Masahiro Nomura, Riku Togashi, Yuta Saito. 2025.<br>
+    <a href="https://drive.google.com/file/d/1-kSRjOcvsKpC07G3gScR-W36wq9FIuMi/view?usp=sharing">preprint</a>
+  </li>
+  <li class="pub-item">
     <span class="pub-title">Open-Domain Dialogue Quality Evaluation: Deriving Nugget-level Scores from Turn-level Scores</span><br>
     <strong>Rikiya Takehi</strong>, Akihisa Watanabe, and Tetsuya Sakai. 2023.<br>
     <em>SIGIR-AP 2023</em>.<br>
     <a href="https://github.com/RikiyaT/Nugget-Level-Evaluation">code</a> | <a href="https://drive.google.com/file/d/1M194h7nCFwUBVA3eqzapTNneDPFH4zUs/view?usp=sharing">poster</a> | <a href="https://RikiyaT.github.io/files/nugeval/slides.pdf">slides</a> | <a href="https://dl.acm.org/doi/abs/10.1145/3624918.3625338">proceedings</a>
-  </li>
-  <li class="pub-item">
-    <span class="pub-title">Fantastic (small) Retrievers and How to Train Them: mxbai-edge-colbert-v0 Tech Report.</span><br>
-    <strong>Rikiya Takehi</strong>, Benjamin Clavié, Sean Lee, Aamir Shakir. 2025.<br>
-    <em>Tech Report</em>.<br>
-    <span class="download-highlight">2M+ downloads on Hugging Face</span><br>
-    <a href="https://arxiv.org/abs/2510.14880">Tech Report</a> | <a href="https://www.mixedbread.com/blog/edge-v0">Blog</a> | <a href="https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-17m">17M ColBERT model</a> | <a href="https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-32M">32M ColBERT model</a>
-  </li>
-  <li class="pub-item">
-    <span class="pub-title">Objective-driven Calibrated Recommendations</span><br>
-    <strong>Rikiya Takehi<sup>*</sup></strong>, Koichi Tanaka<sup>*</sup>, Ren Kishimoto, Masahiro Nomura, Riku Togashi, Yuta Saito. 2025.<br>
-    <a href="https://drive.google.com/file/d/1-kSRjOcvsKpC07G3gScR-W36wq9FIuMi/view?usp=sharing">preprint</a>
   </li>
 </ol>
 

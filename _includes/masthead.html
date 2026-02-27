@@ -26,9 +26,9 @@
             <li class="masthead__menu-item"><a href="{{ nav_target }}">{{ link.title }}</a></li>
           {% endfor %}
           {% if page.url contains '/ja' %}
-            <li class="masthead__menu-item"><a href="{{ base_path }}/">English</a></li>
+            <li class="masthead__menu-item"><a href="{{ site.baseurl }}/">English</a></li>
           {% else %}
-            <li class="masthead__menu-item"><a href="{{ base_path }}/ja/">日本語</a></li>
+            <li class="masthead__menu-item"><a href="{{ site.baseurl }}/ja/">日本語</a></li>
           {% endif %}
         </ul>
         <ul class="hidden-links hidden"></ul>

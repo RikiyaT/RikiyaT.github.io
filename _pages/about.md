@@ -181,7 +181,7 @@ redirect_from:
 <div class="hero-subtitle">4th year Undergraduate Student at Waseda University</div>
 <img src="{{ '/images/IMG_5376 (1).jpeg' | prepend: site.baseurl }}" alt="Rikiya Takehi" class="about-photo">
 <p>My research has revolved around <strong>IR</strong>, <strong>NLP</strong>, and <strong>ML</strong>. I am interested in building reliable AI systems, including LLMs, LLM Agents, RecSys, and retrievers.</p>
-<p>I am an undergraduate student at Waseda University, supervised by <a href="http://sakailab.com/tetsuya/">Prof. Tetsuya Sakai</a>. I am now also at <a href="https://www.mixedbread.com/">Mixedbread</a>. Previously, I was a guest researcher at <a href="https://www.nist.gov/">NIST</a> working with <a href="https://www.nist.gov/people/ian-soboroff">Dr. Ian Soboroff</a> and <a href="https://www.nist.gov/people/ellen-m-voorhees">Dr. Ellen Voorhees</a>, and I have collaborated with <a href="https://841.io/">Prof. Fernando Diaz</a> of CMU LTI on retrieval rankings. I co-organize the <a href="https://trec-product-search.github.io/index.html">Product Search and Recommendations Track</a> at TREC.</p>
+<p>I am an undergraduate student at Waseda University, supervised by <a href="http://sakailab.com/tetsuya/">Prof. Tetsuya Sakai</a>. I am currently a research intern at <a href="https://www.nvidia.com/en-us/ai/">NVIDIA AI</a> focusing on AI agents. Previously, I was a research intern at <a href="https://www.mixedbread.com/">Mixedbread</a>. Before that, I was a guest researcher at <a href="https://www.nist.gov/">NIST</a> working with <a href="https://www.nist.gov/people/ian-soboroff">Dr. Ian Soboroff</a> and <a href="https://www.nist.gov/people/ellen-m-voorhees">Dr. Ellen Voorhees</a>, and I have collaborated with <a href="https://841.io/">Prof. Fernando Diaz</a> of CMU LTI on retrieval rankings. I co-organize the <a href="https://trec-product-search.github.io/index.html">Product Search and Recommendations Track</a> at TREC.</p>
 
 My first two years of graduate studies will be fully funded by the [Toyota PhD Fellowship](https://www.toyotariken.jp/overseas/).
 
@@ -199,6 +199,7 @@ My first two years of graduate studies will be fully funded by the [Toyota PhD F
 <div class="news-hint">scroll ↓</div>
 <div class="news-box">
   <ul>
+    <li><strong>Mar.2026</strong>: Started a research internship at <a href="https://www.nvidia.com/en-us/ai/">NVIDIA AI</a>, focusing on AI agents.</li>
     <li><strong>Feb.2026</strong>: First-authored full paper <a href="https://arxiv.org/abs/2510.22681">Diversification as Risk Minimization</a> received the <strong>WSDM 2026 Best Paper Award</strong>.</li>
     <li><strong>Feb.2026</strong>: Our Hugging Face ColBERT models <a href="https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-17m">mxbai-edge-colbert-v0-17m</a> and <a href="https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-32m">mxbai-edge-colbert-v0-32m</a> surpassed <strong>2M+ downloads</strong> in total.</li>
     <li><strong>Jan.2026</strong>: Co-first-authored full paper <a href="https://openreview.net/forum?id=g2cZaKmRrc&referrer=%5Bthe%20profile%20of%20Rikiya%20Takehi%5D(%2Fprofile%3Fid%3D~Rikiya_Takehi1">Retention-Driven Two-Sided Matching</a> got accepted to <strong>ICLR 2026</strong>.</li>

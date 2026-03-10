@@ -177,8 +177,8 @@ author_profile: false
 <h1 class="hero-title">武樋力哉 (Rikiya Takehi)</h1>
 <div class="hero-subtitle">早稲田大学 学部4年生</div>
 <img src="{{ '/images/IMG_5376 (1).jpeg' | prepend: site.baseurl }}" alt="Rikiya Takehi" class="about-photo">
-<p><a href="http://sakailab.com/tetsuya/">早稲田大学酒井研究室</a> で研究してます。NVIDIAでAI Agentsの研究インターンもしています。少し前まで <a href="https://www.mixedbread.com/">Mixedbread</a> で研究インターンしてました。その前は <a href="https://www.nist.gov/">NIST</a> で客員研究員として <a href="https://www.nist.gov/people/ian-soboroff">Dr. Ian Soboroff</a> と <a href="https://www.nist.gov/people/ellen-m-voorhees">Dr. Ellen Voorhees</a> と研究をしていました。
-<p>研究テーマは <strong>IR</strong>、<strong>NLP</strong>、<strong>ML</strong>（検索、評価、オフポリシー評価/学習、レコメンデーションを含む）が中心で、LLM・RecSys・retrievers などの信頼できる意思決定システムの構築に関心があります。</p>
+<p><strong>早稲田大学情報理工学科</strong>の<a href="http://sakailab.com/tetsuya/">酒井研究室</a>で研究活動を行っています。現在は<a href="https://www.nvidia.com/en-us/ai/">NVIDIA AI</a>にて<strong>AI Agents</strong>に関する研究インターンシップにも参加しています。直近の<a href="https://www.mixedbread.com/">Mixedbread AI</a>をはじめ、これまでに<a href="https://www.cyberagent.co.jp/en/service/ai/">サイバーエージェント</a>や<a href="https://www.hakuhodo-technologies.co.jp/">博報堂テクノロジーズ</a>での研究インターンを経験したほか、<a href="https://www.nist.gov/">米国国立標準技術研究所（NIST）</a>では客員研究員として1年間、<a href="https://www.nist.gov/people/ian-soboroff">Dr. Ian Soboroff</a> & <a href="https://www.nist.gov/people/ellen-m-voorhees">Dr. Ellen Voorhees</a>らと研究を行いました。</p>
+<p>興味のある研究領域は、<strong>機械学習（ML）</strong>、<strong>自然言語処理（NLP）</strong>、<strong>情報検索（IR）</strong>です。特に、<strong>LLM</strong>、<strong>LLM Systems</strong>、<strong>AI Agents</strong>に広く関心を持っています。</p>
 
 <p>大学院では <a href="https://www.toyotariken.jp/overseas/">豊田理研奨学金</a> に支援していただきます。</p>
 

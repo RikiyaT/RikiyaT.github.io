@@ -184,7 +184,7 @@ author_profile: false
 
 <div class="quick-links">
   <a href="{{ site.author.cv }}">CV</a><span class="divider">|</span>
-  <a href="mailto:rikiya.takehi@fuji.waseda.jp">メール</a><span class="divider">|</span>
+  <a href="mailto:rikiya.takehi@gmail.com">メール</a><span class="divider">|</span>
   <a href="https://twitter.com/{{ site.author.twitter }}">Twitter</a><span class="divider">|</span>
   <a href="{{ site.author.googlescholar }}">Google Scholar</a><span class="divider">|</span>
   <a href="https://github.com/{{ site.author.github }}">Github</a>

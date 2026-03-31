@@ -278,8 +278,12 @@ author_profile: false
 
 <ul class="entry-list">
   <li class="entry">
-    <div class="entry__meta">Aug 2025 – Present · CA, USA</div>
-    <div class="entry__title">Mixedbread リサーチインターン</div>
+    <div class="entry__meta">Mar 2026 – Present · remote with CA and Taiwan</div>
+    <div class="entry__title">Research Intern, NVIDIA AI</div>
+  </li>
+  <li class="entry">
+    <div class="entry__meta">Aug 2025 – Feb 2026 · CA, USA</div>
+    <div class="entry__title">Mixedbread 研究インターン</div>
   </li>
   <li class="entry">
     <div class="entry__meta">Oct 2024 – Sep 2025 · Tokyo, Japan</div>

@@ -230,7 +230,7 @@ You can also find my articles on my [Google Scholar profile](https://scholar.goo
     <span class="pub-title">Diversification as Risk Minimization</span><br>
     <strong>Rikiya Takehi</strong>, Fernando Diaz, Tetsuya Sakai. 2025.<br>
     <em>WSDM 2026</em>.
-    <span class="award-highlight">Best Paper Award</span><br>
+    <span class="award-highlight">Best Paper Award (top 0.1%, 1 of 799 sumbissions)</span><br>
     <a href="https://arxiv.org/abs/2510.22681">arXiv</a>
   </li>
   <li class="pub-item">

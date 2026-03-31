@@ -281,7 +281,11 @@ You can also find my articles on my [Google Scholar profile](https://scholar.goo
 
 <ul class="entry-list">
   <li class="entry">
-    <div class="entry__meta">Aug 2025 – Present · CA, USA</div>
+    <div class="entry__meta">Mar 2026 – Present · remote with CA & Taiwan</div>
+    <div class="entry__title">Research Intern, NVIDIA AI</div>
+  </li>
+  <li class="entry">
+    <div class="entry__meta">Aug 2025 – Feb 2026 · CA, USA</div>
     <div class="entry__title">Research Intern, Mixedbread</div>
   </li>
   <li class="entry">

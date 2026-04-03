@@ -47,6 +47,12 @@ redirect_from:
   text-align: center;
   font-weight: 500;
 }
+.hero-subtitle {
+  color: #6c7380;
+  font-size: 0.98rem;
+  font-weight: 600;
+  margin: -0.25rem 0 0.9rem;
+}
 .news-box {
   max-height: 260px;
   overflow-y: auto;
@@ -101,14 +107,6 @@ redirect_from:
   margin-bottom: 0.2rem;
   padding-bottom: 0.2rem;
 }
-.experience-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-.experience-list li {
-  margin-bottom: 0.55rem;
-}
 .entry-list {
   list-style: none;
   padding: 0;
@@ -131,6 +129,32 @@ redirect_from:
 .entry .entry__details {
   margin: 0.2rem 0 0.1rem;
 }
+.achievement-list {
+  display: grid;
+  gap: 0.9rem;
+  margin: 0 0 1.3rem;
+}
+.achievement-card {
+  background: linear-gradient(135deg, #fcfdff 0%, #f3f7ff 100%);
+  border: 1px solid #dfe7f8;
+  border-radius: 12px;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.06);
+  padding: 0.95rem 1rem;
+}
+.achievement-card .achievement__meta {
+  font-size: 0.8rem;
+  color: #6c7380;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 0.28rem;
+}
+.achievement-card .achievement__title {
+  font-size: 1rem;
+  font-weight: 700;
+}
+.achievement-card p {
+  margin: 0.32rem 0 0;
+}
 .about-photo {
   float: right;
   width: clamp(220px, 32vw, 300px);
@@ -146,16 +170,6 @@ redirect_from:
     display: block;
     margin: 8px auto 16px;
   }
-}
-.quick-links {
-  margin: 0.4em 0 1em;
-  font-size: 0.92rem;
-  color: #4b4b4b;
-  padding: 0;
-}
-.quick-links .divider {
-  color: #b0b7c3;
-  margin: 0 0.35em;
 }
 .quick-links {
   margin: 0.4em 0 1em;
@@ -178,12 +192,12 @@ redirect_from:
 </style>
 
 <h1 class="hero-title">Rikiya Takehi</h1>
-<div class="hero-subtitle">4th year Undergraduate Student at Waseda University</div>
+<div class="hero-subtitle">now at NVIDIA AI</div>
 <img src="{{ '/images/IMG_5376 (1).jpeg' | prepend: site.baseurl }}" alt="Rikiya Takehi" class="about-photo">
 <p>I am interested in <strong>Machine Learning (ML)</strong>, <strong>Natural Language Processing (NLP)</strong>, and <strong>Information Retrieval (IR)</strong>. I am interested in designing better LLMs / LLM Systems / LLM Agents.</p>
-<p>I am an undergraduate student at Waseda University, supervised by <a href="http://sakailab.com/tetsuya/">Prof. Tetsuya Sakai</a>. I am currently a research intern at <a href="https://www.nvidia.com/en-us/ai/">NVIDIA AI</a> focusing on AI agents. Previously, I was a research intern at <a href="https://www.mixedbread.com/">Mixedbread</a>. Before that, I was a guest researcher at <a href="https://www.nist.gov/">NIST</a> working with <a href="https://www.nist.gov/people/ian-soboroff">Dr. Ian Soboroff</a> and <a href="https://www.nist.gov/people/ellen-m-voorhees">Dr. Ellen Voorhees</a>, and I have collaborated with <a href="https://841.io/">Prof. Fernando Diaz</a> of CMU LTI on retrieval rankings. I co-organize the <a href="https://trec-product-search.github.io/index.html">Product Search and Recommendations Track</a> at TREC.</p>
+<p>I recently graduated from Waseda University, where I was supervised by <a href="http://sakailab.com/tetsuya/">Prof. Tetsuya Sakai</a>. I am currently a research intern at <a href="https://www.nvidia.com/en-us/ai/">NVIDIA AI</a> focusing on AI agents. Previously, I was a research intern at <a href="https://www.mixedbread.com/">Mixedbread</a>. Before that, I was a guest researcher at <a href="https://www.nist.gov/">NIST</a> working with <a href="https://www.nist.gov/people/ian-soboroff">Dr. Ian Soboroff</a> and <a href="https://www.nist.gov/people/ellen-m-voorhees">Dr. Ellen Voorhees</a>, and I have collaborated with <a href="https://841.io/">Prof. Fernando Diaz</a> of CMU LTI on retrieval rankings. I co-organize the <a href="https://trec-product-search.github.io/index.html">Product Search and Recommendations Track</a> at TREC.</p>
 
-My first two years of graduate studies will be fully funded by the [Toyota PhD Fellowship](https://www.toyotariken.jp/overseas/).
+<p>My first two years of graduate studies will be fully funded by the <a href="https://www.toyotariken.jp/overseas/">Toyota PhD Fellowship</a>.</p>
 
 <div class="quick-links">
   <a href="{{ site.author.cv }}">CV</a><span class="divider">|</span>
@@ -199,18 +213,19 @@ My first two years of graduate studies will be fully funded by the [Toyota PhD F
 <div class="news-hint">scroll ↓</div>
 <div class="news-box">
   <ul>
+    <li><strong>Mar.2026</strong>: Graduated from Waseda University as the representative recipient of the <strong>Ono Azusa Award</strong>, Waseda University's <strong>highest honour award</strong>, selected as <strong>1 student out of 10,000+ science and engineering students</strong> including graduate students (<strong>top 0.01%</strong>).</li>
     <li><strong>Mar.2026</strong>: Started a research internship at <a href="https://www.nvidia.com/en-us/ai/">NVIDIA AI</a>, focusing on AI agents.</li>
     <li><strong>Feb.2026</strong>: First-authored full paper <a href="https://arxiv.org/abs/2510.22681">Diversification as Risk Minimization</a> received the <strong>WSDM 2026 Best Paper Award</strong>.</li>
     <li><strong>Feb.2026</strong>: Our Hugging Face ColBERT models <a href="https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-17m">mxbai-edge-colbert-v0-17m</a> and <a href="https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-32m">mxbai-edge-colbert-v0-32m</a> surpassed <strong>2M+ downloads</strong> in total.</li>
     <li><strong>Jan.2026</strong>: Co-first-authored full paper <a href="https://openreview.net/forum?id=g2cZaKmRrc&referrer=%5Bthe%20profile%20of%20Rikiya%20Takehi%5D(%2Fprofile%3Fid%3D~Rikiya_Takehi1">Retention-Driven Two-Sided Matching</a> got accepted to <strong>ICLR 2026</strong>.</li>
     <li><strong>Oct.2025</strong>: First authored full paper <a href="https://arxiv.org/abs/2510.22681">Diversity as Risk Minimization</a> got accepted to <strong>WSDM 2026</strong>.</li>
     <li><strong>Oct.2025</strong>: Released two open-source ColBERT models <a href="https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-17m">mxbai-edge-colbert-v0-17m</a> and <a href="https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-32m">mxbai-edge-colbert-v0-32m</a>. Tech report <a href="https://arxiv.org/abs/2510.14880">here</a>.</li>
-    <li><strong>Aug.2025</strong>: My co-authored paper got accepted to CIKM 2025</li>
+    <li><strong>Aug.2025</strong>: My co-authored paper got accepted to CIKM 2025.</li>
     <li><strong>Aug.2025</strong>: Started research internship at <a href="https://www.mixedbread.com/">Mixedbread</a>.</li>
     <li><strong>Jul.2025</strong>: Selected as a <strong>Toyota PhD Fellow: 2 yrs of full funding</strong>.</li>
     <li><strong>Jul.2025</strong>: Gave an invited talk (w/ Prof. ChengXiang Zhai) at SIGIR 2025 eCOM Workshop invited by Dr. Tracy Holloway King.</li>
-    <li><strong>Jun.2025</strong>: Invited as a panelist at NTCIR 2025 with Prof. Maarten De Rijke, Prof. Mark Sanderson, Prof. Charles Clarke, & Prof. Ian Soboroff.</li>
-    <li><strong>Jun.2025</strong>: Gave an invited talk at EVIA 2025 about <strong>Using LLMs as Assistants for Building Test Collections</strong> invited by Prof. Charles Clarke, Prof. Noriko Kando, & Prof. Makoto Kato. Slides can be found <a href="https://drive.google.com/file/d/1aoF8ZOxFj3EcjXyw07yiDztj5HP_xbYf/view?usp=sharing">here</a>.</li>
+    <li><strong>Jun.2025</strong>: Invited as a panelist at NTCIR 2025 with Prof. Maarten De Rijke, Prof. Mark Sanderson, Prof. Charles Clarke, &amp; Prof. Ian Soboroff.</li>
+    <li><strong>Jun.2025</strong>: Gave an invited talk at EVIA 2025 about <strong>Using LLMs as Assistants for Building Test Collections</strong> invited by Prof. Charles Clarke, Prof. Noriko Kando, &amp; Prof. Makoto Kato. Slides can be found <a href="https://drive.google.com/file/d/1aoF8ZOxFj3EcjXyw07yiDztj5HP_xbYf/view?usp=sharing">here</a>.</li>
     <li><strong>Apr.2025</strong>: First authored full paper <strong>LLM-Assisted Relevance Assessments: When Should We Ask LLMs for Help?</strong> got accepted to <strong>SIGIR 2025</strong>!!</li>
     <li><strong>Jan.2025</strong>: First authored full paper <strong>General Framework for Off-Policy Learning with Partially-Observed Reward</strong> got accepted to <strong>ICLR 2025</strong>.</li>
     <li><strong>Nov.2024</strong>: Gave an invited talk at NII about <strong>Using LLMs as Assistants for Building Test Collections</strong> invited by Prof. Noriko Kando.</li>
@@ -223,13 +238,13 @@ My first two years of graduate studies will be fully funded by the [Toyota PhD F
 
 <h2 class="section-heading" id="publications">Publications</h2>
 
-You can also find my articles on my [Google Scholar profile](https://scholar.google.com/citations?user=9rS9VIYAAAAJ&hl=en).
+<p>You can also find my articles on my <a href="https://scholar.google.com/citations?user=9rS9VIYAAAAJ&amp;hl=en">Google Scholar profile</a>.</p>
 
 <ol class="pub-list">
   <li class="pub-item">
     <span class="pub-title">Diversification as Risk Minimization</span><br>
     <strong>Rikiya Takehi</strong>, Fernando Diaz, Tetsuya Sakai. 2025.<br>
-    <em>WSDM 2026</em>.
+    <em>WSDM 2026</em>.<br>
     <span class="award-highlight">Best Paper Award (top 0.1%, 1 of 799 submissions)</span><br>
     <a href="https://arxiv.org/abs/2510.22681">arXiv</a>
   </li>
@@ -253,7 +268,7 @@ You can also find my articles on my [Google Scholar profile](https://scholar.goo
     <a href="https://arxiv.org/abs/2506.14439">arXiv</a> | <a href="https://openreview.net/forum?id=mUbYof5MKp">OpenReview</a> | <a href="https://iclr.cc/virtual/2025/poster/28461">presentation</a> | <a href="https://drive.google.com/file/d/106SG0z4k2d4iA2BwbdVRL4EOi--jDSSX/view?usp=sharing">poster</a>
   </li>
   <li class="pub-item">
-    <span class="pub-title">LLM‑Assisted Relevance Assessments: When Should We Ask LLMs for Help?</span><br>
+    <span class="pub-title">LLM-Assisted Relevance Assessments: When Should We Ask LLMs for Help?</span><br>
     <strong>Rikiya Takehi</strong>, Ellen M. Voorhees, Tetsuya Sakai, and Ian Soboroff. 2025.<br>
     <em>SIGIR 2025</em>.<br>
     <a href="https://arxiv.org/abs/2411.06877">arXiv</a> | <a href="https://drive.google.com/file/d/1aoF8ZOxFj3EcjXyw07yiDztj5HP_xbYf/view">slides</a> | <a href="https://github.com/RikiyaT/LARA">code</a>
@@ -281,30 +296,55 @@ You can also find my articles on my [Google Scholar profile](https://scholar.goo
 
 <ul class="entry-list">
   <li class="entry">
-    <div class="entry__meta">Mar 2026 – Present · remote with CA & Taiwan</div>
+    <div class="entry__meta">Mar 2026 - Present · remote with US &amp; Taiwan</div>
     <div class="entry__title">Research Intern, NVIDIA AI</div>
   </li>
   <li class="entry">
-    <div class="entry__meta">Aug 2025 – Feb 2026 · CA, USA</div>
+    <div class="entry__meta">Aug 2025 - Feb 2026 · CA, USA</div>
     <div class="entry__title">Research Intern, Mixedbread</div>
   </li>
   <li class="entry">
-    <div class="entry__meta">Oct 2024 – Sep 2025 · Tokyo, Japan</div>
+    <div class="entry__meta">Oct 2024 - Sep 2025 · Tokyo, Japan</div>
     <div class="entry__title">Research Intern, <a href="https://www.cyberagent.co.jp/en/service/ai/">CyberAgent AI Lab.</a> Algorithm Team</div>
   </li>
   <li class="entry">
-    <div class="entry__meta">Oct 2023 – Sep 2024 · Maryland, US</div>
+    <div class="entry__meta">Oct 2023 - Sep 2024 · Maryland, US</div>
     <div class="entry__title">Guest Researcher, <a href="https://www.nist.gov/">NIST Retrieval Group</a></div>
   </li>
   <li class="entry">
-    <div class="entry__meta">Sept 2023 – Oct 2024 · Tokyo, Japan</div>
+    <div class="entry__meta">Sept 2023 - Oct 2024 · Tokyo, Japan</div>
     <div class="entry__title">Research Intern, <a href="https://www.hakuhodo-technologies.co.jp/">Hakuhodo Tech Inc.</a></div>
   </li>
 </ul>
 
+<h2 class="section-heading" id="achievements">Achievements</h2>
+
+<div class="achievement-list">
+  <div class="achievement-card">
+    <div class="achievement__meta">Mar 2026 · Waseda University</div>
+    <div class="achievement__title">Waseda University Highest Honour Award</div>
+    <p>Graduated as the representative recipient of the <strong>Ono Azusa Award</strong>, selected as <strong>1 student out of 10,000+ science and engineering students</strong> including graduate students (<strong>top 0.01%</strong>).</p>
+  </div>
+  <div class="achievement-card">
+    <div class="achievement__meta">Feb 2026 · WSDM 2026</div>
+    <div class="achievement__title">WSDM 2026 Best Full Research Paper Award</div>
+    <p><em>Diversification as Risk Minimization</em> received the <strong>Best Paper Award</strong> (<strong>1 of 799 submissions</strong>).</p>
+  </div>
+  <div class="achievement-card">
+    <div class="achievement__meta">Jul 2025 · Toyota PhD Fellowship</div>
+    <div class="achievement__title">Toyota PhD Fellowship</div>
+    <p>Selected as a Toyota PhD Fellow, with my first two years of graduate studies fully funded.</p>
+  </div>
+</div>
+
 <h2 class="section-heading" id="talks">Invited Talks</h2>
 
 <ul class="entry-list">
+  <li class="entry">
+    <div class="entry__meta">Feb 2026 · Invited by Dr. Thorsten Joachims (Cornell)</div>
+    <div class="entry__title">Cornell University</div>
+    <div class="entry__details"><em>Diversification as Risk Minimization</em></div>
+  </li>
   <li class="entry">
     <div class="entry__meta">Jul 2025 · Invited by Dr. Tracy Holloway King (Adobe)</div>
     <div class="entry__title">SIGIR eCom Workshop 2025</div>
@@ -331,12 +371,3 @@ You can also find my articles on my [Google Scholar profile](https://scholar.goo
     <div class="entry__details">With Profs. Maarten de Rijke (UvA), Mark Sanderson (RMIT), Charles Clarke (UWaterloo), and Ian Soboroff (NIST).</div>
   </li>
 </ul>
-
-<!--
-# Education
-- **Waseda University** (2021-)
-  - 3rd-year B.A student at Computer Science and Communications Engineering (English-based major)
-
-# Languages
-Japanese (native), English (fluent: TOEFL 110), French (fluent: CEFR/DELF B2)
--->

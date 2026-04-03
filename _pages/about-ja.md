@@ -44,6 +44,12 @@ author_profile: false
   text-align: center;
   font-weight: 500;
 }
+.hero-subtitle {
+  color: #6c7380;
+  font-size: 0.98rem;
+  font-weight: 600;
+  margin: -0.25rem 0 0.9rem;
+}
 .news-box {
   max-height: 260px;
   overflow-y: auto;
@@ -98,14 +104,6 @@ author_profile: false
   margin-bottom: 0.2rem;
   padding-bottom: 0.2rem;
 }
-.experience-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-.experience-list li {
-  margin-bottom: 0.55rem;
-}
 .entry-list {
   list-style: none;
   padding: 0;
@@ -128,6 +126,32 @@ author_profile: false
 .entry .entry__details {
   margin: 0.2rem 0 0.1rem;
 }
+.achievement-list {
+  display: grid;
+  gap: 0.9rem;
+  margin: 0 0 1.3rem;
+}
+.achievement-card {
+  background: linear-gradient(135deg, #fcfdff 0%, #f3f7ff 100%);
+  border: 1px solid #dfe7f8;
+  border-radius: 12px;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.06);
+  padding: 0.95rem 1rem;
+}
+.achievement-card .achievement__meta {
+  font-size: 0.8rem;
+  color: #6c7380;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 0.28rem;
+}
+.achievement-card .achievement__title {
+  font-size: 1rem;
+  font-weight: 700;
+}
+.achievement-card p {
+  margin: 0.32rem 0 0;
+}
 .about-photo {
   float: right;
   width: clamp(220px, 32vw, 300px);
@@ -143,16 +167,6 @@ author_profile: false
     display: block;
     margin: 8px auto 16px;
   }
-}
-.quick-links {
-  margin: 0.4em 0 1em;
-  font-size: 0.92rem;
-  color: #4b4b4b;
-  padding: 0;
-}
-.quick-links .divider {
-  color: #b0b7c3;
-  margin: 0 0.35em;
 }
 .quick-links {
   margin: 0.4em 0 1em;
@@ -175,9 +189,9 @@ author_profile: false
 </style>
 
 <h1 class="hero-title">武樋力哉 (Rikiya Takehi)</h1>
-<div class="hero-subtitle">早稲田大学 学部4年生</div>
+<div class="hero-subtitle">now at NVIDIA AI</div>
 <img src="{{ '/images/IMG_5376 (1).jpeg' | prepend: site.baseurl }}" alt="Rikiya Takehi" class="about-photo">
-<p><strong>早稲田大学情報理工学科</strong>の<a href="http://sakailab.com/tetsuya/">酒井研究室</a>で研究活動を行っています。現在は<a href="https://www.nvidia.com/en-us/ai/">NVIDIA AI</a>にてAI Agentsに関する研究インターンシップにも参加しています。直近の<a href="https://www.mixedbread.com/">Mixedbread AI</a>をはじめ、これまでに<a href="https://www.cyberagent.co.jp/en/service/ai/">サイバーエージェント</a>や<a href="https://www.hakuhodo-technologies.co.jp/">博報堂テクノロジーズ</a>での研究インターンを経験したほか、<a href="https://www.nist.gov/">米国国立標準技術研究所（NIST）</a>では客員研究員として1年間、<a href="https://www.nist.gov/people/ian-soboroff">Dr. Ian Soboroff</a> & <a href="https://www.nist.gov/people/ellen-m-voorhees">Dr. Ellen Voorhees</a>らと研究を行いました。</p>
+<p><strong>早稲田大学情報理工学科</strong>を卒業し、在学中は<a href="http://sakailab.com/tetsuya/">酒井研究室</a>で研究活動を行っていました。現在は<a href="https://www.nvidia.com/en-us/ai/">NVIDIA AI</a>にて研究インターンシップもしています。直近の<a href="https://www.mixedbread.com/">Mixedbread AI</a>をはじめ、これまでに<a href="https://www.cyberagent.co.jp/en/service/ai/">サイバーエージェント</a>や<a href="https://www.hakuhodo-technologies.co.jp/">博報堂Tech</a>での研究インターンを経験したほか、<a href="https://www.nist.gov/">米国国立標準技術研究所（NIST）</a>では客員研究員として1年間、<a href="https://www.nist.gov/people/ian-soboroff">Dr. Ian Soboroff</a> &amp; <a href="https://www.nist.gov/people/ellen-m-voorhees">Dr. Ellen Voorhees</a>らと研究を行いました。</p>
 <p>興味のある研究領域は、<strong>機械学習（ML）</strong>、<strong>自然言語処理（NLP）</strong>、<strong>情報検索（IR）</strong>です。特に、<strong>LLM</strong>、<strong>LLM Systems</strong>、<strong>AI Agents</strong>に広く関心を持っています。</p>
 
 <p>大学院では <a href="https://www.toyotariken.jp/overseas/">豊田理研奨学金</a> に支援していただきます。</p>
@@ -196,6 +210,7 @@ author_profile: false
 <div class="news-hint">↓ scroll</div>
 <div class="news-box">
   <ul>
+    <li><strong>Mar.2026</strong>: 全理工生1万人超の中から <strong>1名</strong>（<strong>top 0.01%</strong>）として、早稲田大学の最高栄誉賞である <strong>小野梓賞</strong> の代表受賞者に選ばれ、卒業しました。</li>
     <li><strong>Mar.2026</strong>: <a href="https://www.nvidia.com/en-us/ai/">NVIDIA AI</a> で研究インターンを開始。</li>
     <li><strong>Feb.2026</strong>: 主著フルペーパー <a href="https://arxiv.org/abs/2510.22681">Diversification as Risk Minimization</a> が <strong>WSDM 2026 Best Paper Award</strong> を受賞。</li>
     <li><strong>Feb.2026</strong>: Hugging Face の ColBERT モデル <a href="https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-17m">mxbai-edge-colbert-v0-17m</a> と <a href="https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-32m">mxbai-edge-colbert-v0-32m</a> が合計 <strong>200万+ downloads</strong> を突破。</li>
@@ -205,8 +220,8 @@ author_profile: false
     <li><strong>Aug.2025</strong>: 共著論文が CIKM 2025 に採択。</li>
     <li><strong>Aug.2025</strong>: <a href="https://www.mixedbread.com/">Mixedbread</a> でリサーチインターンを開始。</li>
     <li><strong>Jul.2025</strong>: <strong>Toyota PhD Fellow（2年間フルファンディング）</strong> に選出。</li>
-    <li><strong>Jul.2025</strong>: <strong>SIGIR 2025 eCOM Workshop で 招待講演</strong>（Hosted by Dr.Tracy Holloway King）。</li>
-    <li><strong>Jun.2025</strong>: NTCIR 2025 招待パネラー（Drs. Maarten De Rijke, Mark Sanderson, Charles Clarke, Ian Soboroffと登壇）。</li>
+    <li><strong>Jul.2025</strong>: <strong>SIGIR 2025 eCOM Workshop で 招待講演</strong>（Hosted by Dr. Tracy Holloway King）。</li>
+    <li><strong>Jun.2025</strong>: NTCIR 2025 招待パネラー（Drs. Maarten De Rijke, Mark Sanderson, Charles Clarke, Ian Soboroff と登壇）。</li>
     <li><strong>Jun.2025</strong>: EVIA 2025 で <strong>招待講演</strong>（Using LLMs as Assistants for Building Test Collections）。<a href="https://drive.google.com/file/d/1aoF8ZOxFj3EcjXyw07yiDztj5HP_xbYf/view?usp=sharing">スライド</a>。</li>
     <li><strong>Apr.2025</strong>: 第一著者フルペーパー <strong>LLM-Assisted Relevance Assessments: When Should We Ask LLMs for Help?</strong> が <strong>SIGIR 2025</strong> に採択。</li>
     <li><strong>Jan.2025</strong>: 第一著者フルペーパー <strong>General Framework for Off-Policy Learning with Partially-Observed Reward</strong> が <strong>ICLR 2025</strong> に採択。</li>
@@ -220,14 +235,14 @@ author_profile: false
 
 <h2 class="section-heading" id="publications">研究業績</h2>
 
-論文は <a href="https://scholar.google.com/citations?user=9rS9VIYAAAAJ&hl=en">Google Scholar</a> にも掲載しています。
+<p>論文は <a href="https://scholar.google.com/citations?user=9rS9VIYAAAAJ&amp;hl=en">Google Scholar</a> にも掲載しています。</p>
 
 <ol class="pub-list">
   <li class="pub-item">
     <span class="pub-title">Diversification as Risk Minimization</span><br>
     <strong>武樋力哉 (Rikiya Takehi)</strong>, Fernando Diaz, Tetsuya Sakai.<br>
-    <em>WSDM 2026</em>.
-    <span class="award-highlight">Best Paper Award</span><br>
+    <em>WSDM 2026</em>.<br>
+    <span class="award-highlight">Best Paper Award（799件中1位）</span><br>
     <a href="https://arxiv.org/abs/2510.22681">arXiv</a>
   </li>
   <li class="pub-item">
@@ -236,7 +251,7 @@ author_profile: false
     <em>ICLR 2026</em>.<br>
     <a href="https://drive.google.com/file/d/1Mwhyv-396KMUGveR-Wr1BuhzOGeN_fep/view?usp=sharing">preprint</a>
   </li>
-    <li class="pub-item">
+  <li class="pub-item">
     <span class="pub-title">Fantastic (small) Retrievers and How to Train Them: mxbai-edge-colbert-v0 Tech Report.</span><br>
     <strong>武樋力哉 (Rikiya Takehi)</strong>, Benjamin Clavié, Sean Lee, Aamir Shakir. 2025.<br>
     <em>Tech Report</em>.<br>
@@ -250,7 +265,7 @@ author_profile: false
     <a href="https://arxiv.org/abs/2506.14439">arXiv</a> | <a href="https://openreview.net/forum?id=mUbYof5MKp">OpenReview</a> | <a href="https://iclr.cc/virtual/2025/poster/28461">presentation</a> | <a href="https://drive.google.com/file/d/106SG0z4k2d4iA2BwbdVRL4EOi--jDSSX/view?usp=sharing">poster</a>
   </li>
   <li class="pub-item">
-    <span class="pub-title">LLM‑Assisted Relevance Assessments: When Should We Ask LLMs for Help?</span><br>
+    <span class="pub-title">LLM-Assisted Relevance Assessments: When Should We Ask LLMs for Help?</span><br>
     <strong>武樋力哉 (Rikiya Takehi)</strong>, Ellen M. Voorhees, Tetsuya Sakai, and Ian Soboroff. 2025.<br>
     <em>SIGIR 2025</em>.<br>
     <a href="https://arxiv.org/abs/2411.06877">arXiv</a> | <a href="https://drive.google.com/file/d/1aoF8ZOxFj3EcjXyw07yiDztj5HP_xbYf/view">slides</a> | <a href="https://github.com/RikiyaT/LARA">code</a>
@@ -278,30 +293,55 @@ author_profile: false
 
 <ul class="entry-list">
   <li class="entry">
-    <div class="entry__meta">Mar 2026 – Present · remote with CA and Taiwan</div>
+    <div class="entry__meta">Mar 2026 - Present · remote with CA and Taiwan</div>
     <div class="entry__title">Research Intern, NVIDIA AI</div>
   </li>
   <li class="entry">
-    <div class="entry__meta">Aug 2025 – Feb 2026 · CA, USA</div>
+    <div class="entry__meta">Aug 2025 - Feb 2026 · CA, USA</div>
     <div class="entry__title">Mixedbread 研究インターン</div>
   </li>
   <li class="entry">
-    <div class="entry__meta">Oct 2024 – Sep 2025 · Tokyo, Japan</div>
+    <div class="entry__meta">Oct 2024 - Sep 2025 · Tokyo, Japan</div>
     <div class="entry__title"><a href="https://www.cyberagent.co.jp/en/service/ai/">CyberAgent AI Lab.</a> Algorithm Team リサーチインターン</div>
   </li>
   <li class="entry">
-    <div class="entry__meta">Oct 2023 – Sep 2024 · Maryland, US</div>
+    <div class="entry__meta">Oct 2023 - Sep 2024 · Maryland, US</div>
     <div class="entry__title"><a href="https://www.nist.gov/">NIST Retrieval Group</a> 客員研究員</div>
   </li>
   <li class="entry">
-    <div class="entry__meta">Sept 2023 – Oct 2024 · Tokyo, Japan</div>
+    <div class="entry__meta">Sept 2023 - Oct 2024 · Tokyo, Japan</div>
     <div class="entry__title"><a href="https://www.hakuhodo-technologies.co.jp/">Hakuhodo Tech Inc.</a> リサーチインターン</div>
   </li>
 </ul>
 
+<h2 class="section-heading" id="achievements">受賞・実績</h2>
+
+<div class="achievement-list">
+  <div class="achievement-card">
+    <div class="achievement__meta">Mar 2026 · Waseda University</div>
+    <div class="achievement__title">早稲田大学 小野梓賞 代表受賞者</div>
+    <p>博士学生まで含めた全理工生 <strong>1万人超</strong> の中から <strong>1名</strong>（<strong>top 0.01%</strong>）として、早稲田大学の <strong>最高栄誉賞</strong> である小野梓賞の代表受賞者に選ばれ、卒業しました。</p>
+  </div>
+  <div class="achievement-card">
+    <div class="achievement__meta">Feb 2026 · WSDM 2026</div>
+    <div class="achievement__title">WSDM 2026 Best Full Research Paper Award</div>
+    <p>データマイニング分野のトップ国際会議 WSDM 2026 で主著論文が <strong>Best Paper Award</strong> を受賞（<strong>799件中1位</strong>）。</p>
+  </div>
+  <div class="achievement-card">
+    <div class="achievement__meta">Jul 2025 · Toyota PhD Fellowship</div>
+    <div class="achievement__title">Toyota PhD Fellowship</div>
+    <p><strong>Toyota PhD Fellow</strong> に選出され、大学院での最初の2年間の研究活動を支援していただきます。</p>
+  </div>
+</div>
+
 <h2 class="section-heading" id="talks">招待講演</h2>
 
 <ul class="entry-list">
+  <li class="entry">
+    <div class="entry__meta">Feb 2026 · Invited by Dr. Thorsten Joachims (Cornell)</div>
+    <div class="entry__title">Cornell University</div>
+    <div class="entry__details"><em>Diversification as Risk Minimization</em></div>
+  </li>
   <li class="entry">
     <div class="entry__meta">Jul 2025 · Invited by Dr. Tracy Holloway King (Adobe)</div>
     <div class="entry__title">SIGIR eCom Workshop 2025</div>
@@ -328,12 +368,3 @@ author_profile: false
     <div class="entry__details">With Profs. Maarten de Rijke (UvA), Mark Sanderson (RMIT), Charles Clarke (UWaterloo), and Ian Soboroff (NIST).</div>
   </li>
 </ul>
-
-<!--
-# Education
-- **Waseda University** (2021-)
-  - 3rd-year B.A student at Computer Science and Communications Engineering (English-based major)
-
-# Languages
-Japanese (native), English (fluent: TOEFL 110), French (fluent: CEFR/DELF B2)
--->

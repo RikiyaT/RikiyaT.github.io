@@ -192,12 +192,12 @@ redirect_from:
 </style>
 
 <h1 class="hero-title">Rikiya Takehi</h1>
-<div class="hero-subtitle">now at NVIDIA AI</div>
+<div class="hero-subtitle">now at NVIDIA AI, Incoming PhD Student at MIT EECS</div>
 <img src="{{ '/images/IMG_5376 (1).jpeg' | prepend: site.baseurl }}" alt="Rikiya Takehi" class="about-photo">
-<p>I am interested in <strong>Machine Learning (ML)</strong>, <strong>Natural Language Processing (NLP)</strong>, and <strong>Information Retrieval (IR)</strong>. I am interested in designing better LLMs / LLM Systems / LLM Agents.</p>
-<p>I recently received a B.Eng. from Waseda University, where I was supervised by <a href="http://sakailab.com/tetsuya/">Prof. Tetsuya Sakai</a>. I am currently a research intern at <a href="https://www.nvidia.com/en-us/ai/">NVIDIA AI</a> focusing on AI agents. Previously, I was a research intern at <a href="https://www.mixedbread.com/">Mixedbread</a>. Before that, I was a guest researcher at <a href="https://www.nist.gov/">NIST</a> working with <a href="https://www.nist.gov/people/ian-soboroff">Dr. Ian Soboroff</a> and <a href="https://www.nist.gov/people/ellen-m-voorhees">Dr. Ellen Voorhees</a>, and I have collaborated with <a href="https://841.io/">Prof. Fernando Diaz</a> of CMU LTI on retrieval rankings. I co-organize the <a href="https://trec-product-search.github.io/index.html">Product Search and Recommendations Track</a> at TREC.</p>
+<p>I am interested in <strong>Machine Learning (ML)</strong>, <strong>Natural Language Processing (NLP)</strong>, and <strong>Information Retrieval (IR)</strong>. Now, I am especially interested in designing better LLMs / LLM Systems / LLM Agents.</p>
+<p>I recently received a B.Eng. from Waseda University, where I was supervised by <a href="http://sakailab.com/tetsuya/">Prof. Tetsuya Sakai</a>. I am currently a research intern at <a href="https://www.nvidia.com/en-us/ai/">NVIDIA AI</a> focusing on AI agents. Previously, I was a research intern at <a href="https://www.mixedbread.com/">Mixedbread</a>. Before that, I was a guest researcher at <a href="https://www.nist.gov/">NIST</a> working with <a href="https://www.nist.gov/people/ian-soboroff">Dr. Ian Soboroff</a> and <a href="https://www.nist.gov/people/ellen-m-voorhees">Dr. Ellen Voorhees</a>, and I have also collaborated with <a href="https://841.io/">Prof. Fernando Diaz</a> of CMU LTI on retrieval rankings.</p>
 
-<p>My first two years of graduate studies will be fully funded by the <a href="https://www.toyotariken.jp/overseas/">Toyota PhD Fellowship</a>.</p>
+<p>I will go to MIT EECS CSAIL for PhD, and my first two years of graduate studies will be fully funded by the <a href="https://www.toyotariken.jp/overseas/">Toyota PhD Fellowship</a>.</p>
 
 <div class="quick-links">
   <a href="{{ site.author.cv }}">CV</a><span class="divider">|</span>
@@ -206,7 +206,6 @@ redirect_from:
   <a href="{{ site.author.googlescholar }}">Google Scholar</a><span class="divider">|</span>
   <a href="https://github.com/{{ site.author.github }}">Github</a>
 </div>
-
 
 <h2 class="section-heading" id="news">News</h2>
 
@@ -217,7 +216,7 @@ redirect_from:
     <li><strong>Mar.2026</strong>: Started a research internship at <a href="https://www.nvidia.com/en-us/ai/">NVIDIA AI</a>, focusing on AI agents.</li>
     <li><strong>Feb.2026</strong>: First-authored full paper <a href="https://arxiv.org/abs/2510.22681">Diversification as Risk Minimization</a> received the <strong>WSDM 2026 Best Paper Award</strong>.</li>
     <li><strong>Feb.2026</strong>: Our Hugging Face ColBERT models <a href="https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-17m">mxbai-edge-colbert-v0-17m</a> and <a href="https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-32m">mxbai-edge-colbert-v0-32m</a> surpassed <strong>2M+ downloads</strong> in total.</li>
-    <li><strong>Jan.2026</strong>: Co-first-authored full paper <a href="https://openreview.net/forum?id=g2cZaKmRrc&referrer=%5Bthe%20profile%20of%20Rikiya%20Takehi%5D(%2Fprofile%3Fid%3D~Rikiya_Takehi1">Retention-Driven Two-Sided Matching</a> got accepted to <strong>ICLR 2026</strong>.</li>
+    <li><strong>Jan.2026</strong>: Co-first-authored full paper <a href="https://openreview.net/forum?id=g2cZaKmRrc&amp;referrer=%5Bthe%20profile%20of%20Rikiya%20Takehi%5D(%2Fprofile%3Fid%3D~Rikiya_Takehi1">Retention-Driven Two-Sided Matching</a> got accepted to <strong>ICLR 2026</strong>.</li>
     <li><strong>Oct.2025</strong>: First authored full paper <a href="https://arxiv.org/abs/2510.22681">Diversity as Risk Minimization</a> got accepted to <strong>WSDM 2026</strong>.</li>
     <li><strong>Oct.2025</strong>: Released two open-source ColBERT models <a href="https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-17m">mxbai-edge-colbert-v0-17m</a> and <a href="https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-32m">mxbai-edge-colbert-v0-32m</a>. Tech report <a href="https://arxiv.org/abs/2510.14880">here</a>.</li>
     <li><strong>Aug.2025</strong>: My co-authored paper got accepted to CIKM 2025.</li>
@@ -308,12 +307,12 @@ redirect_from:
     <div class="entry__title">Research Intern, <a href="https://www.cyberagent.co.jp/en/service/ai/">CyberAgent AI Lab.</a> Algorithm Team</div>
   </li>
   <li class="entry">
-    <div class="entry__meta">Oct 2023 - Sep 2024 · Maryland, US</div>
-    <div class="entry__title">Guest Researcher, <a href="https://www.nist.gov/">NIST Retrieval Group</a></div>
+    <div class="entry__meta">Sept 2024 - Apr 2025 · Tokyo, Japan</div>
+    <div class="entry__title">Research Intern, <a href="https://www.hakuhodo-technologies.co.jp/">Hakuhodo Tech Inc.</a></div>
   </li>
   <li class="entry">
-    <div class="entry__meta">Sept 2023 - Oct 2024 · Tokyo, Japan</div>
-    <div class="entry__title">Research Intern, <a href="https://www.hakuhodo-technologies.co.jp/">Hakuhodo Tech Inc.</a></div>
+    <div class="entry__meta">Oct 2023 - Sep 2024 · Maryland, US</div>
+    <div class="entry__title">Guest Researcher, <a href="https://www.nist.gov/">NIST Retrieval Group</a></div>
   </li>
 </ul>
 

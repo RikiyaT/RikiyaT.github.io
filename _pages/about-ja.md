@@ -1,6 +1,7 @@
 ---
 permalink: /ja/
 title: ""
+seo_title: "武樋力哉"
 excerpt: "About me (日本語)"
 author_profile: false
 ---
@@ -171,9 +172,9 @@ author_profile: false
 }
 </style>
 
-<h1 class="hero-title">武樋力哉 (Rikiya Takehi)</h1>
+<h1 class="hero-title">武樋力哉</h1>
 <div class="hero-subtitle">now at NVIDIA AI, Incoming PhD Student at MIT EECS</div>
-<img src="{{ '/images/IMG_5376 (1).jpeg' | prepend: site.baseurl }}" alt="Rikiya Takehi" class="about-photo">
+<img src="{{ '/images/IMG_5376 (1).jpeg' | prepend: site.baseurl }}" alt="武樋力哉" class="about-photo">
 
 <p><strong>早稲田大学情報理工学科</strong>を卒業し、在学中は<a href="http://sakailab.com/tetsuya/">酒井研究室</a>で研究活動を行っていました。現在は<a href="https://www.nvidia.com/en-us/ai/">NVIDIA AI</a>にて研究インターンシップをしています。直近の<a href="https://www.mixedbread.com/">Mixedbread AI</a>をはじめ、これまでに<a href="https://www.cyberagent.co.jp/en/service/ai/">サイバーエージェント</a>や<a href="https://www.hakuhodo-technologies.co.jp/">博報堂Tech</a>での研究インターンを経験したほか、<a href="https://www.nist.gov/">米国国立標準技術研究所（NIST）</a>では客員研究員として1年間、<a href="https://www.nist.gov/people/ian-soboroff">Dr. Ian Soboroff</a> &amp; <a href="https://www.nist.gov/people/ellen-m-voorhees">Dr. Ellen Voorhees</a>らと研究を行いました。</p>
 

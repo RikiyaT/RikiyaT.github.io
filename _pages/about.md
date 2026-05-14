@@ -197,7 +197,7 @@ redirect_from:
 <p>I am interested in <strong>Machine Learning (ML)</strong>, <strong>Natural Language Processing (NLP)</strong>, and <strong>Information Retrieval (IR)</strong>. Now, I am especially interested in designing better LLMs / LLM Systems / LLM Agents.</p>
 <p>I recently received a B.Eng. from Waseda University, where I was supervised by <a href="http://sakailab.com/tetsuya/">Prof. Tetsuya Sakai</a>. I am currently a research intern at <a href="https://www.nvidia.com/en-us/ai/">NVIDIA AI</a> focusing on AI agents. Previously, I was a research intern at <a href="https://www.mixedbread.com/">Mixedbread</a>. Before that, I was a guest researcher at <a href="https://www.nist.gov/">NIST</a> working with <a href="https://www.nist.gov/people/ian-soboroff">Dr. Ian Soboroff</a> and <a href="https://www.nist.gov/people/ellen-m-voorhees">Dr. Ellen Voorhees</a>, and I have also collaborated with <a href="https://841.io/">Prof. Fernando Diaz</a> of CMU LTI on retrieval rankings.</p>
 
-<p>I will go to MIT EECS CSAIL for PhD, and my first two years of graduate studies will be fully funded by the <a href="https://www.toyotariken.jp/overseas/">Toyota PhD Fellowship</a>.</p>
+<p>I will go to MIT EECS CSAIL for PhD, and my first two years of graduate studies will be funded by the <a href="https://www.toyotariken.jp/overseas/">Toyota PhD Fellowship</a>.</p>
 
 <div class="quick-links">
   <a href="{{ site.author.cv }}">CV</a><span class="divider">|</span>

@@ -173,14 +173,14 @@ author_profile: false
 </style>
 
 <h1 class="hero-title">武樋力哉</h1>
-<div class="hero-subtitle">now at NVIDIA AI, Incoming PhD Student at MIT EECS</div>
+<div class="hero-subtitle">PhD Student at MIT CSAIL</div>
 <img src="{{ '/images/IMG_5376 (1).jpeg' | prepend: site.baseurl }}" alt="武樋力哉" class="about-photo">
 
-<p><strong>早稲田大学情報理工学科</strong>を卒業し、在学中は<a href="http://sakailab.com/tetsuya/">酒井研究室</a>で研究活動を行っていました。現在は<a href="https://www.nvidia.com/en-us/ai/">NVIDIA AI</a>にて研究インターンシップをしています。直近の<a href="https://www.mixedbread.com/">Mixedbread AI</a>をはじめ、これまでに<a href="https://www.cyberagent.co.jp/en/service/ai/">サイバーエージェント</a>や<a href="https://www.hakuhodo-technologies.co.jp/">博報堂Tech</a>での研究インターンを経験したほか、<a href="https://www.nist.gov/">米国国立標準技術研究所（NIST）</a>では客員研究員として1年間、<a href="https://www.nist.gov/people/ian-soboroff">Dr. Ian Soboroff</a> &amp; <a href="https://www.nist.gov/people/ellen-m-voorhees">Dr. Ellen Voorhees</a>らと研究を行いました。</p>
+<p>MIT CSAILの博士課程1年目の武樋力哉です。<strong>早稲田大学情報理工学科</strong>を卒業し、在学中は<a href="http://sakailab.com/tetsuya/">酒井研究室</a>で研究活動を行っていました。直近の<a href="https://www.nvidia.com/en-us/ai/">NVIDIA Research</a>をはじめ、これまでに<a href="https://www.cyberagent.co.jp/en/service/ai/">サイバーエージェント</a>や<a href="https://www.hakuhodo-technologies.co.jp/">博報堂Tech</a>での研究インターンを経験したほか、<a href="https://www.nist.gov/">米国国立標準技術研究所（NIST）</a>では客員研究員として1年間、<a href="https://www.nist.gov/people/ian-soboroff">Dr. Ian Soboroff</a> &amp; <a href="https://www.nist.gov/people/ellen-m-voorhees">Dr. Ellen Voorhees</a>らと研究を行いました。</p>
 
 <p>興味のある研究領域は、<strong>機械学習（ML）</strong>、<strong>自然言語処理（NLP）</strong>、<strong>情報検索（IR）</strong>です。特に、<strong>LLM</strong>、<strong>LLM Systems</strong>、<strong>AI Agents</strong>に広く関心を持っています。</p>
 
-<p>9月からはMIT EECSの博士課程に進学予定で、<a href="https://www.toyotariken.jp/overseas/">豊田理研奨学金</a>に支援していただきます。</p>
+<p>大学院での最初の2年間は、<a href="https://www.toyotariken.jp/overseas/">豊田理研奨学金</a>に支援していただきます。</p>
 
 <div class="quick-links">
   <a href="{{ site.author.cv }}">CV</a><span class="divider">|</span>
@@ -196,9 +196,9 @@ author_profile: false
 <div class="news-box">
   <ul>
     <li><strong>Mar.2026</strong>: 早稲田大学の<strong>最高栄誉賞</strong>である<strong>小野梓賞</strong>の代表受賞者に選ばれ、卒業しました。</li>
-    <li><strong>Mar.2026</strong>: <a href="https://www.nvidia.com/en-us/ai/">NVIDIA AI</a>で研究インターンを開始。</li>
+    <li><strong>Mar.2026</strong>: <a href="https://www.nvidia.com/en-us/ai/">NVIDIA Research</a>で研究インターンを開始。</li>
     <li><strong>Feb.2026</strong>: 主著フルペーパー <a href="https://arxiv.org/abs/2510.22681">Diversification as Risk Minimization</a> が <strong>WSDM 2026 Best Paper Award</strong> を受賞。</li>
-    <li><strong>Feb.2026</strong>: Hugging Face の ColBERT モデル <a href="https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-17m">mxbai-edge-colbert-v0-17m</a> と <a href="https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-32m">mxbai-edge-colbert-v0-32m</a> が合計 <strong>200万+ downloads</strong> を突破。</li>
+    <li><strong>Feb.2026</strong>: Hugging Face の ColBERT モデル <a href="https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-17m">mxbai-edge-colbert-v0-17m</a> と <a href="https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-32m">mxbai-edge-colbert-v0-32m</a> が合計 <strong>300万+ downloads</strong> を突破。</li>
     <li><strong>Jan.2026</strong>: 共同第一著者フルペーパー <a href="https://openreview.net/forum?id=g2cZaKmRrc&amp;referrer=%5Bthe%20profile%20of%20Rikiya%20Takehi%5D(%2Fprofile%3Fid%3D~Rikiya_Takehi1">Retention-Driven Two-Sided Matching</a> が <strong>ICLR 2026</strong> に採択。</li>
     <li><strong>Oct.2025</strong>: 第一著者フルペーパー <a href="https://arxiv.org/abs/2510.22681">Diversity as Risk Minimization</a> が <strong>WSDM 2026</strong> に採択。</li>
     <li><strong>Oct.2025</strong>: オープンソース ColBERT モデル <a href="https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-17m">mxbai-edge-colbert-v0-17m</a> と <a href="https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-32m">mxbai-edge-colbert-v0-32m</a> を公開。テックレポートは<a href="https://arxiv.org/abs/2510.14880">こちら</a>。</li>
@@ -240,7 +240,7 @@ author_profile: false
     <span class="pub-title">Fantastic (small) Retrievers and How to Train Them: mxbai-edge-colbert-v0 Tech Report.</span><br>
     <strong>武樋力哉 (Rikiya Takehi)</strong>, Benjamin Clavié, Sean Lee, Aamir Shakir. 2025.<br>
     <em>Tech Report</em>.<br>
-    <span class="download-highlight">Hugging Faceで200万+ downloads</span><br>
+    <span class="download-highlight">Hugging Faceで300万+ downloads</span><br>
     <a href="https://arxiv.org/abs/2510.14880">Tech Report</a> | <a href="https://www.mixedbread.com/blog/edge-v0">Blog</a> | <a href="https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-17m">17M ColBERT model</a> | <a href="https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-32M">32M ColBERT model</a>
   </li>
   <li class="pub-item">
@@ -278,8 +278,8 @@ author_profile: false
 
 <ul class="entry-list">
   <li class="entry">
-    <div class="entry__meta">Mar 2026 - Present · remote with CA and Taiwan</div>
-    <div class="entry__title">Research Intern, NVIDIA AI</div>
+    <div class="entry__meta">Mar 2026 - Aug 2026 · remote</div>
+    <div class="entry__title">Research Intern, NVIDIA Research</div>
   </li>
   <li class="entry">
     <div class="entry__meta">Aug 2025 - Feb 2026 · CA, USA</div>
@@ -303,6 +303,11 @@ author_profile: false
 
 <div class="achievement-list">
   <div class="achievement-card">
+    <div class="achievement__meta">2026–2027 · MIT</div>
+    <div class="achievement__title">MIT Distinguished Science and Engineering Fellowship</div>
+    <p>優れた学術・研究実績を有し、将来のさらなる活躍が期待される博士課程学生に授与されるフェローシップです。</p>
+  </div>
+  <div class="achievement-card">
     <div class="achievement__meta">Mar 2026 · Waseda University</div>
     <div class="achievement__title">早稲田大学 最高栄誉賞</div>
     <p>早稲田大学の<strong>小野梓賞</strong>の代表受賞者として卒業しました。大学院生を含む理工系学生<strong>1万人超の中から1名</strong>に選出されました（<strong>top 0.01%</strong>）。</p>
@@ -319,7 +324,7 @@ author_profile: false
   </div>
 </div>
 
-<h2 class="section-heading" id="talks">招待講演</h2>
+<h2 class="section-heading" id="talks">主な招待講演</h2>
 
 <ul class="entry-list">
   <li class="entry">
@@ -336,11 +341,6 @@ author_profile: false
     <div class="entry__meta">Jun 2025 · Invited by Prof. Charles Clarke (UWaterloo)</div>
     <div class="entry__title">EVIA 2025</div>
     <div class="entry__details"><em>Using LLMs as Assistants for Building Large Test Collections</em></div>
-  </li>
-  <li class="entry">
-    <div class="entry__meta">Nov 2024 · Invited by Prof. Noriko Kando (NII)</div>
-    <div class="entry__title">National Institute of Informatics</div>
-    <div class="entry__details"><em>Using LLMs as Assistants for Building Test Collections (Trends and Problems of Test Collections)</em></div>
   </li>
   <li class="entry">
     <div class="entry__meta">Aug 2024 · Invited by Prof. Douglas Oard (UMD)</div>

@@ -192,12 +192,12 @@ redirect_from:
 </style>
 
 <h1 class="hero-title">Rikiya Takehi</h1>
-<div class="hero-subtitle">now at NVIDIA AI, Incoming PhD Student at MIT EECS</div>
+<div class="hero-subtitle">PhD Student at MIT CSAIL</div>
 <img src="{{ '/images/IMG_5376 (1).jpeg' | prepend: site.baseurl }}" alt="Rikiya Takehi" class="about-photo">
 <p>I am interested in <strong>Machine Learning (ML)</strong>, <strong>Natural Language Processing (NLP)</strong>, and <strong>Information Retrieval (IR)</strong>. Now, I am especially interested in designing better LLMs / LLM Systems / LLM Agents.</p>
-<p>I recently received a B.Eng. from Waseda University, where I was supervised by <a href="http://sakailab.com/tetsuya/">Prof. Tetsuya Sakai</a>. I am currently a research intern at <a href="https://www.nvidia.com/en-us/ai/">NVIDIA AI</a> focusing on AI agents. Previously, I was a research intern at <a href="https://www.mixedbread.com/">Mixedbread</a>. Before that, I was a guest researcher at <a href="https://www.nist.gov/">NIST</a> working with <a href="https://www.nist.gov/people/ian-soboroff">Dr. Ian Soboroff</a> and <a href="https://www.nist.gov/people/ellen-m-voorhees">Dr. Ellen Voorhees</a>, and I have also collaborated with <a href="https://841.io/">Prof. Fernando Diaz</a> of CMU LTI on retrieval rankings.</p>
+<p>I am a first-year PhD student at MIT CSAIL, advised by <a href="https://omarkhattab.com/">Prof. Omar Khattab</a>. I recently received a B.Eng. from Waseda University, where I was supervised by <a href="http://sakailab.com/tetsuya/">Prof. Tetsuya Sakai</a>. Previously, I was a research intern at <a href="https://www.nvidia.com/en-us/ai/">NVIDIA Research</a>, focusing on AI agents. Before that, I was a guest researcher at <a href="https://www.nist.gov/">NIST</a> working with <a href="https://www.nist.gov/people/ian-soboroff">Dr. Ian Soboroff</a> and <a href="https://www.nist.gov/people/ellen-m-voorhees">Dr. Ellen Voorhees</a>, and I have also collaborated with <a href="https://841.io/">Prof. Fernando Diaz</a> of CMU LTI on retrieval rankings.</p>
 
-<p>I will go to MIT EECS CSAIL for PhD, and my first two years of graduate studies will be funded by the <a href="https://www.toyotariken.jp/overseas/">Toyota PhD Fellowship</a>.</p>
+<p>My first two years of graduate studies are funded by the <a href="https://www.toyotariken.jp/overseas/">Toyota PhD Fellowship</a>.</p>
 
 <div class="quick-links">
   <a href="{{ site.author.cv }}">CV</a><span class="divider">|</span>
@@ -213,9 +213,9 @@ redirect_from:
 <div class="news-box">
   <ul>
     <li><strong>Mar.2026</strong>: Graduated from Waseda University as the representative recipient of the <strong>Ono Azusa Award</strong>, Waseda University's <strong>highest honour award</strong>, selected as <strong>1 student out of 10,000+ science and engineering students</strong> including graduate students (<strong>top 0.01%</strong>).</li>
-    <li><strong>Mar.2026</strong>: Started a research internship at <a href="https://www.nvidia.com/en-us/ai/">NVIDIA AI</a>, focusing on AI agents.</li>
+    <li><strong>Mar.2026</strong>: Started a research internship at <a href="https://www.nvidia.com/en-us/ai/">NVIDIA Research</a>, focusing on AI agents.</li>
     <li><strong>Feb.2026</strong>: First-authored full paper <a href="https://arxiv.org/abs/2510.22681">Diversification as Risk Minimization</a> received the <strong>WSDM 2026 Best Paper Award</strong>.</li>
-    <li><strong>Feb.2026</strong>: Our Hugging Face ColBERT models <a href="https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-17m">mxbai-edge-colbert-v0-17m</a> and <a href="https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-32m">mxbai-edge-colbert-v0-32m</a> surpassed <strong>2M+ downloads</strong> in total.</li>
+    <li><strong>Feb.2026</strong>: Our Hugging Face ColBERT models <a href="https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-17m">mxbai-edge-colbert-v0-17m</a> and <a href="https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-32m">mxbai-edge-colbert-v0-32m</a> surpassed <strong>3M+ downloads</strong> in total.</li>
     <li><strong>Jan.2026</strong>: Co-first-authored full paper <a href="https://openreview.net/forum?id=g2cZaKmRrc&amp;referrer=%5Bthe%20profile%20of%20Rikiya%20Takehi%5D(%2Fprofile%3Fid%3D~Rikiya_Takehi1">Retention-Driven Two-Sided Matching</a> got accepted to <strong>ICLR 2026</strong>.</li>
     <li><strong>Oct.2025</strong>: First authored full paper <a href="https://arxiv.org/abs/2510.22681">Diversity as Risk Minimization</a> got accepted to <strong>WSDM 2026</strong>.</li>
     <li><strong>Oct.2025</strong>: Released two open-source ColBERT models <a href="https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-17m">mxbai-edge-colbert-v0-17m</a> and <a href="https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-32m">mxbai-edge-colbert-v0-32m</a>. Tech report <a href="https://arxiv.org/abs/2510.14880">here</a>.</li>
@@ -257,7 +257,7 @@ redirect_from:
     <span class="pub-title">Fantastic (small) Retrievers and How to Train Them: mxbai-edge-colbert-v0 Tech Report.</span><br>
     <strong>Rikiya Takehi</strong>, Benjamin Clavié, Sean Lee, Aamir Shakir. 2025.<br>
     <em>Tech Report</em>.<br>
-    <span class="download-highlight">2M+ downloads on Hugging Face</span><br>
+    <span class="download-highlight">3M+ downloads on Hugging Face</span><br>
     <a href="https://arxiv.org/abs/2510.14880">Tech Report</a> | <a href="https://www.mixedbread.com/blog/edge-v0">Blog</a> | <a href="https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-17m">17M ColBERT model</a> | <a href="https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-32M">32M ColBERT model</a>
   </li>
   <li class="pub-item">
@@ -295,8 +295,8 @@ redirect_from:
 
 <ul class="entry-list">
   <li class="entry">
-    <div class="entry__meta">Mar 2026 - Present · remote with US &amp; Taiwan</div>
-    <div class="entry__title">Research Intern, NVIDIA AI</div>
+    <div class="entry__meta">Mar 2026 - Aug 2026 · remote</div>
+    <div class="entry__title">Research Intern, NVIDIA Research</div>
   </li>
   <li class="entry">
     <div class="entry__meta">Aug 2025 - Feb 2026 · CA, USA</div>
@@ -320,6 +320,11 @@ redirect_from:
 
 <div class="achievement-list">
   <div class="achievement-card">
+    <div class="achievement__meta">2026–2027 · MIT</div>
+    <div class="achievement__title">MIT Distinguished Science and Engineering Fellowship</div>
+    <p>Awarded to PhD students with exemplary academic and research achievements and great promise for future accomplishments.</p>
+  </div>
+  <div class="achievement-card">
     <div class="achievement__meta">Mar 2026 · Waseda University</div>
     <div class="achievement__title">Waseda University Highest Honour Award</div>
     <p>Graduated as the representative recipient of the <strong>Ono Azusa Award</strong>, selected as <strong>1 student out of 10,000+ science and engineering students</strong> including graduate students (<strong>top 0.01%</strong>).</p>
@@ -336,7 +341,7 @@ redirect_from:
   </div>
 </div>
 
-<h2 class="section-heading" id="talks">Invited Talks</h2>
+<h2 class="section-heading" id="talks">Selected Invited Talks</h2>
 
 <ul class="entry-list">
   <li class="entry">
@@ -353,11 +358,6 @@ redirect_from:
     <div class="entry__meta">Jun 2025 · Invited by Prof. Charles Clarke (UWaterloo)</div>
     <div class="entry__title">EVIA 2025</div>
     <div class="entry__details"><em>Using LLMs as Assistants for Building Large Test Collections</em></div>
-  </li>
-  <li class="entry">
-    <div class="entry__meta">Nov 2024 · Invited by Prof. Noriko Kando (NII)</div>
-    <div class="entry__title">National Institute of Informatics</div>
-    <div class="entry__details"><em>Using LLMs as Assistants for Building Test Collections (Trends and Problems of Test Collections)</em></div>
   </li>
   <li class="entry">
     <div class="entry__meta">Aug 2024 · Invited by Prof. Douglas Oard (UMD)</div>

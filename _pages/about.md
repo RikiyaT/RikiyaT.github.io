@@ -194,10 +194,11 @@ redirect_from:
 <h1 class="hero-title">Rikiya Takehi</h1>
 <div class="hero-subtitle">PhD Student at MIT CSAIL</div>
 <img src="{{ '/images/IMG_5376 (1).jpeg' | prepend: site.baseurl }}" alt="Rikiya Takehi" class="about-photo">
-<p>I am interested in <strong>Machine Learning (ML)</strong>, <strong>Natural Language Processing (NLP)</strong>, and <strong>Information Retrieval (IR)</strong>. Now, I am especially interested in designing better LLMs / LLM Systems / LLM Agents.</p>
-<p>I am a first-year PhD student at MIT CSAIL, advised by <a href="https://omarkhattab.com/">Prof. Omar Khattab</a>. I recently received a B.Eng. from Waseda University, where I was supervised by <a href="http://sakailab.com/tetsuya/">Prof. Tetsuya Sakai</a>. Previously, I was a research intern at <a href="https://www.nvidia.com/en-us/ai/">NVIDIA Research</a>, focusing on AI agents. Before that, I was a guest researcher at <a href="https://www.nist.gov/">NIST</a> working with <a href="https://www.nist.gov/people/ian-soboroff">Dr. Ian Soboroff</a> and <a href="https://www.nist.gov/people/ellen-m-voorhees">Dr. Ellen Voorhees</a>, and I have also collaborated with <a href="https://841.io/">Prof. Fernando Diaz</a> of CMU LTI on retrieval rankings.</p>
+<p>I am a first-year PhD student at MIT CSAIL, advised by <a href="https://omarkhattab.com/">Prof. Omar Khattab</a>. I recently received a B.Eng. from Waseda University, where I was supervised by <a href="http://sakailab.com/tetsuya/">Prof. Tetsuya Sakai</a>. Previously, I was a research intern at <a href="https://www.nvidia.com/en-us/ai/">NVIDIA Research</a> and <a href="https://www.mixedbread.com/">Mixedbread</a>. Before that, I was a guest researcher at <a href="https://www.nist.gov/">NIST</a> working with <a href="https://www.nist.gov/people/ian-soboroff">Dr. Ian Soboroff</a> and <a href="https://www.nist.gov/people/ellen-m-voorhees">Dr. Ellen Voorhees</a>, and I have also collaborated with <a href="https://841.io/">Prof. Fernando Diaz</a> of CMU LTI on retrieval rankings.</p>
 
-<p>My first two years of graduate studies are funded by the <a href="https://www.toyotariken.jp/overseas/">Toyota PhD Fellowship</a>.</p>
+<p>My graduate studies are supported by the <a href="https://www.toyotariken.jp/overseas/">Toyota PhD Fellowship</a> and the MIT Distinguished Science and Engineering Fellowship.</p>
+
+<p>I am interested in <strong>Machine Learning (ML)</strong>, <strong>Natural Language Processing (NLP)</strong>, and <strong>Information Retrieval (IR)</strong>. Now, I am especially interested in designing better LLMs / LLM Systems / LLM Agents.</p>
 
 <div class="quick-links">
   <a href="{{ site.author.cv }}">CV</a><span class="divider">|</span>

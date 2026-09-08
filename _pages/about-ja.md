@@ -176,11 +176,11 @@ author_profile: false
 <div class="hero-subtitle">PhD Student at MIT CSAIL</div>
 <img src="{{ '/images/IMG_5376 (1).jpeg' | prepend: site.baseurl }}" alt="武樋力哉" class="about-photo">
 
-<p>MIT CSAILの博士課程1年目の武樋力哉です。<strong>早稲田大学情報理工学科</strong>を卒業し、在学中は<a href="http://sakailab.com/tetsuya/">酒井研究室</a>で研究活動を行っていました。直近の<a href="https://www.nvidia.com/en-us/ai/">NVIDIA Research</a>をはじめ、これまでに<a href="https://www.cyberagent.co.jp/en/service/ai/">サイバーエージェント</a>や<a href="https://www.hakuhodo-technologies.co.jp/">博報堂Tech</a>での研究インターンを経験したほか、<a href="https://www.nist.gov/">米国国立標準技術研究所（NIST）</a>では客員研究員として1年間、<a href="https://www.nist.gov/people/ian-soboroff">Dr. Ian Soboroff</a> &amp; <a href="https://www.nist.gov/people/ellen-m-voorhees">Dr. Ellen Voorhees</a>らと研究を行いました。</p>
+<p><strong>MIT CSAIL</strong>の博士課程1年目の武樋力哉です。早稲田大学情報理工学科を卒業し、在学中は<a href="http://sakailab.com/tetsuya/">酒井研究室</a>で研究活動を行っていました。直近の<a href="https://www.nvidia.com/en-us/ai/">NVIDIA Research</a>をはじめ、これまでに<a href="https://www.cyberagent.co.jp/en/service/ai/">サイバーエージェント</a>や<a href="https://www.hakuhodo-technologies.co.jp/">博報堂Tech</a>での研究インターンを経験したほか、<a href="https://www.nist.gov/">米国国立標準技術研究所（NIST）</a>では客員研究員として1年間、<a href="https://www.nist.gov/people/ian-soboroff">Dr. Ian Soboroff</a> &amp; <a href="https://www.nist.gov/people/ellen-m-voorhees">Dr. Ellen Voorhees</a>らと研究を行いました。</p>
 
 <p>興味のある研究領域は、<strong>機械学習（ML）</strong>、<strong>自然言語処理（NLP）</strong>、<strong>情報検索（IR）</strong>です。特に、<strong>LLM</strong>、<strong>LLM Systems</strong>、<strong>AI Agents</strong>に広く関心を持っています。</p>
 
-<p>大学院での最初の2年間は、<a href="https://www.toyotariken.jp/overseas/">豊田理研奨学金</a>に支援していただきます。</p>
+<p>大学院での研究は、<strong><a href="https://www.toyotariken.jp/overseas/">豊田理研奨学金</a></strong>と<strong>MIT Distinguished Science and Engineering Fellowship</strong>の支援を受けています。</p>
 
 <div class="quick-links">
   <a href="{{ site.author.cv }}">CV</a><span class="divider">|</span>

@@ -195,6 +195,9 @@ author_profile: false
 <div class="news-hint">scroll ↓</div>
 <div class="news-box">
   <ul>
+    <li><strong>Sep.2026</strong>: <a href="https://www.nvidia.com/en-us/ai/">NVIDIA Research</a>でのインターンシップの成果である第一著者論文 <a href="https://arxiv.org/abs/2610.03938">MLLMs Fail to Refuse when Using Tools Agentically</a> が <strong>NeurIPS 2026</strong>（Eval &amp; Data Track）に採択。</li>
+    <li><strong>Sep.2026</strong>: <a href="https://www.csail.mit.edu/">MIT CSAIL</a>にて<a href="https://omarkhattab.com/">Omar Khattab教授</a>のもとで博士課程を開始。</li>
+    <li><strong>Jul.2026</strong>: 北海道大学、IR Reading、NLPコロキウムで<strong>招待講演</strong>。</li>
     <li><strong>Mar.2026</strong>: 早稲田大学の<strong>最高栄誉賞</strong>である<strong>小野梓賞</strong>の代表受賞者に選ばれ、卒業しました。</li>
     <li><strong>Mar.2026</strong>: <a href="https://www.nvidia.com/en-us/ai/">NVIDIA Research</a>で研究インターンを開始。</li>
     <li><strong>Feb.2026</strong>: 主著フルペーパー <a href="https://arxiv.org/abs/2510.22681">Diversification as Risk Minimization</a> が <strong>WSDM 2026 Best Paper Award</strong> を受賞。</li>
@@ -224,6 +227,12 @@ author_profile: false
 
 <ol class="pub-list">
   <li class="pub-item">
+    <span class="pub-title">MLLMs Fail to Refuse when Using Tools Agentically</span><br>
+    <strong>武樋力哉 (Rikiya Takehi)</strong>, Ryo Hachiuma, Shaona Ghosh, Dan Zhao, Frank Wang, Yusuke Hirota. 2026.<br>
+    <em>NeurIPS 2026 Eval &amp; Data Track</em>（採択率: 26%）.<br>
+    <a href="https://arxiv.org/abs/2610.03938">arXiv</a>
+  </li>
+  <li class="pub-item">
     <span class="pub-title">Diversification as Risk Minimization</span><br>
     <strong>武樋力哉 (Rikiya Takehi)</strong>, Fernando Diaz, Tetsuya Sakai. 2025.<br>
     <em>WSDM 2026</em>.<br>
@@ -231,17 +240,17 @@ author_profile: false
     <a href="https://arxiv.org/abs/2510.22681">arXiv</a>
   </li>
   <li class="pub-item">
-    <span class="pub-title">Beyond Match Maximization and Fairness: Retention-Objectified Two-Sided Matching</span><br>
-    <strong>武樋力哉 (Rikiya Takehi)<sup>*</sup></strong>, Ren Kishimoto<sup>*</sup>, Koichi Tanaka, Masahiro Nomura, Riku Togashi, Yuta Saito. 2025.<br>
-    <em>ICLR 2026</em>.<br>
-    <a href="https://drive.google.com/file/d/1Mwhyv-396KMUGveR-Wr1BuhzOGeN_fep/view?usp=sharing">preprint</a>
-  </li>
-  <li class="pub-item">
     <span class="pub-title">Fantastic (small) Retrievers and How to Train Them: mxbai-edge-colbert-v0 Tech Report.</span><br>
     <strong>武樋力哉 (Rikiya Takehi)</strong>, Benjamin Clavié, Sean Lee, Aamir Shakir. 2025.<br>
     <em>Tech Report</em>.<br>
     <span class="download-highlight">Hugging Faceで300万+ downloads</span><br>
     <a href="https://arxiv.org/abs/2510.14880">Tech Report</a> | <a href="https://www.mixedbread.com/blog/edge-v0">Blog</a> | <a href="https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-17m">17M ColBERT model</a> | <a href="https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-32M">32M ColBERT model</a>
+  </li>
+  <li class="pub-item">
+    <span class="pub-title">Beyond Match Maximization and Fairness: Retention-Objectified Two-Sided Matching</span><br>
+    Ren Kishimoto<sup>*</sup>, <strong>武樋力哉 (Rikiya Takehi)<sup>*</sup></strong>, Koichi Tanaka, Masahiro Nomura, Riku Togashi, Yuta Saito. 2025.<br>
+    <em>ICLR 2026</em>.<br>
+    <a href="https://drive.google.com/file/d/1Mwhyv-396KMUGveR-Wr1BuhzOGeN_fep/view?usp=sharing">preprint</a>
   </li>
   <li class="pub-item">
     <span class="pub-title">General Framework for Off-Policy Learning with Partially-Observed Reward</span><br>

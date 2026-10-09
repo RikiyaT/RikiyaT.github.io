@@ -213,6 +213,9 @@ redirect_from:
 <div class="news-hint">scroll ↓</div>
 <div class="news-box">
   <ul>
+    <li><strong>Sep.2026</strong>: First-authored paper <a href="https://arxiv.org/abs/2610.03938">MLLMs Fail to Refuse when Using Tools Agentically</a>, from my internship at <a href="https://www.nvidia.com/en-us/ai/">NVIDIA Research</a>, got accepted to <strong>NeurIPS 2026</strong> (Eval &amp; Data Track).</li>
+    <li><strong>Sep.2026</strong>: Started my PhD at <a href="https://www.csail.mit.edu/">MIT CSAIL</a>, advised by <a href="https://omarkhattab.com/">Prof. Omar Khattab</a>.</li>
+    <li><strong>Jul.2026</strong>: Gave invited talks at Hokkaido University, IR Reading, and the NLP Colloquium.</li>
     <li><strong>Mar.2026</strong>: Graduated from Waseda University as the representative recipient of the <strong>Ono Azusa Award</strong>, Waseda University's <strong>highest honour award</strong>, selected as <strong>1 student out of 10,000+ science and engineering students</strong> including graduate students (<strong>top 0.01%</strong>).</li>
     <li><strong>Mar.2026</strong>: Started a research internship at <a href="https://www.nvidia.com/en-us/ai/">NVIDIA Research</a>, focusing on AI agents.</li>
     <li><strong>Feb.2026</strong>: First-authored full paper <a href="https://arxiv.org/abs/2510.22681">Diversification as Risk Minimization</a> received the <strong>WSDM 2026 Best Paper Award</strong>.</li>
@@ -242,6 +245,12 @@ redirect_from:
 
 <ol class="pub-list">
   <li class="pub-item">
+    <span class="pub-title">MLLMs Fail to Refuse when Using Tools Agentically</span><br>
+    <strong>Rikiya Takehi</strong>, Ryo Hachiuma, Shaona Ghosh, Dan Zhao, Frank Wang, Yusuke Hirota. 2026.<br>
+    <em>NeurIPS 2026 Eval &amp; Data Track</em> (acceptance rate: 26%).<br>
+    <a href="https://arxiv.org/abs/2610.03938">arXiv</a>
+  </li>
+  <li class="pub-item">
     <span class="pub-title">Diversification as Risk Minimization</span><br>
     <strong>Rikiya Takehi</strong>, Fernando Diaz, Tetsuya Sakai. 2025.<br>
     <em>WSDM 2026</em>.<br>
@@ -249,17 +258,17 @@ redirect_from:
     <a href="https://arxiv.org/abs/2510.22681">arXiv</a>
   </li>
   <li class="pub-item">
-    <span class="pub-title">Beyond Match Maximization and Fairness: Retention-Objectified Two-Sided Matching</span><br>
-    <strong>Rikiya Takehi<sup>*</sup></strong>, Ren Kishimoto<sup>*</sup>, Koichi Tanaka, Masahiro Nomura, Riku Togashi, Yuta Saito. 2025.<br>
-    <em>ICLR 2026</em>.<br>
-    <a href="https://drive.google.com/file/d/1Mwhyv-396KMUGveR-Wr1BuhzOGeN_fep/view?usp=sharing">preprint</a>
-  </li>
-  <li class="pub-item">
     <span class="pub-title">Fantastic (small) Retrievers and How to Train Them: mxbai-edge-colbert-v0 Tech Report.</span><br>
     <strong>Rikiya Takehi</strong>, Benjamin Clavié, Sean Lee, Aamir Shakir. 2025.<br>
     <em>Tech Report</em>.<br>
     <span class="download-highlight">3M+ downloads on Hugging Face</span><br>
     <a href="https://arxiv.org/abs/2510.14880">Tech Report</a> | <a href="https://www.mixedbread.com/blog/edge-v0">Blog</a> | <a href="https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-17m">17M ColBERT model</a> | <a href="https://huggingface.co/mixedbread-ai/mxbai-edge-colbert-v0-32M">32M ColBERT model</a>
+  </li>
+  <li class="pub-item">
+    <span class="pub-title">Beyond Match Maximization and Fairness: Retention-Objectified Two-Sided Matching</span><br>
+    Ren Kishimoto<sup>*</sup>, <strong>Rikiya Takehi<sup>*</sup></strong>, Koichi Tanaka, Masahiro Nomura, Riku Togashi, Yuta Saito. 2025.<br>
+    <em>ICLR 2026</em>.<br>
+    <a href="https://drive.google.com/file/d/1Mwhyv-396KMUGveR-Wr1BuhzOGeN_fep/view?usp=sharing">preprint</a>
   </li>
   <li class="pub-item">
     <span class="pub-title">General Framework for Off-Policy Learning with Partially-Observed Reward</span><br>

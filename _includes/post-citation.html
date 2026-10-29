@@ -1,11 +1,11 @@
 {% comment %}
   How to cite a blog post, after its article: a line of text and a BibTeX entry, each with a copy button. The title,
-  authors (first names first), date and BibTeX key are the page's front matter. The Distill template puts its
-  footnotes and references after this, in the same <d-appendix>.
+  authors (their names, first names first), date and BibTeX key are the page's front matter. The Distill template puts
+  its footnotes and references after this, in the same <d-appendix>.
 {% endcomment %}
 {%- capture bib_authors -%}
   {%- for author in page.authors -%}
-    {%- assign names = author | split: " " -%}
+    {%- assign names = author.name | split: " " -%}
     {{ names | last }}, {{ names | pop | join: " " }}{% unless forloop.last %} and {% endunless %}
   {%- endfor -%}
 {%- endcapture -%}
@@ -59,7 +59,7 @@
   <h3 id="citation">Citation</h3>
   <p>Please cite this post as</p>
   <div class="post-cite__box post-cite__box--text">
-    <pre>{{ page.authors | array_to_sentence_string | escape }}. “{{ page.title | escape }}.” {{ page.date | date: "%B %Y" }}. {{ cite_url }}</pre>
+    <pre>{{ page.authors | map: "name" | array_to_sentence_string | escape }}. “{{ page.title | escape }}.” {{ page.date | date: "%B %Y" }}. {{ cite_url }}</pre>
     <button type="button">Copy</button>
   </div>
   <p>or in BibTeX</p>

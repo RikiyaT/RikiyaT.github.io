@@ -69,6 +69,10 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
+    - "https://scholar.google.com/citations?user=9rS9VIYAAAAJ"
+    - "https://github.com/RikiyaT"
+    - "https://twitter.com/rikiyatakehi"
+    - "https://www.linkedin.com/in/rikiya-takehi-76342026b/"
 
 
 # Analytics
@@ -131,6 +135,7 @@ exclude:
   - .jekyll-assets-cache
   - .sass-cache
   - CHANGELOG
+  - CONTRIBUTING.md
   - Capfile
   - Gemfile
   - Gruntfile.js
@@ -143,6 +148,7 @@ exclude:
   - config
   - gulpfile.js
   - log
+  - markdown_generator
   - node_modules
   - package.json
   - tmp

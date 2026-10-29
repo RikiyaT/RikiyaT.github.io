@@ -195,6 +195,7 @@ author_profile: false
 <div class="news-hint">scroll ↓</div>
 <div class="news-box">
   <ul>
+    <li><strong>Oct.2026</strong>: Jayden Teohとの共同第一著者ブログ記事 <a href="/blog/weight-space-programming/">Sparks of Weight-Space Programming: LLMs can understand and write neural network weights</a>（Alex Zhang、<a href="https://omarkhattab.com/">Omar Khattab教授</a>と共著）を公開。</li>
     <li><strong>Sep.2026</strong>: <a href="https://www.nvidia.com/en-us/ai/">NVIDIA Research</a>でのインターンシップの成果である第一著者論文 <a href="https://arxiv.org/abs/2610.03938">MLLMs Fail to Refuse when Using Tools Agentically</a> が <strong>NeurIPS 2026</strong>（Eval &amp; Data Track）に採択。</li>
     <li><strong>Sep.2026</strong>: <a href="https://www.csail.mit.edu/">MIT CSAIL</a>にて<a href="https://omarkhattab.com/">Omar Khattab教授</a>のもとで博士課程を開始。</li>
     <li><strong>Jul.2026</strong>: 北海道大学、IR Reading、NLPコロキウムで<strong>招待講演</strong>。</li>

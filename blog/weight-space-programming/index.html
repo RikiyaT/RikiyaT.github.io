@@ -1,11 +1,27 @@
 ---
-# Copied from github.com/RikiyaT/lm_understand at ab798d0 (index.html, with a few <head> tags added).
-# Jekyll adds only the site's masthead and the citation, from the title, authors and date below (read off the
-# page); everything in {% raw %} is served as it is.
+# Copied from github.com/RikiyaT/lm_understand at ab798d0 (index.html, with a few <head> tags added and the
+# title's kicker moved into its <h1>). Jekyll adds only the site's masthead, the citation and the tags search
+# engines read, from the values below: the title, authors and date are read off the page, last_modified_at is
+# the date of that commit, the rest is set by the import. Everything in {% raw %} is served as it is.
 layout: null
 title: "Sparks of Weight-Space Programming: LLMs can understand and write neural network weights"
-authors: ["Rikiya Takehi", "Jayden Teoh", "Alex Zhang", "Omar Khattab"]
+description: "From the weights alone, GPT-6 Astra tells what a network was trained on. Without any training, it writes networks that beat PPO in zero-shot, and by editing 0.016% of Qwen3.5-0.8B’s weights it raises MATH-500 from 7.9% to 48.1%."
+authors:
+  - name: "Rikiya Takehi"
+    url: "https://rikiyat.github.io"
+    affiliation: "MIT"
+  - name: "Jayden Teoh"
+    url: "https://jaydenteoh.github.io/"
+    affiliation: "MIT"
+  - name: "Alex Zhang"
+    url: "https://alexzhang13.github.io/"
+    affiliation: "MIT"
+  - name: "Omar Khattab"
+    url: "https://omarkhattab.com/"
+    affiliation: "MIT"
 date: 2026-10-29
+last_modified_at: 2026-10-29
+image: /images/blog/weight-space-programming.png
 bibtex_key: takehi2026weightspace
 ---
 {% raw %}<!DOCTYPE html>
@@ -38,7 +54,7 @@ bibtex_key: takehi2026weightspace
 
     <!-- Link preview (X, Slack, etc.). og:image must be an absolute URL. -->
     <meta property="og:type" content="article">
-    <meta property="og:title" content="LLMs can understand and write neural network weights">
+    <meta property="og:title" content="Sparks of Weight-Space Programming: LLMs can understand and write neural network weights">
     <meta property="og:description" content="From the weights alone, GPT-6 Astra tells what a network was trained on. Without any training, it writes networks that beat PPO in zero-shot, and by editing 0.016% of Qwen3.5-0.8B’s weights it raises MATH-500 from 7.9% to 48.1%.">
     <meta property="og:url" content="https://rikiyat.github.io/blog/weight-space-programming/">
     <meta property="og:image" content="https://rikiyat.github.io/images/blog/weight-space-programming.png">
@@ -60,6 +76,18 @@ bibtex_key: takehi2026weightspace
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
     <link rel="stylesheet" href="css/style.css">
+    <!-- The title's kicker is part of the <h1> on this site; this gives it the look of the <p> it is in the source -->
+    <style>
+        d-title h1 .title-kicker {
+            display: block;
+            margin: 0 0 6px;
+            font-size: 21px;
+            font-weight: 300;
+            line-height: 1.4;
+            letter-spacing: normal;
+            color: #555555;
+        }
+    </style>
     <!-- Our prompts and Astra's reasoning (js/traces.js) -->
     <script src="js/traces.js"></script>
     <!-- The math-editing figures (js/mathedit.js) -->
@@ -99,8 +127,8 @@ bibtex_key: takehi2026weightspace
     </script>
     <!-- Citations: [n] in the page's ink, one small card per number (js/cites.js) -->
     <script src="js/cites.js"></script>
-    <!-- Citation tags for Google Scholar and reference managers (_includes/post-citation-meta.html) -->
-    {% endraw %}{% include post-citation-meta.html %}{% raw %}
+    <!-- What Google Search, Google Scholar and reference managers read (_includes/post-head.html) -->
+    {% endraw %}{% include post-head.html %}{% raw %}
 </head>
 
 
@@ -123,8 +151,7 @@ bibtex_key: takehi2026weightspace
 
 <!-- ===== Header ===== -->
 <d-title>
-    <p class="title-kicker">Sparks of Weight-Space Programming:</p>
-    <h1>LLMs can understand and write neural network weights</h1>
+    <h1><span class="title-kicker">Sparks of Weight-Space Programming:</span> LLMs can understand and write neural network weights</h1>
 </d-title>
 
 <div class="base-grid post-byline">

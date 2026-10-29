@@ -26,16 +26,32 @@
             {% endif %}
             <li class="masthead__menu-item"><a href="{{ nav_target }}">{{ link.title }}</a></li>
           {% endfor %}
-          {% if site.language_switch %}
-            {% if url_head == '/ja/' %}
-              <li class="masthead__menu-item"><a href="{{ site.baseurl }}/">English</a></li>
-            {% else %}
-              <li class="masthead__menu-item"><a href="{{ site.baseurl }}/ja/">日本語</a></li>
-            {% endif %}
-          {% endif %}
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
+      <!-- The other language, folded behind a globe at the right; outside #site-nav so the greedy nav leaves it alone -->
+      <details class="masthead__lang">
+        <summary aria-label="Language" title="Language">
+          <svg viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9.5"/><path d="M2.5 12h19M12 2.5c2.6 2.6 3.9 5.8 3.9 9.5s-1.3 6.9-3.9 9.5M12 2.5C9.4 5.1 8.1 8.3 8.1 12s1.3 6.9 3.9 9.5"/></svg>
+        </summary>
+        <ul class="masthead__lang-menu">
+          {% if url_head == '/ja/' %}
+            <li><a href="{{ site.baseurl }}/" lang="en">English</a></li>
+          {% else %}
+            <li><a href="{{ site.baseurl }}/ja/" lang="ja">日本語</a></li>
+          {% endif %}
+        </ul>
+      </details>
+      <script>
+        document.addEventListener("click", function (e) {
+          var lang = document.querySelector(".masthead__lang[open]");
+          if (lang && !lang.contains(e.target)) lang.removeAttribute("open");
+        });
+        document.addEventListener("keydown", function (e) {
+          var lang = document.querySelector(".masthead__lang[open]");
+          if (lang && e.key === "Escape") lang.removeAttribute("open");
+        });
+      </script>
     </div>
   </div>
 </div>

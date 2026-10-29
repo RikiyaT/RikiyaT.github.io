@@ -27,6 +27,14 @@
 @media (min-width: 1280px) {
   .masthead__inner-wrap { max-width: 1280px; }
 }
+.masthead__menu {
+  display: flex;
+  align-items: center;
+}
+.masthead__menu #site-nav {
+  flex: 1 1 0;
+  min-width: 0;
+}
 .masthead ul {
   margin: 0;
   padding: 0;
@@ -88,6 +96,71 @@
 }
 .masthead__menu-item a[href$="/blog/"] {
   color: #598BE7;
+}
+.masthead__lang {
+  position: relative;
+  flex: none;
+  margin-left: 1em;
+}
+.masthead__lang summary {
+  display: block;
+  padding: 0.5em 0;
+  color: #7a8288;
+  list-style: none;
+  cursor: pointer;
+}
+.masthead__lang summary::-webkit-details-marker {
+  display: none;
+}
+.masthead__lang summary:hover {
+  color: #5c6266;
+}
+.masthead__lang summary svg {
+  display: block;
+}
+.masthead__lang .masthead__lang-menu {
+  position: absolute;
+  top: 100%;
+  right: -11px;
+  margin-top: 15px;
+  padding: 5px;
+  border: 1px solid #f2f3f3;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+}
+.masthead__lang .masthead__lang-menu::before,
+.masthead__lang .masthead__lang-menu::after {
+  content: "";
+  position: absolute;
+  right: 10px;
+  width: 0;
+  border-style: solid;
+  border-width: 0 10px 10px;
+}
+.masthead__lang .masthead__lang-menu::before {
+  top: -11px;
+  border-color: #f2f3f3 transparent;
+}
+.masthead__lang .masthead__lang-menu::after {
+  top: -10px;
+  border-color: #fff transparent;
+}
+.masthead__lang .masthead__lang-menu li {
+  margin: 0;
+}
+.masthead__lang .masthead__lang-menu a {
+  display: block;
+  padding: 10px 20px;
+  border: none;
+  color: #7a8288;
+  font-size: 1em;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.masthead__lang .masthead__lang-menu a:hover {
+  color: #5c6266;
+  background: #dee0e1;
 }
 </style>
 {% include masthead.html %}

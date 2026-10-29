@@ -1,7 +1,12 @@
 ---
 # Copied from github.com/RikiyaT/lm_understand at ab798d0 (index.html, with a few <head> tags added).
-# Jekyll adds only the site's masthead; everything in {% raw %} is served as it is.
+# Jekyll adds only the site's masthead and the citation, from the title, authors and date below (read off the
+# page); everything in {% raw %} is served as it is.
 layout: null
+title: "Sparks of Weight-Space Programming: LLMs can understand and write neural network weights"
+authors: ["Rikiya Takehi", "Jayden Teoh", "Alex Zhang", "Omar Khattab"]
+date: 2026-10-29
+bibtex_key: takehi2026weightspace
 ---
 {% raw %}<!DOCTYPE html>
 <html lang="en">
@@ -94,6 +99,8 @@ layout: null
     </script>
     <!-- Citations: [n] in the page's ink, one small card per number (js/cites.js) -->
     <script src="js/cites.js"></script>
+    <!-- Citation tags for Google Scholar and reference managers (_includes/post-citation-meta.html) -->
+    {% endraw %}{% include post-citation-meta.html %}{% raw %}
 </head>
 
 
@@ -591,6 +598,7 @@ layout: null
 
 </d-article>
 
+{% endraw %}{% include post-citation.html %}{% raw %}
 <!-- ===== References: cite with <d-cite key="..."></d-cite>. The page shows [n], with the entry on hover, and lists them
      at the end. Add an entry here (BibTeX) for each new citation. ===== -->
 <d-bibliography>

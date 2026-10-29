@@ -1,0 +1,99 @@
+{% comment %}
+  How to cite a blog post, after its article: a line of text and a BibTeX entry, each with a copy button. The title,
+  authors (first names first), date and BibTeX key are the page's front matter. The Distill template puts its
+  footnotes and references after this, in the same <d-appendix>.
+{% endcomment %}
+{%- capture bib_authors -%}
+  {%- for author in page.authors -%}
+    {%- assign names = author | split: " " -%}
+    {{ names | last }}, {{ names | pop | join: " " }}{% unless forloop.last %} and {% endunless %}
+  {%- endfor -%}
+{%- endcapture -%}
+{%- assign cite_url = site.url | append: page.url -%}
+{%- assign lb = "{" -%}
+{%- assign rb = "}" -%}
+<style>
+.post-cite p {
+  margin: 8px 0 6px;
+}
+.post-cite__box {
+  position: relative;
+  margin: 0 0 14px;
+}
+.post-cite__box pre {
+  margin: 0;
+  padding: 10px 64px 10px 14px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  background: #f7f8fa;
+  color: #222222;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 12px;
+  line-height: 1.6;
+  white-space: pre-wrap;        /* long lines wrap on screen; a copy keeps them whole */
+  overflow-wrap: anywhere;
+}
+.post-cite__box--text pre {
+  font-family: inherit;
+  font-size: 13.5px;
+}
+.post-cite__box button {
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  padding: 2px 8px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  background: #fff;
+  color: #555555;
+  font: inherit;
+  font-size: 12px;
+  cursor: pointer;
+}
+.post-cite__box button:hover {
+  border-color: #598BE7;
+  color: #598BE7;
+}
+</style>
+<d-appendix class="post-cite">
+  <h3 id="citation">Citation</h3>
+  <p>Please cite this post as</p>
+  <div class="post-cite__box post-cite__box--text">
+    <pre>{{ page.authors | array_to_sentence_string | escape }}. “{{ page.title | escape }}.” {{ page.date | date: "%B %Y" }}. {{ cite_url }}</pre>
+    <button type="button">Copy</button>
+  </div>
+  <p>or in BibTeX</p>
+  <div class="post-cite__box">
+    <pre>@misc{{ lb }}{{ page.bibtex_key }},
+  title        = {{ lb }}{{ lb }}{{ page.title | escape }}{{ rb }}{{ rb }},
+  author       = {{ lb }}{{ bib_authors | escape }}{{ rb }},
+  year         = {{ lb }}{{ page.date | date: "%Y" }}{{ rb }},
+  month        = {{ page.date | date: "%b" | downcase }},
+  howpublished = {{ lb }}\url{{ lb }}{{ cite_url }}{{ rb }}{{ rb }},
+  note         = {{ lb }}Blog post{{ rb }}
+{{ rb }}</pre>
+    <button type="button">Copy</button>
+  </div>
+</d-appendix>
+<script>
+  // Copy the box's text. Where the clipboard API is refused (an embedded page, say), select the text and copy the
+  // selection; if that fails too, the text stays selected for Cmd/Ctrl+C.
+  document.querySelectorAll(".post-cite__box button").forEach((button) => {
+    button.addEventListener("click", () => {
+      const pre = button.parentNode.querySelector("pre");
+      const copied = () => {
+        button.textContent = "Copied";
+        setTimeout(() => { button.textContent = "Copy"; }, 1500);
+      };
+      Promise.resolve()
+        .then(() => navigator.clipboard.writeText(pre.textContent))
+        .then(copied, () => {
+          getSelection().selectAllChildren(pre);
+          if (document.execCommand("copy")) {
+            getSelection().removeAllRanges();
+            copied();
+          }
+        });
+    });
+  });
+</script>

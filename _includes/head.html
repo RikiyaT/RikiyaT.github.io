@@ -6,9 +6,11 @@
 
 {% include analytics.html %}
 
+{% if page.url == "/" or page.url == "/ja/" %}
 <link rel="alternate" hreflang="en" href="https://rikiyat.github.io/" />
 <link rel="alternate" hreflang="ja" href="https://rikiyat.github.io/ja/" />
 <link rel="alternate" hreflang="x-default" href="https://rikiyat.github.io/" />
+{% endif %}
 
 <link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
 

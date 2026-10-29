@@ -4,6 +4,8 @@ main:
     url: "#news"
   - title: "Publications"
     url: "#publications"
+  - title: "Blog"
+    url: "/blog/"
   - title: "Experience"
     url: "#experience"
   - title: "CV"

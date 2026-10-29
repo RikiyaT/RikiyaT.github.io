@@ -1,0 +1,166 @@
+---
+permalink: /blog/
+seo_title: "Blog - Rikiya Takehi"
+excerpt: "Blog"
+author_profile: false
+---
+
+<style>
+.page__content {
+  font-size: 0.95rem;
+  line-height: 1.65;
+}
+.page__content a {
+  color: #598BE7;
+  text-decoration: none;
+}
+.masthead__menu-item a[href$="/blog/"] {
+  color: #598BE7;
+}
+.page__content .blog-intro {
+  margin: 0.4rem 0 1.4rem;
+}
+.blog-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.blog-card {
+  position: relative;
+  display: grid;
+  grid-template-columns: 38% minmax(0, 1fr);
+  margin: 0;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+.blog-card:hover {
+  border-color: rgba(89, 139, 231, 0.45);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
+}
+.blog-card--no-figure {
+  grid-template-columns: minmax(0, 1fr);
+}
+.blog-card__figure {
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px;
+  background: #f3f6fc;
+}
+.blog-card__figure img {
+  display: block;
+  width: 100%;
+  max-height: 200px;
+  object-fit: contain;
+}
+.blog-card__copy {
+  display: flex;
+  flex-direction: column;
+  padding: 16px 18px 17px;
+}
+.blog-card__top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+}
+.page__content .blog-card__meta {
+  margin: 0;
+  font-size: 0.8rem;
+  color: #828282;
+}
+.blog-card__links {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  gap: 6px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 0.75rem;
+}
+.blog-card__links li {
+  margin: 0;
+}
+.blog-card__links a {
+  padding: 1px 8px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 999px;
+  color: #333;
+}
+.page__content .blog-card__title {
+  margin: 0.35rem 0 0.45rem;
+  padding: 0;
+  border: none;
+  font-size: 1.15rem;
+  font-weight: 700;
+  line-height: 1.35;
+}
+.page__content .blog-card__title a {
+  color: #222;
+}
+.blog-card__title a::after {           /* the whole card opens the post */
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+.page__content .blog-card:hover .blog-card__title a {
+  color: #598BE7;
+}
+.page__content .blog-card__teaser {
+  margin: 0;
+  font-size: 0.92rem;
+  line-height: 1.55;
+}
+@media (max-width: 700px) {
+  .blog-card {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+</style>
+
+<h1 class="hero-title">Blog</h1>
+
+<p class="blog-intro">Thoughts and notes on research.</p>
+
+<ul class="blog-list">
+  {% for post in site.data.blog %}
+    {% if post.url contains '://' %}
+      {% assign post_url = post.url %}
+    {% else %}
+      {% assign post_url = post.url | prepend: site.baseurl %}
+    {% endif %}
+    <li class="blog-card{% unless post.image %} blog-card--no-figure{% endunless %}">
+      {% if post.image %}
+        <div class="blog-card__figure">
+          <img src="{{ post.image | prepend: site.baseurl }}" alt="" loading="lazy">
+        </div>
+      {% endif %}
+      <div class="blog-card__copy">
+        <div class="blog-card__top">
+          <p class="blog-card__meta">
+            {{ post.date }}{% if post.read_time %}&nbsp;·&nbsp;{{ post.read_time }}{% endif %}
+          </p>
+          {% if post.links %}
+            <ul class="blog-card__links">
+              {% for link in post.links %}
+                <li><a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }}</a></li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+        </div>
+        <h2 class="blog-card__title"><a href="{{ post_url }}">{{ post.title }}</a></h2>
+        {% if post.teaser %}
+          <p class="blog-card__teaser">{{ post.teaser }}</p>
+        {% endif %}
+      </div>
+    </li>
+  {% endfor %}
+</ul>

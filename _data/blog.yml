@@ -1,0 +1,13 @@
+# Posts listed on /blog/ (_pages/blog.html), newest first.
+#   url:       where the post lives (a path on this site, or a full URL)
+#   date:      shown as written
+#   image:     thumbnail on the card's left (optional; images/blog/)
+#   links:     small links at the card's top right (optional), e.g. {label: code, url: https://github.com/...}
+- title: "Sparks of Weight-Space Programming: LLMs can understand and write neural network weights"
+  url: /blog/weight-space-programming/
+  date: October 2026
+  read_time: 20 min read
+  teaser: >-
+    From the weights alone, GPT-6 Astra tells what a network was trained on.
+    Without any training, it writes networks that beat PPO in zero-shot, and by editing 0.016% of Qwen3.5-0.8B’s weights it raises MATH-500 from 7.9% to 48.1%.
+  image: /images/blog/weight-space-programming.png

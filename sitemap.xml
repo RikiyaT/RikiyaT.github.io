@@ -10,4 +10,10 @@ permalink: /sitemap.xml
   <url>
     <loc>https://rikiyat.github.io/ja/</loc>
   </url>
+  <url>
+    <loc>https://rikiyat.github.io/blog/</loc>
+  </url>
+  <url>
+    <loc>https://rikiyat.github.io/blog/weight-space-programming/</loc>
+  </url>
 </urlset>

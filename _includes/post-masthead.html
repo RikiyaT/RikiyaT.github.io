@@ -1,0 +1,93 @@
+{% comment %}
+  The site's masthead on a page that does not load the theme's CSS: the blog posts under blog/, which keep their own
+  (Distill) styles. The markup is masthead.html's, so the links and the language switch follow the rest of the site;
+  the look is the theme's (_masthead.scss, _navigation.scss) written out. The theme folds links into a menu on narrow
+  screens with its JS, which these pages do not load, so here the row of links scrolls sideways instead.
+{% endcomment %}
+<style>
+.masthead {
+  position: relative;
+  z-index: 20;
+  border-bottom: 1px solid #f2f3f3;
+  background: #fff;
+  font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-font-smoothing: auto;  /* the post's own CSS sets antialiased, the theme does not */
+}
+@media (min-width: 768px) {
+  .masthead { font-size: 18px; }
+}
+.masthead__inner-wrap {
+  box-sizing: border-box;
+  max-width: 925px;
+  margin: 0 auto;
+  padding: 1em;
+}
+@media (min-width: 1280px) {
+  .masthead__inner-wrap { max-width: 1280px; }
+}
+.masthead ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.greedy-nav button,
+.greedy-nav .hidden-links {
+  display: none;
+}
+.greedy-nav .visible-links {
+  display: flex;
+  align-items: center;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.greedy-nav .visible-links::-webkit-scrollbar {
+  display: none;
+}
+.masthead__menu-item {
+  flex: none;
+  margin: 0;
+  white-space: nowrap;
+}
+.masthead__menu-item--lg {
+  padding-right: 2em;
+  font-weight: 700;
+}
+.greedy-nav a {
+  position: relative;
+  display: block;
+  margin: 0 1em;
+  padding: 0.5em 0;
+  border: none;
+  color: #7a8288;
+  text-decoration: none;
+}
+.greedy-nav a:hover {
+  color: #5c6266;
+}
+.masthead__menu-item:first-child a {
+  margin-left: 0;
+}
+.masthead__menu-item:last-child a {
+  margin-right: 0;
+}
+.greedy-nav a::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 4px;
+  background: #bdc1c4;
+  transform: scaleX(0);
+  transition: all 0.2s ease-in-out;
+}
+.greedy-nav a:hover::before {
+  transform: scaleX(1);
+}
+.masthead__menu-item a[href$="/blog/"] {
+  color: #598BE7;
+}
+</style>
+{% include masthead.html %}

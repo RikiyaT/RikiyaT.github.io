@@ -1,4 +1,9 @@
-<!DOCTYPE html>
+---
+# Copied from github.com/RikiyaT/lm_understand at ab798d0 (index.html, with a few <head> tags added).
+# Jekyll adds only the site's masthead; everything in {% raw %} is served as it is.
+layout: null
+---
+{% raw %}<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -94,7 +99,7 @@
 
 
 <body>
-<d-front-matter>
+{% endraw %}{% include post-masthead.html %}{% raw %}<d-front-matter>
     <script type="text/json">
     {
         "title": "Sparks of Weight-Space Programming: LLMs can understand and write neural network weights",
@@ -558,7 +563,7 @@
             In this blog, we demonstrated the rising capability of LLMs to read and write neural network weights (i.e., the rising concept of Weight-Space Programming). We believe this marks the beginning of a dramatic shift in fields like mechanistic interpretability and neural network optimization.
         </p>
         <p>
-            LLMs now function as a translator between human language and the weight space. This opens up radical and controversial new possibilities. Here are some examples:
+            This opens up radical and controversial new possibilities for LLMs to function as a translator between human language and the weight space. Here are some examples:
         </p>
         <ul>
             <li><b>Auditing without evaluation:</b> This may allow us to uncover hidden problems or capabilities without ever running inference or benchmarks. Currently, capabilities and vulnerabilities can only be detected if we have test sets designed for them, or worse, after deployment in the real world. If LLMs can interpret weight space accurately, we could identify such issues directly from the weights (e.g., backdoors).</li>
@@ -914,3 +919,4 @@
 
 </body>
 </html>
+{% endraw %}

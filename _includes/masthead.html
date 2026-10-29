@@ -26,10 +26,12 @@
             {% endif %}
             <li class="masthead__menu-item"><a href="{{ nav_target }}">{{ link.title }}</a></li>
           {% endfor %}
-          {% if url_head == '/ja/' %}
-            <li class="masthead__menu-item"><a href="{{ site.baseurl }}/">English</a></li>
-          {% else %}
-            <li class="masthead__menu-item"><a href="{{ site.baseurl }}/ja/">日本語</a></li>
+          {% if site.language_switch %}
+            {% if url_head == '/ja/' %}
+              <li class="masthead__menu-item"><a href="{{ site.baseurl }}/">English</a></li>
+            {% else %}
+              <li class="masthead__menu-item"><a href="{{ site.baseurl }}/ja/">日本語</a></li>
+            {% endif %}
           {% endif %}
         </ul>
         <ul class="hidden-links hidden"></ul>

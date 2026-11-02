@@ -213,7 +213,7 @@ redirect_from:
 <div class="news-hint">scroll ↓</div>
 <div class="news-box">
   <ul>
-    <li><strong>Oct.2026</strong>: New blog post <a href="/blog/weight-space-programming/">Sparks of Weight-Space Programming: LLMs can understand and write neural network weights</a>, co-first-authored with Jayden Teoh, with Alex Zhang and <a href="https://omarkhattab.com/">Prof. Omar Khattab</a>.</li>
+    <li><strong>Nov.2026</strong>: New blog post <a href="/blog/weight-space-programming/">Sparks of Weight-Space Programming: LLMs can natively read &amp; write neural network weights</a>, co-first-authored with Jayden Teoh, with Alex Zhang and <a href="https://omarkhattab.com/">Prof. Omar Khattab</a>.</li>
     <li><strong>Sep.2026</strong>: First-authored paper <a href="https://arxiv.org/abs/2610.03938">MLLMs Fail to Refuse when Using Tools Agentically</a>, from my internship at <a href="https://www.nvidia.com/en-us/ai/">NVIDIA Research</a>, got accepted to <strong>NeurIPS 2026</strong> (Eval &amp; Data Track).</li>
     <li><strong>Sep.2026</strong>: Started my PhD at <a href="https://www.csail.mit.edu/">MIT CSAIL</a>, advised by <a href="https://omarkhattab.com/">Prof. Omar Khattab</a>.</li>
     <li><strong>Jul.2026</strong>: Gave invited talks at Hokkaido University, IR Reading, and the NLP Colloquium.</li>

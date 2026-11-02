@@ -14,7 +14,7 @@
 //     the x axis, the turns between two forward passes side by side.
 (() => {
   const NS = "http://www.w3.org/2000/svg";
-  const BLUE = "#2f6bd8", ORANGE = "#c25a00", GREY = "#8b929b", RED = "#d93a4b", INK = "#333333";
+  const GREEN = "#118659", ORANGE = "#c25a00", GREY = "#8b929b", RED = "#d93a4b", INK = "#333333";
   const GRID = "#e6e8eb", AXIS = "#b9bec6";
   const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 
@@ -37,9 +37,9 @@
     // drawn at the width it is shown at, so that its text is the page's size; drawn again when that width changes.
     // One benchmark is in front (MATH-500, or the one pointed at): thicker, its scores written at its points, a wash
     // under it; the lines draw themselves the first time the figure is on screen.
-    const color = (b) => (b.group === "math" ? BLUE : ORANGE);
+    const color = (b) => (b.group === "math" ? GREEN : ORANGE);
     const DEFAULT = 0;                                           // MATH-500
-    root.innerHTML = `<div class="me-legend"><span class="me-key" style="--c:${BLUE}"></span>math benchmarks
+    root.innerHTML = `<div class="me-legend"><span class="me-key" style="--c:${GREEN}"></span>math benchmarks
       <span class="me-key" style="--c:${ORANGE}"></span>other benchmarks</div><div class="me-box"></div>`;
     const box = root.querySelector(".me-box");
     let drawnAt = 0, drawn = false, focusOn = null;
@@ -56,7 +56,7 @@
       const s = svg("svg", { viewBox: `0 0 ${W} ${H}`, width: W, height: H, class: "me-svg", role: "img",
         "aria-label": "Accuracy on eight benchmarks for the base model and the edits made with 10, 25 and 50 forward passes." }, box);
       const defs = svg("defs", {}, s);
-      for (const [id, c] of [["me-wash-math", BLUE], ["me-wash-other", ORANGE]]) {
+      for (const [id, c] of [["me-wash-math", GREEN], ["me-wash-other", ORANGE]]) {
         const g = svg("linearGradient", { id, x1: 0, x2: 0, y1: 0, y2: 1 }, defs);
         svg("stop", { offset: "0%", "stop-color": c, "stop-opacity": 0.16 }, g);
         svg("stop", { offset: "100%", "stop-color": c, "stop-opacity": 0 }, g);
@@ -239,7 +239,7 @@
         <button type="button" class="tp-btn me-play"></button>
         <button type="button" class="tp-btn me-restart" aria-label="Start again">↻</button>
         <span class="me-pos"></span>
-        <span class="me-legend"><span class="me-item"><span class="me-key" style="--c:${BLUE}"></span>edited (Astra’s current edit)</span>
+        <span class="me-legend"><span class="me-item"><span class="me-key" style="--c:${GREEN}"></span>edited (Astra’s current edit)</span>
           <span class="me-item"><span class="me-key" style="--c:${GREY}"></span>original</span>
           <span class="me-item"><span class="me-tick"></span>weights changed</span></span>
       </div>
@@ -331,7 +331,7 @@
         for (const [part, op] of [[shown.filter((m) => m[0] <= i), 0.12], [shown.filter((m) => m[0] >= lastSeen(i)), 0.05]]) {
           const pp = part.filter((m) => m[2] != null && m[3] != null);
           if (pp.length > 1) svg("path", { d: `M${pp.map((m) => `${m[1]},${Y(m[3])}`).join(" L")} L${pp.slice().reverse()
-            .map((m) => `${m[1]},${Y(m[2])}`).join(" L")} Z`, fill: BLUE, opacity: op }, band);
+            .map((m) => `${m[1]},${Y(m[2])}`).join(" L")} Z`, fill: GREEN, opacity: op }, band);
         }
         const now = meas.find((m) => m[0] === lastSeen(i));
         if (now) {                                       // the latest scores, beside their points
@@ -342,7 +342,7 @@
           if (e != null) at(e, o != null && e - o < 6 ? -8 : 5, true);
           if (o != null) at(o, e != null && e - o < 6 ? 18 : 5, false);
         }
-        for (const [col, key] of [[GREY, 2], [BLUE, 3]]) {
+        for (const [col, key] of [[GREY, 2], [GREEN, 3]]) {
           for (const [part, op] of [[shown.filter((m) => m[0] <= i), 1], [shown.filter((m) => m[0] >= lastSeen(i)), 0.3]]) {
             const pts = part.filter((m) => m[key] != null).map((m) => `${m[1]},${Y(m[key])}`);
             if (pts.length > 1) svg("polyline", { points: pts.join(" "), fill: "none", stroke: col, "stroke-width": 2,
@@ -350,7 +350,7 @@
           }
         }
         for (const m of shown) {
-          for (const [col, key] of [[GREY, 2], [BLUE, 3]]) {
+          for (const [col, key] of [[GREY, 2], [GREEN, 3]]) {
             if (m[key] == null) continue;
             svg("circle", { cx: m[1], cy: Y(m[key]), r: m[0] === i ? 6 : 4, fill: col, stroke: "#ffffff", "stroke-width": 1.5,
               opacity: m[0] <= i ? 1 : 0.3 }, dots);

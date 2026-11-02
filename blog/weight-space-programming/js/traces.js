@@ -184,7 +184,7 @@
       else if ("pre" in p) {
         const lines = p.pre.split("\n");
         const img = final && drawing(p.pre);              // a drawing after the final answer: as an image
-        if (img) beside.push(`${pixels(img, "#2f6bd8", "tp-drawn")}<div class="tp-cap">Astra&rsquo;s drawing</div>`);
+        if (img) beside.push(`${pixels(img, "#118659", "tp-drawn")}<div class="tp-cap">Astra&rsquo;s drawing</div>`);
         else if (p.title && lines.length > 10)            // the weights Astra wrote: its answer, folded in a line
           answer_.push(`<details class="tp-fold"><summary><b>${esc(p.title)}</b> &middot; ${lines.length} lines</summary>${pre(lines)}</details>`);
         else if (lines.length > 10)                       // a long block: folded in a line

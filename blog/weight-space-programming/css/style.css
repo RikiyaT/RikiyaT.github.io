@@ -1,15 +1,15 @@
 /* The page is laid out by the Distill template (https://distill.pub/template.v2.js): the title block, the grid, wide
    figures, footnotes. This file gives it the look of the original blog template: Source Sans 3, light headings,
-   blue accents. The page is one column, a little wider than Distill's text, and every figure stays inside it
+   green accents. The page is one column, a little wider than Distill's text, and every figure stays inside it
    (l-body, l-body-outset, l-page and l-screen are all the text's width). */
 
 :root {
   --text: #333333;
-  --accent: #598be7;        /* links, boxes */
-  --accent-hover: #9bb9f1;
-  --accent-bg: #dee8fa;
-  --title-bg: #f4f7fd;      /* the band behind the title */
-  --blue: #2f6bd8;          /* text colors that match the figures: blue = the LLM */
+  --accent: #2e996a;        /* boxes */
+  --accent-hover: #8fc8a9;
+  --accent-bg: #dbece2;
+  --title-bg: #f3f9f5;      /* the band behind the title */
+  --green: #118659;         /* links, and text colors that match the figures: green = the LLM */
   --red: #d93a4b;
   --rule: rgba(0, 0, 0, 0.1);
 
@@ -85,12 +85,18 @@ d-article code {
   border-radius: 4px;
 }
 
-/* Links: blue, no underline (Distill draws a grey underline). */
+/* Links: green. In the text, a thin light-green underline (Distill draws a grey one), so a link is not told by its
+   color alone. The author names have none. */
 d-article a,
 .post-byline a {
-  color: var(--accent);
+  color: var(--green);
   border-bottom: none;
   text-decoration: none;
+}
+
+d-article a {
+  text-decoration: underline 1px var(--accent-hover);
+  text-underline-offset: 3px;
 }
 
 d-article a:hover,
@@ -118,8 +124,9 @@ d-title p {
   color: #555555;
 }
 
-d-title .title-kicker {             /* "Sparks of Weight Space Programming:", small, above the title */
+d-title .title-kicker {             /* "Sparks of Weight Space Programming:", above the title */
   margin: 0 0 6px;
+  font-size: 26px;
 }
 
 /* The template adds its own byline from <d-front-matter> ("Not published yet", "No DOI yet"); the page writes its own. */
@@ -195,7 +202,7 @@ d-article h3 {
   color: var(--text);
 }
 
-/* An experiment's title: its number in blue, then the question as a heading */
+/* An experiment's title: its number in green, then the question as a heading */
 d-article .exp-head {
   margin: 44px 0 14px;
 }
@@ -205,7 +212,7 @@ d-article .exp-head {
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 0.02em;
-  color: var(--blue);
+  color: var(--green);
 }
 
 d-article .exp-head h3 {
@@ -303,9 +310,9 @@ figcaption.label {
 
 details.trace {
   margin: 4px 0 24px;
-  border: 1px solid #dfe6f3;
+  border: 1px solid #dde9e2;
   border-radius: 10px;
-  background-color: #fafbfe;
+  background-color: #f9fcfa;
 }
 
 details.trace > summary {
@@ -378,7 +385,7 @@ details.trace > summary:hover {
 
 /* ---------- Text colors that match the figures ---------- */
 
-.text-blue { color: var(--blue); }
+.text-green { color: var(--green); }
 .text-red { color: var(--red); }
 
 /* ---------- Text still to be written: <span class="tbd">TBD</span> (remove before publishing) ---------- */
@@ -453,7 +460,7 @@ d-article figure .game-row.pixel img {   /* grid games drawn cell by cell */
 
 /* ---------- Our prompts and Astra's reasoning (js/traces.js): <div class="taskpages" data-src="..."> ----------
    One tab per network (underlined tabs), then one compact card: the network's animation at the left; what we ask, in a
-   monospace font as Astra got it; and what Astra answers, its final answer first. Square corners. Blue = Astra, as in
+   monospace font as Astra got it; and what Astra answers, its final answer first. Square corners. Green = Astra, as in
    the figures: its final answer, and where it reads the weights (its quotes and what it makes of them, and the same
    weights in the prompt). */
 
@@ -520,7 +527,7 @@ d-article figure .game-row.pixel img {   /* grid games drawn cell by cell */
 
 .tp-tab[aria-selected="true"] {
   color: #222222;
-  border-bottom-color: var(--blue);
+  border-bottom-color: var(--green);
 }
 
 .tp-card {                          /* one network: animation | what we ask, what Astra answers */
@@ -655,7 +662,7 @@ d-article figure .game-row.pixel img {   /* grid games drawn cell by cell */
 }
 
 .tp-fold > summary b {
-  color: var(--blue);
+  color: var(--green);
 }
 
 .tp-fold[open] > summary {
@@ -667,7 +674,7 @@ d-article figure .game-row.pixel img {   /* grid games drawn cell by cell */
   margin: 0;
   overflow-y: auto;
   scrollbar-width: thin;
-  scrollbar-color: #9cb6e6 transparent;
+  scrollbar-color: #92c2a8 transparent;
 }
 
 .tp-side {
@@ -729,10 +736,10 @@ d-article figure .game-row.pixel img {   /* grid games drawn cell by cell */
   padding: 9px 14px;
 }
 
-/* the three parts of a card: the Prompt (a message to Astra), the Answer (Astra's, on a pale blue band) and the
+/* the three parts of a card: the Prompt (a message to Astra), the Answer (Astra's, on a pale green band) and the
    Reasoning, each with its label */
 .tp-a.tp-sec {
-  background-color: #f4f7fd;
+  background-color: #f3f9f5;
   border-bottom: 1px solid #e1e4e8;
 }
 
@@ -756,11 +763,11 @@ d-article figure .game-row.pixel img {   /* grid games drawn cell by cell */
 }
 
 .tp-chip-a {
-  color: var(--blue);
+  color: var(--green);
 }
 
 .tp-chip-r {
-  color: #1d4ba6;
+  color: #03623f;
 }
 
 .tp-rhead {
@@ -784,7 +791,7 @@ d-article figure .game-row.pixel img {   /* grid games drawn cell by cell */
   padding: 4px 0;
   font-size: 15px;
   font-weight: 600;
-  color: var(--blue);
+  color: var(--green);
   list-style: none;
   cursor: pointer;
 }
@@ -843,7 +850,7 @@ d-article figure .game-row.pixel img {   /* grid games drawn cell by cell */
 }
 
 .tp-a > .tp-lab {
-  color: var(--blue);
+  color: var(--green);
 }
 
 .tp-meta {
@@ -872,14 +879,14 @@ d-article figure .game-row.pixel img {   /* grid games drawn cell by cell */
   padding: 3px 10px;
   font-size: 14px;
   font-weight: 600;
-  color: var(--blue);
+  color: var(--green);
   background-color: #ffffff;
-  border: 1.5px solid var(--blue);
+  border: 1.5px solid var(--green);
   border-radius: 3px;
 }
 
 .tp-btn:hover {
-  background-color: #eef3fc;
+  background-color: #edf5f0;
 }
 
 .tp-link {                          /* see the weights Astra quotes, read all of its reasoning */
@@ -887,7 +894,7 @@ d-article figure .game-row.pixel img {   /* grid games drawn cell by cell */
   padding: 0;
   font-size: 13.5px;
   font-weight: 600;
-  color: var(--blue);
+  color: var(--green);
   background: none;
   border: 0;
 }
@@ -900,13 +907,13 @@ d-article figure .game-row.pixel img {   /* grid games drawn cell by cell */
   padding: 0 3px;
   font-weight: 700;
   color: var(--text);
-  background-color: #b9d0f8;
+  background-color: #b2dac4;
 }
 
 .taskpages mark.tp-read {           /* where Astra reads the weights */
   padding: 0 2px;
   font-weight: inherit;
-  background-color: #d2e1fb;
+  background-color: #cee7d9;
 }
 
 .tp-pbody.open {                    /* the whole prompt scrolls inside the card */
@@ -940,10 +947,10 @@ d-article figure .game-row.pixel img {   /* grid games drawn cell by cell */
   background-color: #e6e8eb;
 }
 
-.tp-wline {                         /* a line of weights that Astra quotes, on a pale blue band */
+.tp-wline {                         /* a line of weights that Astra quotes, on a pale green band */
   margin: 6px 0;
   padding: 4px 8px;
-  background-color: #eef3fc;
+  background-color: #edf5f0;
   border-radius: 4px;
 }
 
@@ -1135,7 +1142,7 @@ d-article figure .game-row.pixel img {   /* grid games drawn cell by cell */
   font-size: 14px;
   line-height: 1.45;
   list-style: none;
-  background: linear-gradient(#c9d8f6, #c9d8f6) 5px 0 / 2px 100% no-repeat local;   /* the line, inside the box */
+  background: linear-gradient(#c3e0cf, #c3e0cf) 5px 0 / 2px 100% no-repeat local;   /* the line, inside the box */
 }
 
 .tp-rbody:not(.open) .tp-steps {   /* the summary scrolls: about four steps in view, a fade while more is below */
@@ -1143,7 +1150,7 @@ d-article figure .game-row.pixel img {   /* grid games drawn cell by cell */
   overflow-y: auto;
   overscroll-behavior: contain;
   scrollbar-width: thin;
-  scrollbar-color: #9cb6e6 transparent;
+  scrollbar-color: #92c2a8 transparent;
 }
 
 .tp-rbody:not(.open) .tp-steps.fits {
@@ -1168,22 +1175,22 @@ d-article figure .game-row.pixel img {   /* grid games drawn cell by cell */
   width: 6px;
   height: 6px;
   background-color: #ffffff;
-  border: 2px solid var(--blue);
+  border: 2px solid var(--green);
   border-radius: 50%;
 }
 
 .tp-steps li.tp-reads::before {     /* a step that reads the weights */
-  background-color: var(--blue);
+  background-color: var(--green);
 }
 
 .tp-slab {                          /* "Channel 0 — agent:", "Outputs:" */
   font-weight: 700;
-  color: #1d4ba6;
+  color: #03623f;
 }
 
 .tp-steps b {                       /* the terms the reasoning turns on, as Astra set them in bold */
   font-weight: 700;
-  background: linear-gradient(transparent 58%, #a9c6f6 58%);
+  background: linear-gradient(transparent 58%, #a1d2b7 58%);
 }
 
 .tp-num {                           /* a number it quotes from the weights */
@@ -1206,7 +1213,7 @@ d-article figure .game-row.pixel img {   /* grid games drawn cell by cell */
 }
 
 .tp-reply .tp-key {                 /* a key sentence, marked in the whole reply (the diffusion models) */
-  background-color: #e6eefc;
+  background-color: #e4f1ea;
 }
 
 .tp-thinking {
@@ -1234,7 +1241,7 @@ d-article figure .game-row.pixel img {   /* grid games drawn cell by cell */
 .tp-h {
   margin: 10px 0 4px;
   font-weight: 700;
-  color: var(--blue);
+  color: var(--green);
 }
 
 .tp-reply > .tp-h:first-child {
@@ -1293,11 +1300,11 @@ d-article figure .game-row.pixel img {   /* grid games drawn cell by cell */
   padding: 3px 11px;
   font-size: 14px;
   font-weight: 600;
-  color: var(--blue);
+  color: var(--green);
   cursor: pointer;
   list-style: none;
   background-color: #ffffff;
-  border: 1.5px solid var(--blue);
+  border: 1.5px solid var(--green);
 }
 
 .fig-setup > summary::-webkit-details-marker {
@@ -1318,17 +1325,17 @@ d-article figure .game-row.pixel img {   /* grid games drawn cell by cell */
   text-align: center;
   color: #ffffff;
   vertical-align: 1px;
-  background-color: var(--blue);
+  background-color: var(--green);
   border-radius: 50%;
 }
 
 .fig-setup[open] > summary {
   color: #ffffff;
-  background-color: var(--blue);
+  background-color: var(--green);
 }
 
 .fig-setup[open] > summary::before {
-  color: var(--blue);
+  color: var(--green);
   background-color: #ffffff;
 }
 
@@ -1384,8 +1391,8 @@ d-article figure .game-row.pixel img {   /* grid games drawn cell by cell */
 }
 
 /* ---------- The math-editing figures (js/mathedit.js) ----------
-   Benchmarks: one line per benchmark, blue for math and orange for the others, the pointed one in front with its
-   scores. A run: its practice accuracy drawn as it goes (grey = original weights, blue = Astra's current edit), a tick
+   Benchmarks: one line per benchmark, green for math and orange for the others, the pointed one in front with its
+   scores. A run: its practice accuracy drawn as it goes (grey = original weights, green = Astra's current edit), a tick
    for every turn under it (red = changed the weights), and beside it that turn: what it did in a line, then what Astra
    wrote, cut to three lines until "more" is pressed; under it, the list of the run's edits. */
 
@@ -1585,14 +1592,14 @@ d-article figure .game-row.pixel img {   /* grid games drawn cell by cell */
 .me-tabs .tp-tab[aria-selected="true"] {
   color: #222222;
   background: none;
-  border-bottom-color: var(--blue);
+  border-bottom-color: var(--green);
 }
 
 .me-head {
   font-size: 19px;
   font-weight: 700;
   line-height: 1.3;
-  color: var(--blue);
+  color: var(--green);
 }
 
 .me-tag {
@@ -1661,7 +1668,7 @@ d-article figure .game-row.pixel img {   /* grid games drawn cell by cell */
   padding: 0;
   font: inherit;
   font-weight: 600;
-  color: var(--blue);
+  color: var(--green);
   cursor: pointer;
   background: none;
   border: 0;
@@ -1707,7 +1714,7 @@ d-article figure .game-row.pixel img {   /* grid games drawn cell by cell */
 .me-h {
   margin: 8px 0 4px;
   font-weight: 700;
-  color: var(--blue);
+  color: var(--green);
 }
 
 .me-final p,
@@ -1747,7 +1754,7 @@ body d-appendix h3 {
 }
 
 body d-appendix a {
-  color: var(--blue);
+  color: var(--green);
 }
 
 d-citation-list .references li {
@@ -1756,7 +1763,7 @@ d-citation-list .references li {
 
 /* ---------- TL;DR and the teaser at the top (js/teaser.js) ----------
    Three panels, read, fix and improve, each: what is asked, the network before (its weights, the car stuck, the
-   base score), what Astra does (blue), and what comes out. On a phone they stack. */
+   base score), what Astra does (green), and what comes out. On a phone they stack. */
 
 .tldr {                             /* a pale panel in the title band's colour, its label above the text */
   margin: 4px 0 26px;
@@ -1764,7 +1771,7 @@ d-citation-list .references li {
   font-size: 17px;
   line-height: 1.6;
   background-color: var(--title-bg);
-  border: 1px solid #dfe6f3;
+  border: 1px solid #dde9e2;
   border-radius: 10px;
 }
 
@@ -1885,8 +1892,8 @@ d-citation-list .references li {
 
 .tz-wall mark {                     /* a number Astra quotes */
   padding: 0 2px;
-  color: #10306f;
-  background-color: #b9d0f8;
+  color: #024028;
+  background-color: #b2dac4;
 }
 
 @keyframes tz-scroll {
@@ -1936,7 +1943,7 @@ d-citation-list .references li {
 }
 
 .tz-bar-after {
-  background-color: var(--blue);
+  background-color: var(--green);
 }
 
 .tz-v {
@@ -1964,7 +1971,7 @@ d-citation-list .references li {
   margin: 10px 0 8px;
   font-size: 14px;
   font-weight: 600;
-  color: #1d4ba6;
+  color: #03623f;
 }
 
 .tz-out {                           /* what comes out */
@@ -2037,7 +2044,7 @@ d-citation-list .references li {
 }
 
 .cite-card a {
-  color: #1d4ba6;
+  color: #03623f;
   text-decoration: none;
 }
 

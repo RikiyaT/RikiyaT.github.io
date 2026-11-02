@@ -12,7 +12,7 @@
 // the small chart stops it at the turn there, and leaving it plays on. Another run pointed at shows whole, paused.
 (() => {
   const NS = "http://www.w3.org/2000/svg";
-  const BLUE = "#2f6bd8", LIGHT = "#7ea3e8", ORANGE = "#c25a00", INK = "#333333", GRID = "#e6e8eb", AXIS = "#b9bec6";
+  const GREEN = "#118659", LIGHT = "#6cb690", ORANGE = "#c25a00", INK = "#333333", GRID = "#e6e8eb", AXIS = "#b9bec6";
   const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
   const GREY = "#8b929b", RED = "#d93a4b";
   const TAG = { edit: "changed the weights", python: "Python", games: "forward pass (games)", positions: "forward pass (positions)",
@@ -75,7 +75,7 @@
     const plays = b.passes > 0 && steps.length > 2;
     el.innerHTML = `<div class="gh-ptitle">${name(b)}${plays ? ' <button type="button" class="tp-btn gh-play"></button>' : ""}</div>
       ${plays ? `<div class="gh-plot"></div><div class="gh-pkey">
-        <span class="me-item"><span class="me-key" style="--c:${BLUE}"></span>won in practice vs. PPO, by forward passes used</span>
+        <span class="me-item"><span class="me-key" style="--c:${GREEN}"></span>won in practice vs. PPO, by forward passes used</span>
         <span class="me-item"><span class="me-tick"></span>weights changed</span></div>`
         : `<div class="gh-pline">${used}</div>`}
       <div class="gh-turn"></div>`;
@@ -122,7 +122,7 @@
         cursor.setAttribute("x1", x); cursor.setAttribute("x2", x);
         ticks.forEach((el2, k) => el2.setAttribute("opacity", k <= i || explore ? 1 : 0.35));
         lines.replaceChildren(); dots.replaceChildren(); vals.replaceChildren();
-        for (const [o, col] of [["strong", BLUE]]) {
+        for (const [o, col] of [["strong", GREEN]]) {
           const seen = meas[o].filter((m) => m[0] <= i), later = meas[o].filter((m) => m[0] >= (seen.length ? seen[seen.length - 1][0] : 0));
           for (const [part, op] of [[seen, 1], [explore ? later : [], 0.3]]) {
             if (part.length > 1) svg("polyline", { points: part.map((m) => `${m[1]},${m[2]}`).join(" "), fill: "none", stroke: col,
@@ -173,7 +173,7 @@
   function build(root, data) {
     const B = data.budgets, DEFAULT = B.length - 1;
     root.innerHTML = `<div class="gh-legend"><span class="gh-lhead">Wins against</span>
-        <span class="me-key" style="--c:${BLUE}"></span>Small PPO, seed 0
+        <span class="me-key" style="--c:${GREEN}"></span>Small PPO, seed 0
         <span class="me-key" style="--c:${LIGHT}"></span>seed 2
         <span class="me-key" style="--c:${ORANGE}"></span>PPO as large as Astra&rsquo;s (512 &times; 6)</div>
       <div class="gh-box"></div><div class="gh-panel"></div>`;
@@ -190,7 +190,7 @@
       box.replaceChildren();
       const s = svg("svg", { viewBox: `0 0 ${W} ${H}`, width: W, height: H, class: "gh-svg", role: "img",
         "aria-label": "Share of games won by the network Astra wrote, for 0 to 50 forward passes, against three PPO networks." }, box);
-      const col = svg("rect", { y: M.t, height: H - M.t - M.b, width: 44, rx: 4, fill: "#eef3fc" }, s);
+      const col = svg("rect", { y: M.t, height: H - M.t - M.b, width: 44, rx: 4, fill: "#edf5f0" }, s);
       for (const v of [0, 25, 50, 75, 100]) {
         svg("line", { x1: M.l, x2: W - M.r + 10, y1: Y(v), y2: Y(v), stroke: v === 50 ? "#7c848e" : v ? GRID : AXIS,
           "stroke-dasharray": v === 50 ? "5 4" : "none" }, s);
@@ -201,7 +201,7 @@
         { "text-anchor": "middle", "font-weight": b.passes ? 400 : 600 }));
       label(s, (X(0) + X(B.length - 1)) / 2, H - 6, "forward passes Astra could use", { "text-anchor": "middle", "font-weight": 600 });
 
-      const lines = [["ppo_s0", BLUE], ["ppo_s2", LIGHT]].map(([k, c]) => {
+      const lines = [["ppo_s0", GREEN], ["ppo_s2", LIGHT]].map(([k, c]) => {
         const pts = B.map((b, i) => [X(i), Y(b[k])]);
         svg("polyline", { points: pts.map((p) => p.join(",")).join(" "), fill: "none", stroke: c, "stroke-width": 2.5,
           "stroke-linejoin": "round" }, s);
@@ -222,12 +222,12 @@
         on = i;
         col.setAttribute("x", X(i) - 22);
         marks.replaceChildren();
-        const b = B[i], vals = [[b.ppo_s0, BLUE], [b.ppo_s2, LIGHT]];
+        const b = B[i], vals = [[b.ppo_s0, GREEN], [b.ppo_s2, LIGHT]];
         if (b.same_size) vals.push([mean(b.same_size), ORANGE]);
         const at = vals.map(([v, c]) => ({ v, c, y: Y(v) })).sort((a, c) => a.y - c.y);
         for (let k = 1; k < at.length; k++) at[k].y = Math.max(at[k].y, at[k - 1].y + 16);   // kept apart
         at.forEach(({ v, c, y }) => label(marks, X(i) + 10, y + 5, v.toFixed(1),
-          { "font-weight": 700, fill: c === LIGHT ? "#2a5bb8" : c, class: "me-halo" }));
+          { "font-weight": 700, fill: c === LIGHT ? "#0a734b" : c, class: "me-halo" }));
         if (shown !== i) {                               // the run in front, in the panel
           if (current) current.stop();
           current = player(side, b, first && i === DEFAULT);

@@ -2,9 +2,9 @@
 // them in the page's ink, and gives each number its own small card on hover (or tap), in place of the template's wide
 // box that lists every reference of a group at once.
 (() => {
-  const INK = ".citation, .citation-number { color: #1d4ba6; } " +
+  const INK = ".citation, .citation-number { color: #03623f; } " +
     ".citation-number { font-family: inherit; font-size: 85%; font-weight: 600; } d-hover-box { display: none !important; } " +
-    ".cn { cursor: pointer; border-radius: 2px; } .cn:hover, .cn.on { background: #d2e1fb; }";
+    ".cn { cursor: pointer; border-radius: 2px; } .cn:hover, .cn.on { background: #cee7d9; }";
   const esc = (s) => String(s || "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 
   let card = null, hideTimer = null, current = null;

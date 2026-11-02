@@ -1,7 +1,8 @@
 {% comment %}
   How to cite a blog post, after its article: a line of text and a BibTeX entry, each with a copy button. The title,
-  authors (their names, first names first), date and BibTeX key are the page's front matter. The Distill template puts
-  its footnotes and references after this, in the same <d-appendix>.
+  authors (their names, first names first), date and BibTeX key are the page's front matter; in the BibTeX title an &
+  becomes \&, which LaTeX prints as &. The Distill template puts its footnotes and references after this, in the same
+  <d-appendix>.
 {% endcomment %}
 {%- capture bib_authors -%}
   {%- for author in page.authors -%}
@@ -50,9 +51,9 @@
   font-size: 12px;
   cursor: pointer;
 }
-.post-cite__box button:hover {
-  border-color: #598BE7;
-  color: #598BE7;
+.post-cite__box button:hover {          /* the post's link color, if it has one */
+  border-color: var(--green, #598BE7);
+  color: var(--green, #598BE7);
 }
 </style>
 <d-appendix class="post-cite">
@@ -65,7 +66,7 @@
   <p>or in BibTeX</p>
   <div class="post-cite__box">
     <pre>@misc{{ lb }}{{ page.bibtex_key }},
-  title        = {{ lb }}{{ lb }}{{ page.title | escape }}{{ rb }}{{ rb }},
+  title        = {{ lb }}{{ lb }}{{ page.title | split: "&" | join: "\&" | escape }}{{ rb }}{{ rb }},
   author       = {{ lb }}{{ bib_authors | escape }}{{ rb }},
   year         = {{ lb }}{{ page.date | date: "%Y" }}{{ rb }},
   month        = {{ page.date | date: "%b" | downcase }},

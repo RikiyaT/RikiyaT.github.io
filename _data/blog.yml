@@ -3,11 +3,11 @@
 #   date:      shown as written
 #   image:     thumbnail on the card's left (optional; images/blog/)
 #   links:     small links at the card's top right (optional), e.g. {label: code, url: https://github.com/...}
-- title: "Sparks of Weight-Space Programming: LLMs can understand and write neural network weights"
+- title: "Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights"
   url: /blog/weight-space-programming/
-  date: October 2026
+  date: November 2026
   read_time: 20 min read
   teaser: >-
-    From the weights alone, GPT-6 Astra tells what a network was trained on.
-    Without any training, it writes networks that beat PPO in zero-shot, and by editing 0.016% of Qwen3.5-0.8B’s weights it raises MATH-500 from 7.9% to 48.1%.
+    We find that frontier LLMs are surprisingly good at natively reading and writing neural network weights,
+    well past what we’d expect from humans or conventional algorithms.
   image: /images/blog/weight-space-programming.png

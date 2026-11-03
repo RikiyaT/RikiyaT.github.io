@@ -1,12 +1,12 @@
 ---
-# Copied from github.com/RikiyaT/lm_understand at 3c82736 (index.html, with a few <head> tags added and the
+# Copied from github.com/RikiyaT/lm_understand at 112390e (index.html, with a few <head> tags added and the
 # title's kicker moved into its <h1>). Jekyll adds only the site's masthead, the citation and the tags search
 # engines read, from the values below: the title, description, authors and date are read off the page,
 # last_modified_at is the date of that commit, the rest is set by the import. Everything in {% raw %} is
 # served as it is.
 layout: null
 title: "Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights"
-description: "We find that frontier LLMs are surprisingly good at natively reading and writing neural network weights, well past what we’d expect from humans or conventional algorithms."
+description: "We find that frontier LLMs are surprisingly good at natively reading and writing neural network weights, using a variety of recent tools and algorithms or even via direct weight editing."
 authors:
   - name: "Rikiya Takehi"
     url: "https://rikiyat.github.io"
@@ -51,12 +51,12 @@ bibtex_key: takehi2026weightspace
     <script src="https://distill.pub/template.v2.js"></script>
 
     <title>Sparks of Weight-Space Programming: LLMs can natively read &amp; write neural network weights</title>
-    <meta name="description" content="We find that frontier LLMs are surprisingly good at natively reading and writing neural network weights, well past what we’d expect from humans or conventional algorithms.">
+    <meta name="description" content="We find that frontier LLMs are surprisingly good at natively reading and writing neural network weights, using a variety of recent tools and algorithms or even via direct weight editing.">
 
     <!-- Link preview (X, Slack, etc.). og:image must be an absolute URL. -->
     <meta property="og:type" content="article">
     <meta property="og:title" content="Sparks of Weight-Space Programming: LLMs can natively read &amp; write neural network weights">
-    <meta property="og:description" content="We find that frontier LLMs are surprisingly good at natively reading and writing neural network weights, well past what we’d expect from humans or conventional algorithms.">
+    <meta property="og:description" content="We find that frontier LLMs are surprisingly good at natively reading and writing neural network weights, using a variety of recent tools and algorithms or even via direct weight editing.">
     <meta property="og:url" content="https://rikiyat.github.io/blog/weight-space-programming/">
     <meta property="og:image" content="https://rikiyat.github.io/images/blog/weight-space-programming.png">
     <link rel="canonical" href="https://rikiyat.github.io/blog/weight-space-programming/">
@@ -139,7 +139,7 @@ bibtex_key: takehi2026weightspace
     <script type="text/json">
     {
         "title": "Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights",
-        "description": "We find that frontier LLMs are surprisingly good at natively reading and writing neural network weights, well past what we’d expect from humans or conventional algorithms.",
+        "description": "We find that frontier LLMs are surprisingly good at natively reading and writing neural network weights, using a variety of recent tools and algorithms or even via direct weight editing.",
         "authors": [
             {"author": "Rikiya Takehi", "authorURL": "https://rikiyat.github.io", "affiliations": [{"name": "MIT CSAIL"}]},
             {"author": "Jayden Teoh", "authorURL": "https://jaydenteoh.github.io/", "affiliations": [{"name": "MIT CSAIL"}]},
@@ -183,7 +183,7 @@ bibtex_key: takehi2026weightspace
         <!-- ===== TL;DR and teaser ===== -->
         <div class="tldr">
             <b>TL;DR</b>
-            <p>We find that frontier LLMs are surprisingly good at <b>natively reading and writing neural network weights</b>, well past what we’d expect from humans or conventional algorithms. This might be a big deal for both optimization and interpretability.</p>
+            <p>We find that frontier LLMs are surprisingly good at <b>natively reading and writing neural network weights</b>, using a variety of recent tools and algorithms or even via direct weight editing. These results show sparks of Weight-Space Programming, which may extend beyond what we’d expect from humans or conventional algorithms. This might be a big deal for both optimization and interpretability.</p>
             <p>Just by looking at the raw weights, GPT-6 Astra <b>can tell what a network was trained to do</b>. And without any environment feedback, it <b>has no trouble writing, from scratch, small game-playing networks</b> that outplay networks trained with PPO for 100 million steps.</p>
             <p>Likewise, asked to make Qwen3.5-0.8B better at math without gradients, Astra <b>identifies an issue in its weights</b> causing reasoning loops that Qwen’s own <a href="https://huggingface.co/Qwen/Qwen3.5-0.8B/blob/main/README.md#L856">model card</a> warns about, and <b>fixes this by natively editing 0.016% of the weights</b>. With the same sampling settings, this weight correction raises MATH-500 from 7.9% to 48.1% and generalizes out of the box to instruction following, raising IFEval by 3x.</p>
             <p>All of this is possible without allowing Astra to write training loops. It uses its reasoning to figure out what each part of a neural network computes, or should compute, and changes the weights accordingly. We call this <b>Weight-Space Programming</b>.</p>

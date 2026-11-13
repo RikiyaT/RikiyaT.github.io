@@ -28,18 +28,18 @@ redirect_from:
   content: "";
   flex: 1;
   height: 1px;
-  background: linear-gradient(90deg, rgba(89,139,231,0.35), rgba(89,139,231,0));
+  background: linear-gradient(90deg, rgba(17, 134, 89,0.35), rgba(17, 134, 89,0));
 }
 .card {
-  background: #f8f9fc;
-  border: 1px solid #e5e8f3;
+  background: #f7faf8;
+  border: 1px solid #e0ebe4;
   border-radius: 12px;
   box-shadow: 0 8px 18px rgba(0, 0, 0, 0.06);
   padding: 14px 16px;
 }
 .highlight-card {
-  background: linear-gradient(135deg, #f3f6ff 0%, #eaf0ff 100%);
-  border: 1px solid #d7e2ff;
+  background: linear-gradient(135deg, #f1f8f4 0%, #e2f0e8 100%);
+  border: 1px solid #c9e3d4;
   padding: 14px 16px;
   border-radius: 12px;
   box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
@@ -100,7 +100,7 @@ redirect_from:
 .pub-item {
   padding: 0 0 1rem;
   margin-bottom: 1rem;
-  border-bottom: 1px solid #e8ebf3;
+  border-bottom: 1px solid #e3ece6;
 }
 .pub-item:last-child {
   border-bottom: none;
@@ -135,8 +135,8 @@ redirect_from:
   margin: 0 0 1.3rem;
 }
 .achievement-card {
-  background: linear-gradient(135deg, #fcfdff 0%, #f3f7ff 100%);
-  border: 1px solid #dfe7f8;
+  background: linear-gradient(135deg, #fbfdfc 0%, #f0f7f3 100%);
+  border: 1px solid #d3e8db;
   border-radius: 12px;
   box-shadow: 0 8px 18px rgba(0, 0, 0, 0.06);
   padding: 0.95rem 1rem;
@@ -182,7 +182,7 @@ redirect_from:
   margin: 0 0.35em;
 }
 .page__content a {
-  color: #598BE7;
+  color: #118659;
   text-decoration: none;
 }
 .page__content a:hover,
@@ -213,7 +213,7 @@ redirect_from:
 <div class="news-hint">scroll ↓</div>
 <div class="news-box">
   <ul>
-    <li><strong>Nov.2026</strong>: New blog post <a href="/blog/weight-space-programming/">Sparks of Weight-Space Programming: LLMs can natively read &amp; write neural network weights</a>, co-first-authored with Jayden Teoh, with Alex Zhang and <a href="https://omarkhattab.com/">Prof. Omar Khattab</a>.</li>
+    <li><strong>Nov.2026</strong>: New blog post <a href="/blog/weight-space-programming/">Sparks of Weight-Space Programming: LLMs can natively read &amp; write neural network weights</a>.</li>
     <li><strong>Sep.2026</strong>: First-authored paper <a href="https://arxiv.org/abs/2610.03938">MLLMs Fail to Refuse when Using Tools Agentically</a>, from my internship at <a href="https://www.nvidia.com/en-us/ai/">NVIDIA Research</a>, got accepted to <strong>NeurIPS 2026</strong> (Eval &amp; Data Track).</li>
     <li><strong>Sep.2026</strong>: Started my PhD at <a href="https://www.csail.mit.edu/">MIT CSAIL</a>, advised by <a href="https://omarkhattab.com/">Prof. Omar Khattab</a>.</li>
     <li><strong>Jul.2026</strong>: Gave invited talks at Hokkaido University, IR Reading, and the NLP Colloquium.</li>
@@ -300,6 +300,21 @@ redirect_from:
     <em>SIGIR-AP 2023</em>.<br>
     <a href="https://github.com/RikiyaT/Nugget-Level-Evaluation">code</a> | <a href="https://drive.google.com/file/d/1M194h7nCFwUBVA3eqzapTNneDPFH4zUs/view?usp=sharing">poster</a> | <a href="https://RikiyaT.github.io/files/nugeval/slides.pdf">slides</a> | <a href="https://dl.acm.org/doi/abs/10.1145/3624918.3625338">proceedings</a>
   </li>
+</ol>
+
+<h2 class="section-heading" id="blog">Blog</h2>
+
+<ol class="pub-list">
+{%- for post in site.data.blog %}
+  <li class="pub-item">
+    <a class="pub-title" href="{{ post.url | relative_url }}">{{ post.title }}</a><br>
+    {{ post.date }} · {{ post.read_time }}<br>
+    {{ post.teaser }}
+    {%- if post.links %}<br>
+    {% for link in post.links %}<a href="{{ link.url }}">{{ link.label }}</a>{% unless forloop.last %} | {% endunless %}{% endfor %}
+    {%- endif %}
+  </li>
+{%- endfor %}
 </ol>
 
 <h2 class="section-heading" id="experience">Experience</h2>

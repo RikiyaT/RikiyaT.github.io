@@ -8,8 +8,8 @@
   date: November 2026
   read_time: 20 min read
   teaser: >-
-    We find that frontier LLMs are surprisingly good at natively reading and writing neural network weights,
-    using a variety of recent tools and algorithms or even via direct weight editing.
+    We find that frontier LLMs are surprisingly good at natively reading and writing neural network weights
+    much like code, sometimes with tools such as a Python kernel and sometimes from the raw weights alone.
   image: /images/blog/weight-space-programming.png
   links:
     - {label: alphaXiv, url: "https://www.alphaxiv.org/abs/2611.weight-space-programming"}

@@ -1,12 +1,12 @@
 ---
-# Copied from github.com/RikiyaT/lm_understand at 112390e (index.html, with a few <head> tags added and the
+# Copied from github.com/RikiyaT/lm_understand at 112390e plus the edits of November 12 (index.html, with a few <head> tags added and the
 # title's kicker moved into its <h1>). Jekyll adds only the site's masthead, the citation and the tags search
 # engines read, from the values below: the title, description, authors and date are read off the page,
 # last_modified_at is the date of that commit, the rest is set by the import. Everything in {% raw %} is
 # served as it is.
 layout: null
 title: "Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights"
-description: "We find that frontier LLMs are surprisingly good at natively reading and writing neural network weights, using a variety of recent tools and algorithms or even via direct weight editing."
+description: "We find that frontier LLMs are surprisingly good at natively reading and writing neural network weights much like code, sometimes with tools such as a Python kernel and sometimes from the raw weights alone."
 authors:
   - name: "Rikiya Takehi"
     url: "https://rikiyat.github.io"
@@ -21,7 +21,7 @@ authors:
     url: "https://omarkhattab.com/"
     affiliation: "MIT CSAIL"
 date: 2026-11-02
-last_modified_at: 2026-11-02
+last_modified_at: 2026-11-12
 image: /images/blog/weight-space-programming.png
 bibtex_key: takehi2026weightspace
 ---
@@ -51,12 +51,12 @@ bibtex_key: takehi2026weightspace
     <script src="https://distill.pub/template.v2.js"></script>
 
     <title>Sparks of Weight-Space Programming: LLMs can natively read &amp; write neural network weights</title>
-    <meta name="description" content="We find that frontier LLMs are surprisingly good at natively reading and writing neural network weights, using a variety of recent tools and algorithms or even via direct weight editing.">
+    <meta name="description" content="We find that frontier LLMs are surprisingly good at natively reading and writing neural network weights much like code, sometimes with tools such as a Python kernel and sometimes from the raw weights alone.">
 
     <!-- Link preview (X, Slack, etc.). og:image must be an absolute URL. -->
     <meta property="og:type" content="article">
     <meta property="og:title" content="Sparks of Weight-Space Programming: LLMs can natively read &amp; write neural network weights">
-    <meta property="og:description" content="We find that frontier LLMs are surprisingly good at natively reading and writing neural network weights, using a variety of recent tools and algorithms or even via direct weight editing.">
+    <meta property="og:description" content="We find that frontier LLMs are surprisingly good at natively reading and writing neural network weights much like code, sometimes with tools such as a Python kernel and sometimes from the raw weights alone.">
     <meta property="og:url" content="https://rikiyat.github.io/blog/weight-space-programming/">
     <meta property="og:image" content="https://rikiyat.github.io/images/blog/weight-space-programming.png">
     <link rel="canonical" href="https://rikiyat.github.io/blog/weight-space-programming/">
@@ -139,7 +139,7 @@ bibtex_key: takehi2026weightspace
     <script type="text/json">
     {
         "title": "Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights",
-        "description": "We find that frontier LLMs are surprisingly good at natively reading and writing neural network weights, using a variety of recent tools and algorithms or even via direct weight editing.",
+        "description": "We find that frontier LLMs are surprisingly good at natively reading and writing neural network weights much like code, sometimes with tools such as a Python kernel and sometimes from the raw weights alone.",
         "authors": [
             {"author": "Rikiya Takehi", "authorURL": "https://rikiyat.github.io", "affiliations": [{"name": "MIT CSAIL"}]},
             {"author": "Jayden Teoh", "authorURL": "https://jaydenteoh.github.io/", "affiliations": [{"name": "MIT CSAIL"}]},
@@ -183,10 +183,10 @@ bibtex_key: takehi2026weightspace
         <!-- ===== TL;DR and teaser ===== -->
         <div class="tldr">
             <b>TL;DR</b>
-            <p>We find that frontier LLMs are surprisingly good at <b>natively reading and writing neural network weights</b>, using a variety of recent tools and algorithms or even via direct weight editing. These results show sparks of Weight-Space Programming, which may extend beyond what we’d expect from humans or conventional algorithms. This might be a big deal for both optimization and interpretability.</p>
+            <p>We find that frontier LLMs are surprisingly good at <b>natively reading and writing neural network weights</b> much like code, sometimes with tools such as a Python kernel and sometimes from the raw weights alone. These results show sparks of Weight-Space Programming, which may extend beyond what we’d expect from humans or conventional algorithms. This might be a big deal for both optimization and interpretability.</p>
             <p>Just by looking at the raw weights, GPT-6 Astra <b>can tell what a network was trained to do</b>. And without any environment feedback, it <b>has no trouble writing, from scratch, small game-playing networks</b> that outplay networks trained with PPO for 100 million steps.</p>
             <p>Likewise, asked to make Qwen3.5-0.8B better at math without gradients, Astra <b>identifies an issue in its weights</b> causing reasoning loops that Qwen’s own <a href="https://huggingface.co/Qwen/Qwen3.5-0.8B/blob/main/README.md#L856">model card</a> warns about, and <b>fixes this by natively editing 0.016% of the weights</b>. With the same sampling settings, this weight correction raises MATH-500 from 7.9% to 48.1% and generalizes out of the box to instruction following, raising IFEval by 3x.</p>
-            <p>All of this is possible without allowing Astra to write training loops. It uses its reasoning to figure out what each part of a neural network computes, or should compute, and changes the weights accordingly. We call this <b>Weight-Space Programming</b>.</p>
+            <p>All of this is possible without allowing Astra to write training loops. It uses its reasoning to figure out what each part of a neural network computes, or should compute, and changes the weights accordingly, much as a programmer reads and edits code. We call this concept <b>Weight-Space Programming</b>: treating the weights as a program to be read and written.</p>
             <p>Throughout the history of deep learning, we encoded our simplistic inductive biases into tiny symbolic optimizers like Adam or Muon. This is changing: <b>our neural network weights will soon be <i>natively</i> optimized by LLMs that deliberately reason about their weights</b>.</p>
         </div>
         <figure class="l-page teaser-fig">
@@ -226,7 +226,7 @@ bibtex_key: takehi2026weightspace
         <p>For a few years now, we’ve all been <b>using LLMs to optimize text artifacts</b> like prompts and the programs built around them <d-cite key="yang2024opro,khattab2023dspy,opsahlong2024mipro,agrawal2025gepa"></d-cite>. More recently, we’ve started using them to optimize whole harnesses <d-cite key="lee2026metaharness"></d-cite> and the training code and hyperparameters that train ML models <d-cite key="karpathy2026autoresearch,reactiveoptimizers"></d-cite>.</p>
         <p>We often justified these methods by reference to the fact that <i>we don’t know other principled ways to hill-climb on text artifacts, unlike for updating the weights of differentiable neural networks</i>. After all, humans can “optimize” code by hand, for example, so it made sense to ask LLMs to do it, but they can’t “optimize” neural weights by hand, so those remained largely in the realm of symbolic algorithms.</p>
         <p>In this post, we share very early results that allow us to argue that <b>the paradigm of reasoning-driven optimization is now coming even for differentiable neural networks</b>.</p>
-        <p>In <b>Weight-Space Programming</b>, a general-purpose <b>LLM reads and writes a network’s weights directly</b> (i.e., not through an optimizer, and in particular not with gradient descent) around some natural language spec, sometimes even with no environment feedback at all.</p>
+        <p><b>Weight-Space Programming</b> is a concept that treats a network’s weights like a program written in a programming language: we <b>read them to understand what the network computes, and write or edit them directly to change what it computes</b>, instead of leaving them entirely to an optimizer. In this blog, the programmer is a general-purpose LLM, working from a natural-language spec without gradients, sometimes with no environment feedback at all.</p>
         <p>In natural language, it’s becoming possible to <b>“just ask” an LLM to natively find a hidden trait or failure inside the weights of a neural network, to fix that failure, or to write a new network from scratch</b>. We report early, exciting results on each of these below, first on small networks and then even on real language models:</p>
         <ol>
             <li><b>LLMs can read neural network weights:</b> In Experiments 1 to 3, we ask Astra questions like what game a network was trained to play, what shape is drawn by a diffusion model, and which language a small language model was trained on. In Experiment 7, we ask which of two language models was trained to be sycophantic.</li>
@@ -581,13 +581,13 @@ bibtex_key: takehi2026weightspace
             Mechanistic interpretability reads networks with tools built for the job, tracing circuits and features and editing weights <d-cite key="olah2020zoom,elhage2021framework,meng2022rome"></d-cite>. LLMs have joined in, but mostly as models trained to read activations or weights <d-cite key="nla2026,weightoracles"></d-cite>, or as explainers of single neurons <d-cite key="bills2023explain,neuronexplorer"></d-cite>, with benchmarks to compare them <d-cite key="workspacebench"></d-cite>.
         </p>
         <p>
-            On the writing side, LLMs now run and improve training <d-cite key="karpathy2026autoresearch,reactiveoptimizers"></d-cite>, and other work generates weights with models trained for it <d-cite key="wang2024pdiff,phang2023hypertuning,neurogen2025"></d-cite>. Gradient-free methods still find weights by trial and error <d-cite key="spall1992spsa,salimans2017es,malladi2023mezo"></d-cite>. At a very small scale, AdderBoard shows coding agents setting the weights of a tiny transformer by hand <d-cite key="adderboard"></d-cite>. Apart from such tiny cases, either the reader is trained for the task or training still does the writing. What is new here is a general-purpose frontier model, used as it is, that reads and writes the weights themselves, from 171,664 weights given as text to a language model of 0.8 billion weights with tools.
+            On the writing side, LLMs now run and improve training <d-cite key="karpathy2026autoresearch,reactiveoptimizers"></d-cite>, and other work generates weights with models trained for it <d-cite key="wang2024pdiff,phang2023hypertuning,neurogen2025"></d-cite>. Gradient-free methods still find weights by trial and error <d-cite key="spall1992spsa,salimans2017es,malladi2023mezo"></d-cite>. At a very small scale, AdderBoard shows coding agents setting the weights of a tiny transformer by hand <d-cite key="adderboard"></d-cite>. Setting weights by hand or by compiler is Weight-Space Programming in its simplest form, but it has only worked for tiny networks built to be readable. Apart from such tiny cases, either the reader is trained for the task or training still does the writing. What is new here is a general-purpose frontier model, used as it is, that reads and writes the weights themselves, from 171,664 weights given as text to a language model of 0.8 billion weights with tools.
         </p>
 
         <!-- ===== Outlook ===== -->
         <h2>What Comes Next?</h2>
         <p>
-            In this blog, we demonstrated the rising capability of LLMs to read and write neural network weights (i.e., the rising concept of Weight-Space Programming). Our current results do show that capabilities are exciting but still limited, specifically due to inefficiencies in context length and harnesses. However, the current signs do show strong potential for a future involving Weight-Space Programming. We believe this marks the beginning of a dramatic shift in fields like mechanistic interpretability and neural network optimization.</p>
+            In this blog, we showed the rising capability of LLMs to read and write neural network weights, which makes Weight-Space Programming an emerging concept. Our current results do show that capabilities are exciting but still limited, specifically due to inefficiencies in context length and harnesses. However, the current signs do show strong potential for a future involving Weight-Space Programming. We believe this marks the beginning of a dramatic shift in fields like mechanistic interpretability and neural network optimization.</p>
         <p>
             This opens up radical new possibilities for LLMs to function as a translator between human language and the weight space. Here are some examples:
         </p>
@@ -601,6 +601,16 @@ bibtex_key: takehi2026weightspace
         <p><b>
             We are currently building a benchmark and a harness for LLMs’ capability on Weight-Space Programming.</b> We believe this will provide a standardized evaluation to measure and accelerate progress in Weight-Space Programming, turning what currently seems like black magic into a rigorous, reproducible engineering discipline.
         </p>
+
+        <!-- ===== Response to comments (added after publication) ===== -->
+        <h2>Response to Comments</h2>
+        <p><i>Added November 12, 2026.</i> Thank you very much for all the excitement around this blog. Since we posted it, many people have replicated it (<a href="https://huggingface.co/spaces/akhaliq/weight-space-programming-demo">Hugging Face</a>, <a href="https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/">Simon Willison</a>, <a href="https://github.com/MatinKhajavi/Weight-Space-Programming">Matin Khajavi</a>, <a href="https://github.com/statsleelab/weight_space_programming">statsleelab</a>), extended it to new kinds of networks such as robot policies (<a href="https://cuzyoung.github.io/robotics-weight-editing/en/">SII, SJTU and HKU</a>), quantum circuits (<a href="https://arxiv.org/abs/2611.11537">Penn State</a>) and transformers written from scratch (<a href="https://github.com/csinva/weight-space-programming-autoresearch">Chandan Singh</a>), built benchmarks for it (<a href="https://arxiv.org/abs/2611.08647">IWIBench</a>), and used it in various applications (<a href="https://arxiv.org/abs/2611.12066">Charit&eacute;</a>, <a href="https://arxiv.org/abs/2611.05341">Henry Ford Health</a>, <a href="https://arxiv.org/abs/2611.13758">EPFL</a>, <a href="https://github.com/brunicardoso/weight-space-programming-genomics">Bruni Cardoso</a>, <a href="https://manaskarra.com/blog/magenta-wsp">Manas Karra</a>). These are only a few of the more than a hundred we know of.</p>
+        <h3>Common Questions</h3>
+        <p><b><u>Is Weight-Space Programming a method?</u></b> Some people, and some AI models, tend to evaluate this blog as if it proposed a method, but <b>Weight-Space Programming is not a method.</b> It is the name of an emerging concept: treating a network&rsquo;s weights as a program to be read and written, instead of leaving them entirely to an optimizer. This blog is a statement about <b>sparks of a new model capability</b>: an LLM is starting to be able to do it. Its experiments are evidence for that statement, not a proposed method for editing or training networks.</p>
+        <p>By the way, as a concept, Weight-Space Programming does not rule out gradients. The programmer may compute gradients to understand the network, or use them as part of an edit, as long as the programmer is the one who decides what to change. In this blog, however, we did not allow gradients, to draw a clear line between what an LLM can and cannot do by reasoning about the weights alone.</p>
+        <p><b><u>What does &ldquo;natively&rdquo; mean, if Astra sometimes uses Python?</u></b> It means that the LLM itself reasons about the weights. There is no training loop, no gradient, and no model trained specially to read or write weights. This also sets it apart from past work (e.g., fast weight programmers <d-cite key="schmidhuber1992learning,schlag2021linear"></d-cite>). Python is a tool for that reasoning, not a tool for optimization. Some experiments give Astra no tools at all, others give it Python, and a few let it run the network a limited number of times. Each experiment&rsquo;s <b>Setup</b> lists what Astra was given and what it was not allowed to do.</p>
+        <p><b><u>Aren&rsquo;t the baselines too weak?</u></b> The baselines here are not there to rank methods against each other on equal terms. For example, the GPT-3 paper <d-cite key="brown2020language"></d-cite> did not claim that in-context learning beats fine-tuning, and no one asked it to. It showed a new capability, which at the time was still weak and unreliable on many tasks. Likewise, each of our baselines tests only the narrow claim of its experiment. In the MinAtar experiment, Astra writes the networks without the game ever being played, so the question is how far one gets with no experience at all. PPO, trained for 100 million and 500 million steps and taking the best of 3 to 10 seeds, puts a price on that in experience. Tuning PPO harder would spend still more experience, so a better-tuned PPO answers a different question: which method wins when experience is cheap. In the Qwen experiment, the question is whether the weights behind its reasoning loops can be found and fixed, in a reasonable setting where the model loops (thinking on, the same sampling for the base and the edited model). Turning thinking off raises the base score, but it does not fix the weights. It avoids the loops by not using the mode that has them. Every run behind every number, failures such as Gemma included, is in the <a href="https://github.com/RikiyaT/lm_understand-logs">logs</a>.</p>
+        <p><b><u>Does Astra go beyond what interpretability researchers can already do?</u></b> We have not compared Astra with interpretability researchers, and we have no reason to believe it would beat every one of them at any particular skill. We think Weight-Space Programming will succeed partly by composing and improving techniques from human interpretability research, as one of its many tools. But it can be very powerful while only composing known steps. In mathematics, for example, AI models are already contributing to open problems even though each step of their deductions is simple, because they can compose many small steps at scale and learn from attempts that can be checked automatically. We think Weight-Space Programming may follow a similar path.</p>
 
         <!-- ===== Logs (the release: github.com/RikiyaT/lm_understand-logs) ===== -->
         <h2>Logs</h2>
@@ -964,6 +974,32 @@ bibtex_key: takehi2026weightspace
   journal = {arXiv preprint arXiv:2406.11717},
   year = {2024},
   url = {https://arxiv.org/abs/2406.11717}
+}
+
+@inproceedings{brown2020language,
+  title = {Language Models are Few-Shot Learners},
+  author = {Brown, Tom B. and Mann, Benjamin and Ryder, Nick and Subbiah, Melanie and Kaplan, Jared and Dhariwal, Prafulla and Neelakantan, Arvind and Shyam, Pranav and Sastry, Girish and Askell, Amanda and Agarwal, Sandhini and Herbert-Voss, Ariel and Krueger, Gretchen and Henighan, Tom and Child, Rewon and Ramesh, Aditya and Ziegler, Daniel M. and Wu, Jeffrey and Winter, Clemens and Hesse, Christopher and Chen, Mark and Sigler, Eric and Litwin, Mateusz and Gray, Scott and Chess, Benjamin and Clark, Jack and Berner, Christopher and McCandlish, Sam and Radford, Alec and Sutskever, Ilya and Amodei, Dario},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+  year = {2020},
+  url = {https://arxiv.org/abs/2005.14165}
+}
+
+@article{schmidhuber1992learning,
+  title = {Learning to Control Fast-Weight Memories: An Alternative to Dynamic Recurrent Networks},
+  author = {Schmidhuber, Jürgen},
+  journal = {Neural Computation},
+  volume = {4},
+  number = {1},
+  pages = {131--139},
+  year = {1992}
+}
+
+@inproceedings{schlag2021linear,
+  title = {Linear Transformers Are Secretly Fast Weight Programmers},
+  author = {Schlag, Imanol and Irie, Kazuki and Schmidhuber, Jürgen},
+  booktitle = {International Conference on Machine Learning (ICML)},
+  year = {2021},
+  url = {https://arxiv.org/abs/2102.11174}
 }
 </script>
 </d-bibliography>
